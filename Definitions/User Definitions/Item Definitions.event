@@ -1,0 +1,132 @@
+//#define Dracoshield DragonShield
+#define DracoshieldIcon DragonShieldIcon
+#undef DragonShield
+#undef DragonShieldIcon
+
+#define AdeptManual 0xA3
+#define AdeptManualIcon 0xAB
+
+#define AegisManual 0xA4
+#define AegisManualIcon 0xAC
+
+#define AstraManual 0xA5
+#define AstraManualIcon 0xAD
+
+#define BoonManual 0xA6
+#define BoonManualIcon 0xC7
+
+#define CantoPlusManual 0xA7
+#define CantoPlusManualIcon 0xAE
+
+#define LunaManual 0xA8
+#define LunaManualIcon 0xC5
+
+#define NihilManual 0xA9
+#define NihilManualIcon 0xC6
+
+#define NullifyManual 0xAB
+#define NullifyManualIcon 0xC1
+
+#define ParagonManual 0xAC
+#define ParagonManualIcon 0xC2
+
+#define PassManual 0xAD
+#define PassManualIcon 0xD1
+
+#define PaviseManual 0xA2
+#define PaviseManualIcon 0xAF
+
+#define RenewalManual 0xAE
+#define RenewalManualIcon 0xD2
+
+#define SolManual 0xAF
+#define SolManualIcon 0xD3
+
+#define WrathManual 0xB0
+#define WrathManualIcon 0xD4
+
+#define StarIcon 0xCA
+
+#define StoneStaff 0xBC
+#define StoneStaffIcon 0xCB
+
+#define PoisonStaff 0xBD
+#define PoisonStaffIcon 0xCC
+
+#define RubySword 0xB1
+#define RubySwordIcon 0xD5
+
+#define SapphireLance 0xB2
+#define SapphireLanceIcon 0xD6
+
+#define EmeraldAxe 0xB3
+#define EmeraldAxeIcon 0xBE
+
+#define WeaponSkillIcon 0xCD
+#define ItemSkillIcon 0xCE
+
+#define Caduceus 0xB4
+#define CaduceusIcon 0xBF
+
+#define SpiritDust 0xBE
+#define SpiritDustIcon 0xCF
+
+#define Thrysus 0xBF
+#define ThrysusIcon 0xDE
+
+#define Shade 0xC0
+#define ShadeIcon 0xDF
+
+#define Lumine 0xC1
+#define LumineIcon 0xE0
+
+#define HuntingBow 0xC2
+#define HuntingBowIcon 0xE1
+
+#define MasterKey 0x79
+#define MasterKeyIcon 0xE2
+
+#define Entrap 0xC3
+#define EntrapIcon 0xE3
+
+#define LeatherShield 0x9A
+#define LeatherShieldIcon 0xE4
+
+#define IronShield 0x9B
+#define IronShieldIcon 0xE5
+
+#define SteelShield 0x9C
+#define SteelShieldIcon 0xE6
+
+#define SilverShield 0x9D
+#define SilverShieldIcon 0xE7
+
+#define DragonShield 0x9E
+#define DragonShieldIcon 0xE8
+
+#define PaviseShield 0x9F
+#define PaviseShieldIcon 0xE9
+
+#define AegisShield 0xA0
+#define AegisShieldIcon 0xEA
+
+#define KnightRing 0xB8
+#define KnightRingIcon 0xEB
+
+#define LegRing 0xB9
+#define LegRingIcon 0xEC
+
+#define CritRing 0x77
+#define CritRingIcon SolarBraceIcon
+
+#define PrayerRing 0x8B
+#define PrayerRingIcon 0xD0
+
+#define SpeedRing 0x90
+#define SpeedRingIcon 0x79
+
+#define Solstice 0x3D
+#define SolsticeIcon 0x3B
+
+#define Moonlight 0x44
+#define MoonlightIcon 0x42

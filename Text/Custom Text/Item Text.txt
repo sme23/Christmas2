@@ -1,0 +1,336 @@
+## PaviseManualName
+Pavise M.[X]
+
+## PaviseManualDescription
+Teaches the[N]
+skill Pavise.[X]
+
+## PaviseManualUseText
+Nullify a physical[N]
+attack. (Skill%[N]
+activation)[X]
+
+## AdeptManualName
+Adept M.[X]
+
+## AdeptManualDescription
+Teaches the[N]
+skill Adept.[X]
+
+## AdeptManualUseText
+Gain a consecutive[N]
+attack. (Speed %[N]
+activation)[X]
+
+## AegisManualName
+Aegis M.[X]
+
+## AegisManualDescription
+Teaches the[N]
+skill Aegis.[X]
+
+## AegisManualUseText
+Nullify a magical[N]
+attack. (Skill%[N]
+activation)[X]
+
+## AstraManualName
+Astra M.[X]
+
+## AstraManualDescription
+Teaches the[N]
+skill Astra.[X]
+
+## AstraManualUseText
+5 attacks at half[N]
+damage. (Skill %[N]
+activation)[X]
+
+## BoonManualName
+Boon M.[X]
+
+## BoonManualDescription
+Teaches the[N]
+skill Boon.[X]
+
+## BoonManualUseText
+Cure bad status[N]
+at the beginning[N]
+of each turn.[X]
+
+## CantoPlusManualName
+Canto+ M.[X]
+
+## CantoPlusManualDescription
+Teaches the[N]
+skill Canto+.[X]
+
+## CantoPlusManualUseText
+Can move again[N]
+after attacking[N]
+and other actions.[X]
+
+## LunaManualName
+Luna M.[X]
+
+## LunaManualDescription
+Teaches the[N]
+skill Luna.[X]
+
+## LunaManualUseText
+Negates enemy[N]
+defenses. (Skill %[N]
+activation)[X]
+
+## NihilManualName
+Nihil M.[X]
+
+## NihilManualDescription
+Teaches the[N]
+skill Nihil.[X]
+
+## NihilManualUseText
+Cancels the[N]
+opponent's[N]
+skills in combat.[X]
+
+## NullifyManualName
+Nullify M.[X]
+
+## NullifyManualDescription
+Teaches the[N]
+skill Nullify.[X]
+
+## NullifyManualUseText
+Unit is protected[N]
+from all[N]
+effective attacks.[X]
+
+## ParagonManualName
+Paragon M.[X]
+
+## ParagonManualDescription
+Teaches the[N]
+skill Paragon.[X]
+
+## ParagonManualUseText
+Experience gain[N]
+is doubled.[X]
+
+## PassManualName
+Pass M.[X]
+
+## PassManualDescription
+Teaches the[N]
+skill Pass.[X]
+
+## PassManualUseText
+Can move through[N]
+enemy units.[X]
+
+## RenewalManualName
+Renewal M.[X]
+
+## RenewalManualDescription
+Teaches the[N]
+skill Renewal.[X]
+
+## RenewalManualUseText
+Restore 30% of[N]
+max HP at the[N]
+start of each turn.[X]
+
+## SolManualName
+Sol M.[X]
+
+## SolManualDescription
+Teaches the[N]
+skill Sol.[X]
+
+## SolManualUseText
+Heal damage dealt[N]
+as HP. (Skill %[N]
+activation)[X]
+
+## WrathManualName
+Wrath M.[X]
+
+## WrathManualDescription
+Teaches the[N]
+skill Wrath.[X]
+
+## WrathManualUseText
+If HP < 50%,[N]
++20 crit rate.[X]
+
+## StoneStaffName
+Stone[X]
+
+##StoneStaffDesc
+Incases enemies in[N]
+stone for a while.[X]
+
+##PoisonStaffName
+Poison[X]
+
+##PoisonStaffDesc
+Inflicts poison on[N]
+enemies for a while.[X]
+
+##RubySwordName
+Ruby Sword[X]
+
+##SapphireLanceName
+Sphr. Lance[X]
+
+##EmeraldAxeName
+Emerald Axe[X]
+
+##GemstoneDescription
+Doubles triangle effects.[X]
+
+##CaduceusName
+Caduceus[X]
+
+##CaduceusDescription
+Increases the range[N]
+of staves by one.[X]
+
+##SpiritDustName
+Spirit Dust[X]
+
+##SpiritDustDesc
+Increases magic by 2 points.[N]
+Vanishes after use.[X]
+
+##EnergyRingDesc
+Increases strength by[N]
+2 points. Vanishes after use.[X]
+
+##SpiritDustUse
+Raises magic.[X]
+
+##EnergyRingUse
+Raises strength.[X]
+
+##ThrysusName
+Thrysus[X]
+
+##ThrysusDescription
+Increases the range[N]
+of tomes by one.[X]
+
+##ShadeName
+Shade[X]
+
+##ShadeDescription
+Allows magic users[N]
+to use dark magic.[X]
+
+##LumineName
+Lumine[X]
+
+##LumineDescription
+Allows magic users[N]
+to use light magic.[X]
+
+##HuntingBowName
+Hunting Bow[X]
+
+##MasterKeyName
+Master Key[X]
+
+##MasterKeyDescription
+Opens chests[N]
+and doors.[X]
+
+##EntrapName
+Entrap[X]
+
+##EntrapDesc
+Brings an enemy[N]
+to the user.[X]
+
+##LeatherShieldName
+Lthr. Shield[X]
+
+##LeatherShieldDescription
+Def +1. Wt: 1.[X]
+
+##IronShieldName
+Iron Shield[X]
+
+##IronShieldDescription
+Def +2. Wt: 2.[X]
+
+##SteelShieldName
+Stl. Shield[X]
+
+##SteelShieldDescription
+Def +4. Wt: 4.[X]
+
+##SilverShieldName
+Silv. Shield[X]
+
+##SilverShieldDescription
+Def +6, Res +2. Wt: 3.[X]
+
+##DragonShieldName
+Drg. Shield[X]
+
+##DragonShieldDescription
+Def +8, Res +2. Wt: 5.[X]
+
+##PaviseShieldName
+Pav. Shield[X]
+
+##PaviseShieldDescription
+Def +8, Res +2. Wt: 4.[N]
+Grants Pavise.[X]
+
+##AegisShieldName
+Aeg. Shield[X]
+
+##AegisShieldDescription
+Def +2, Res +8. Wt: 4.[N]
+Grants Aegis.[X]
+
+##KnightRingName
+Knight Ring[X]
+
+##KnightRingDescription
+Continue moving[N]
+after performing[N]
+any action.[X]
+
+##LegRingName
+Leg Ring[X]
+
+##LegRingDescription
+Move +1.[X]
+
+##CritRingName
+Crit Ring[X]
+
+##CritRingDescription
+Grants +15 to[N]
+critical hit rate.[X]
+
+##PrayerRingName
+Prayer Ring[X]
+
+##PrayerRingDescription
+Restore 30%[N]
+HP each turn.[X]
+
+##SpeedRingName
+Speed Ring[X]
+
+##SpeedRingDescription
+Speed +2.[X]
+
+##SolsticeName
+Solstice[X]
+
+##MoonlightName
+Moonlight[X]

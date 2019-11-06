@@ -1,0 +1,257 @@
+INLINE ClassSkillTable,Skill
+None,0x0
+Huntsman,0x0
+Eirika Lord,0x0
+Ephraim Master Lord,CantoID
+Eirika Master Lord,CantoID
+Cavalier,CantoID
+Cavalier (F),CantoID
+Paladin,CantoID
+Paladin (F),CantoID
+Armour Knight,CantoID
+Armour Knight (F),CantoID
+General,0x0
+General (F),0x0
+Thief,CunningID
+Manakete,0x0
+Mercenary,0x0
+Mercenary (F),0x0
+Hero,0x0
+Hero (F),0x0
+Myrmidon,0x0
+Myrmidon (F),0x0
+Swordmaster,CritUpID
+Swordmaster (F),CritUpID
+Assassin,CunningID
+Assassin (F),CunningID
+Archer,0x0
+Archer (F),0x0
+Sniper,CritUpID
+Sniper (F),CritUpID
+Ranger,CantoID
+Ranger (F),CantoID
+Wyvern Rider,CantoID
+Wyvern Rider (F),CantoID
+Wyvern Lord,CantoID
+Wyvern Lord (F),CantoID
+Wyvern Knight,CantoID
+Wyvern Knight (F),CantoID
+Mage,0x0
+Mage (F),0x0
+Sage,0x0
+Sage (F),0x0
+Mage Knight,CantoID
+Mage Knight (F),CantoID
+Bishop,0x0
+Bishop (F),0x0
+Shaman,0x0
+Shaman (F),0x0
+Druid,0x0
+Druid (F),0x0
+Summoner,SummonID
+Summoner (F),SummonID
+Rogue,CunningID
+Gorgon Egg,0x0
+Great Knight,CantoID
+Great Knight (F),CantoID
+Recruit (2),0x0
+Journeyman (3),0x0
+Pupil (3),0x0
+Recruit (3),0x0
+Manakete,0x0
+Manakete (F),0x0
+Journeyman (1),0x0
+Pupil (1),0x0
+Fighter,0x0
+Warrior,0x0
+Brigand,0x0
+Pirate,0x0
+Berserker,CritUpID
+Monk,0x0
+Priest,0x0
+Bard,DanceID
+Recruit (1),0x0
+Pegasus Knight,CantoID
+Falcon Knight,CantoID
+Cleric,0x0
+Troubadour,CantoID
+Valkyrie,CantoID
+Dancer,DanceID
+Soldier,0x0
+Necromancer,SummonID
+Fleet,0x0
+Phantom,0x0
+Revenant,0x0
+Entombed,0x0
+Bonewalker,0x0
+Bonewalker (Bow),0x0
+Wight,0x0
+Wight (Bow),0x0
+Bael,0x0
+Elder Bael,0x0
+Cyclops,0x0
+Mauthe Doog,0x0
+Gwyllgi,0x0
+Tarvos,CantoID
+Maelduin,CantoID
+Mogall,0x0
+Arch Mogall,0x0
+Gorgon,0x0
+Gorgon Egg,0x0
+Gargoyle,0x0
+Deathgoyle,0x0
+Dracozombie,0x0
+Demon King,SummonID
+Archer on Ballista,0x0
+Archer on Iron Ballista,0x0
+Archer on Killer Ballista,0x0
+Ballista,0x0
+Iron Ballista,0x0
+Killer Ballista,0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,0x0
+Civilian (F),0x0
+Peer,0x0
+Queen,0x0
+Prince,0x0
+Queen,0x0
+Light Rune,0x0
+Fallen Prince,0x0
+Tent,0x0
+Pontifex,0x0
+Dead Peer,0x0
+Cyclops,0x0
+Elder Bael,0x0
+Journeyman (2),0x0
+Pupil (2),0x0
+Dread Fighter,0x0
+Dread Fighter (F),0x0
+Deserter,0x0
+Spartan,0x0
+Dark Flier,CantoID
+Arbalist,CantoID
+Nomad,CantoID
+Outlaw,CunningID
+Adventurer,0x0
+Dark Mage,0x0
+Nephilim,CantoID
+Harrier,CantoID
+War Monk,0x0
+War Cleric,0x0
+Sword Armor,0x0
+Lance Armor,0x0
+Axe Armor,0x0
+Bow Armor,0x0
+Sword Paladin,CantoID
+Lance Paladin ,CantoID
+Axe Paladin,CantoID
+Mage Armor,0x0
+Baron,0x0
+Sorcerer,0x0
+Dark Knight,CantoID
+Dark Knight (F),CantoID
+Griffon Knight,CantoID
+Deva,CantoID
+Harbringer,0x0
+Thumaturge,CantoID
+Sword Knight,CantoID
+Lance Knight,CantoID
+Axe Knight,CantoID
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0
+Ephraim Lord,0x0

@@ -1,0 +1,59 @@
+
+// Mugs
+ALIGN 4
+
+
+// Class Cards
+HeroCardFile:
+#incext Png2Dmp "Class Cards/Hero.png" --lz77
+HeroCardPalette:
+#incext Png2Dmp "Class Cards/Hero.png" --palette-only
+setCardEntry(HeroClassCard,HeroCardFile,HeroCardPalette)
+
+SwordArmorCardFile:
+#incext Png2Dmp "Class Cards/Sword Armor.png" --lz77
+SwordArmorCardPalette:
+#incext Png2Dmp "Class Cards/Sword Armor.png" --palette-only
+setCardEntry(SwordArmorClassCard,SwordArmorCardFile,SwordArmorCardPalette)
+
+LanceArmorCardFile:
+#incext Png2Dmp "Class Cards/Lance Armor.png" --lz77
+LanceArmorCardPalette:
+#incext Png2Dmp "Class Cards/Lance Armor.png" --palette-only
+setCardEntry(LanceArmorClassCard,LanceArmorCardFile,LanceArmorCardPalette)
+
+AxeArmorCardFile:
+#incext Png2Dmp "Class Cards/Axe Armor.png" --lz77
+AxeArmorCardPalette:
+#incext Png2Dmp "Class Cards/Axe Armor.png" --palette-only
+setCardEntry(AxeArmorClassCard,AxeArmorCardFile,AxeArmorCardPalette)
+
+OutlawCardFile:
+#incext Png2Dmp "Class Cards/Outlaw.png" --lz77
+OutlawCardPalette:
+#incext Png2Dmp "Class Cards/Outlaw.png" --palette-only
+setCardEntry(OutlawClassCard,OutlawCardFile,OutlawCardPalette)
+
+DeserterCardFile:
+#incext Png2Dmp "Class Cards/Deserter.png" --lz77
+DeserterCardPalette:
+#incext Png2Dmp "Class Cards/Deserter.png" --palette-only
+setCardEntry(DeserterClassCard,DeserterCardFile,DeserterCardPalette)
+
+SwordCavalierCardFile:
+#incext Png2Dmp "Class Cards/Sword Cavalier.png" --lz77
+SwordCavalierCardPalette:
+#incext Png2Dmp "Class Cards/Sword Cavalier.png" --palette-only
+setCardEntry(SwordKnightClassCard,SwordCavalierCardFile,SwordCavalierCardPalette)
+
+LanceCavalierCardFile:
+#incext Png2Dmp "Class Cards/Lance Cavalier.png" --lz77
+LanceCavalierCardPalette:
+#incext Png2Dmp "Class Cards/Lance Cavalier.png" --palette-only
+setCardEntry(LanceKnightClassCard,LanceCavalierCardFile,LanceCavalierCardPalette)
+
+AxeCavalierCardFile:
+#incext Png2Dmp "Class Cards/Axe Cavalier.png" --lz77
+AxeCavalierCardPalette:
+#incext Png2Dmp "Class Cards/Axe Cavalier.png" --palette-only
+setCardEntry(AxeKnightClassCard,AxeCavalierCardFile,AxeCavalierCardPalette)

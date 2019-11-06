@@ -1,0 +1,86 @@
+// Huntsman
+#define Huntsman EphraimLord
+#define HuntsmanBowAnim EphraimLanceAnim
+#define HuntsmanUnarmedAnim EphraimUnarmedAnim
+
+// Beard Fighter
+#define BeardFighterAxeAnim EirikaSwordAnim
+#define BeardFighterHandaxeAnim EirikaUnarmedAnim
+#define BeardFighterUnarmedAnim GreatLordLanceAnim
+
+// Armors
+#define SwordArmor 0x8E
+#define SwdArmor SwordArmor
+#define SwordArmour SwordArmor
+#define SwdArmour SwordArmour
+#define LanceArmor 0x8F
+#define LncArmor LanceArmor
+#define LanceArmour LanceArmor
+#define LncArmour LncArmor
+#define AxeArmor 0x90
+#define AxeArmour AxeArmor
+#define KnightSwordAnim EirikaSword2Anim
+#define KnightAxeAnim GreatLordUnarmedAnim
+#define KnightHandaxeAnim GreatLordFSwordAnim
+#define SwordArmorClassCard 0xAD
+#define LanceArmorClassCard KnightClassCard
+#define AxeArmorClassCard 0xAE
+
+// Outlaw
+#define Outlaw 0x87
+#define OutlawBowAnim EirikaSword3Anim
+#define OutlawUnarmedAnim GreatLordFUnarmedAnim
+#define OutlawClassCard 0xAF
+
+// Deserter
+#define Deserter 0x82
+#define DeserterLanceAnim KnightFLanceAnim
+#define DeserterUnarmedAnim KnightFUnarmedAnim
+#define DeserterClassCard 0xB0
+
+// Cavaliers
+#define SwordKnight 0x9E
+#define LanceKnight 0x9F
+#define AxeKnight 0xA0
+#define CavalierAxeAnim GeneralFSwordAnim
+#define CavalierHandaxeAnim GeneralFLanceAnim
+#define SwordKnightClassCard 0xB1
+#define LanceKnightClassCard CavalierClassCard
+#define AxeKnightClassCard 0xB2
+
+#define DreadFighter 0x80
+#define DreadFigher_F 0x81
+#define Spartan 0x83
+#define DarkFlier 0x84
+#define Arbalist 0x85
+#define Nomad 0x86
+#define Adventurer 0x88
+#define DarkMage 0x89
+#define Nephilim 0x8A
+#define Harrier 0x8B
+#define WarMonk 0x8C
+#define WarCleric 0x8D
+#define WarMonk_F WarCleric
+#define BowArmor 0x91
+#define BowArmour BowArmor
+#define SwordPaladin 0x92
+#define SwdPaladin SwordPaladin
+#define SwdPal SwdPaladin
+#define SwordPal SwdPal
+#define LancePaladin 0x93
+#define LncPaladin LancePaladin
+#define LncPal LncPaladin
+#define LancePal LncPal
+#define AxePaladin 0x94
+#define AxePal 0x95
+#define MageArmor 0x96
+#define MageArmour 0x97
+#define Baron 0x98
+#define Sorceror 0x99
+#define DarkKnight 0x9A
+#define DarkKnight_F 0x9B
+#define GriffonKnight 0x9C
+#define Deva 0x9D
+#define Harbringer 0x9E
+#define Thumaturge 0x9F
+#define Thaumaturge Thumaturge

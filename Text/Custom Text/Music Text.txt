@@ -1,0 +1,27 @@
+##SongNameTrial
+Trial[X]
+
+##SongNameBlasterMaster
+Stage 1 (Blaster Master)[X]
+
+##SongNameE1M1
+At Doom's Gate[X]
+
+##SongNameSplash
+Splash[X]
+
+##SongNameTaisen
+Taisen 4[X]
+
+##SongNamePathToVictory
+The Certain Path To Victory[X]
+
+##SongNameMinibossPM
+Hey You! (Paper Mario)[X]
+
+##SongNameGeneralGuyPM
+Keeping Pace (Paper Mario)[X]
+
+##SongNameTubbaBlubbaPM
+Ghost Gulping (Paper Mario)[X]
+

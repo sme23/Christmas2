@@ -1,0 +1,177 @@
+#define WeaponIconOffset(iconID) "NewItemIcons + 0x80*iconID"
+
+PUSH
+
+// Adept Manual
+ORG WeaponIconOffset(AdeptManualIcon)
+#incext Png2Dmp "Icons/AdeptSkillBook.png"
+
+// Aegis Manual
+ORG WeaponIconOffset(AegisManualIcon)
+#incext Png2Dmp "Icons/AegisSkillBook.png"
+
+// Astra Manual
+ORG WeaponIconOffset(AstraManualIcon)
+#incext Png2Dmp "Icons/AstraSkillBook.png"
+
+// Boon Manual
+ORG WeaponIconOffset(BoonManualIcon)
+#incext Png2Dmp "Icons/BoonSkillBook.png"
+
+// Canto+ Manual
+ORG WeaponIconOffset(CantoPlusManualIcon)
+#incext Png2Dmp "Icons/Canto+SkillBook.png"
+
+// Luna Manual
+ORG WeaponIconOffset(LunaManualIcon)
+#incext Png2Dmp "Icons/LunaSkillBook.png"
+
+// Nihil Manual
+ORG WeaponIconOffset(NihilManualIcon)
+#incext Png2Dmp "Icons/NihilSkillBook.png"
+
+// Nullify Manual
+ORG WeaponIconOffset(NullifyManualIcon)
+#incext Png2Dmp "Icons/NullifySkillBook.png"
+
+// Paragon Manual
+ORG WeaponIconOffset(ParagonManualIcon)
+#incext Png2Dmp "Icons/ParagonSkillBook.png"
+
+// Pass Manual
+ORG WeaponIconOffset(PassManualIcon)
+#incext Png2Dmp "Icons/PassSkillBook.png"
+
+// Pavise Manual
+ORG WeaponIconOffset(PaviseManualIcon)
+#incext Png2Dmp "Icons/PaviseSkillBook.png"
+
+// Renewal Manual
+ORG WeaponIconOffset(RenewalManualIcon)
+#incext Png2Dmp "Icons/RenewalSkillBook.png"
+
+// Sol Manual
+ORG WeaponIconOffset(SolManualIcon)
+#incext Png2Dmp "Icons/SolSkillBook.png"
+
+// Wrath Manual
+ORG WeaponIconOffset(WrathManualIcon)
+#incext Png2Dmp "Icons/WrathSkillBook.png"
+
+// Leadership Star
+ORG WeaponIconOffset(StarIcon)
+#incext Png2Dmp "Icons/StarIcon.png"
+
+// Stone Staff
+ORG WeaponIconOffset(StoneStaffIcon)
+#incext Png2Dmp "Icons/StoneStaff.png"
+
+// Poison Staff
+ORG WeaponIconOffset(PoisonStaffIcon)
+#incext Png2Dmp "Icons/PoisonStaff.png"
+
+// Ruby Sword
+ORG WeaponIconOffset(RubySwordIcon)
+#incext Png2Dmp "Icons/RubySword.png"
+
+// Sapphire Lance
+ORG WeaponIconOffset(SapphireLanceIcon)
+#incext Png2Dmp "Icons/SapphireLance.png"
+
+// Emerald Axe
+ORG WeaponIconOffset(EmeraldAxeIcon)
+#incext Png2Dmp "Icons/EmeraldAxe.png"
+
+// Weapon Skill Icon
+ORG WeaponIconOffset(WeaponSkillIcon)
+#incext Png2Dmp "Icons/WeaponSkillIcon.png"
+
+// Equipment Skill Icon
+ORG WeaponIconOffset(ItemSkillIcon)
+#incext Png2Dmp "Icons/ItemSkillIcon.png"
+
+// Caduceus
+ORG WeaponIconOffset(CaduceusIcon)
+#incext Png2Dmp "Icons/Caduceus.png"
+
+// Spirit Dust
+ORG WeaponIconOffset(SpiritDustIcon)
+#incext Png2Dmp "Icons/SpiritDust.png"
+
+// Shade
+ORG WeaponIconOffset(ShadeIcon)
+#incext Png2Dmp "Icons/Shade.png"
+
+// Thrysus
+ORG WeaponIconOffset(ThrysusIcon)
+#incext Png2Dmp "Icons/Thrysus.png"
+
+// Lumine
+ORG WeaponIconOffset(LumineIcon)
+#incext Png2Dmp "Icons/Lumine.png"
+
+// Hunting Bow
+ORG WeaponIconOffset(HuntingBowIcon)
+#incext Png2Dmp "Icons/HuntingBow.png"
+
+// Master Key
+ORG WeaponIconOffset(MasterKeyIcon)
+#incext Png2Dmp "Icons/MasterKey.png"
+
+// Leather Shield
+ORG WeaponIconOffset(LeatherShieldIcon)
+#incext Png2Dmp "Icons/LeatherShield.png"
+
+// Iron Shield
+ORG WeaponIconOffset(IronShieldIcon)
+#incext Png2Dmp "Icons/IronShield.png"
+
+// Steel Shield
+ORG WeaponIconOffset(SteelShieldIcon)
+#incext Png2Dmp "Icons/SteelShield.png"
+
+// Silver Shield
+ORG WeaponIconOffset(SilverShieldIcon)
+#incext Png2Dmp "Icons/SilverShield.png"
+
+// Dragon Shield
+ORG WeaponIconOffset(DragonShieldIcon)
+#incext Png2Dmp "Icons/DragonShield.png"
+
+// Pavise Shield
+ORG WeaponIconOffset(PaviseShieldIcon)
+#incext Png2Dmp "Icons/PaviseShield.png"
+
+// Aegis Shield
+ORG WeaponIconOffset(AegisShieldIcon)
+#incext Png2Dmp "Icons/AegisShield.png"
+
+// Knight Ring
+ORG WeaponIconOffset(KnightRingIcon)
+#incext Png2Dmp "Icons/KnightRing.png"
+
+// Leg Ring
+ORG WeaponIconOffset(LegRingIcon)
+#incext Png2Dmp "Icons/LegRing.png"
+
+// Prayer Ring
+ORG WeaponIconOffset(PrayerRingIcon)
+#incext Png2Dmp "Icons/PrayerRing.png"
+
+// Speed Ring
+ORG WeaponIconOffset(SpeedRingIcon)
+#incext Png2Dmp "Icons/SpeedRing.png"
+
+// Solstice
+ORG WeaponIconOffset(SolsticeIcon)
+#incext Png2Dmp "Icons/Solstice.png"
+
+// Moonlight
+ORG WeaponIconOffset(MoonlightIcon)
+#incext Png2Dmp "Icons/Moonlight.png"
+
+// Entrap
+ORG WeaponIconOffset(EntrapIcon)
+#incext Png2Dmp "Icons/Entrap.png"
+
+POP

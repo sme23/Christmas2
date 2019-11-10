@@ -1,6 +1,49 @@
 
 // Mugs
-ALIGN 4
+ALIGN 16
+setMugEntry(AthosMug,AthosPortrait,2,4,3,2)
+AthosPortrait:
+#incext PortraitFormatter "SantaAthos.png"
+
+setMugEntry(NormalHectorMug,HectorPortrait,2,4,3,2)
+HectorPortrait:
+#incext PortraitFormatter "Hector.png"
+
+setMugEntry(NormalMatthewMug,MatthewPortrait,2,5,3,3)
+MatthewPortrait:
+#incext PortraitFormatter "Matthew.png"
+
+setMugEntry(NormalOswinMug,OswinPortrait,2,4,3,2)
+OswinPortrait:
+#incext PortraitFormatter "Oswin.png"
+
+setMugEntry(NormalSerraMug,SerraPortrait,2,6,3,4)
+SerraPortrait:
+#incext PortraitFormatter "Serra.png"
+
+setMugEntry(HectorMug,SantaHectorPortrait,2,4,2,2)
+SantaHectorPortrait:
+#incext PortraitFormatter "SantaHector.png"
+
+setMugEntry(MatthewMug,ElfMatthewPortrait,2,5,3,3)
+ElfMatthewPortrait:
+#incext PortraitFormatter "ElfMatthew.png"
+
+setMugEntry(OswinMug,ElfOswinPortrait,2,4,3,2)
+ElfOswinPortrait:
+#incext PortraitFormatter "ElfOswin.png"
+
+setMugEntry(SerraMug,ElfSerraPortrait,2,6,3,4)
+ElfSerraPortrait:
+#incext PortraitFormatter "ElfSerra.png"
+
+setMugEntry(GuyMug,GuyPortrait,2,6,3,4)
+GuyPortrait:
+#incext PortraitFormatter "Guy.png"
+
+setMugEntry(DorcasMug,DorcasPortrait,2,4,3,2)
+DorcasPortrait:
+#incext PortraitFormatter "Dorcas.png"
 
 
 // Class Cards

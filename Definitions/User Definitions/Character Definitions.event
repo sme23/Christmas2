@@ -1,43 +1,29 @@
 // Player Units
-#define Artemer 1
-#define ArtemerMug 0x2
+#define AthosMug 0x2
+#define NormalHectorMug 0x3
+#define NormalMatthewMug 0x4
+#define NormalOswinMug 0x5
+#define NormalSerraMug 0x6
+#define HectorMug 0x7
+#define MatthewMug 0x8
+#define OswinMug 0x9
+#define SerraMug 0xA
+#define DorcasMug 7
+#define GuyMug 8
 
-#define Helena 2
-#define HelenaMug 0x4
+#define Hector 1
+#define Oswin 2
+#define Matthew 3
+#define Serra 4
+#define Dorcas 5
+#define Guy 6
 
-#define Keith 3
-#define KeithMug 0x5
-
-#define Lexi 4
-#define LexiMug 0x6
-
-#define Verwald 5
-#define VerwaldMug 0x7
-
-#define Spike 6
-#define SpikeMug 0x8
-
-#define Ryder 7
-#define RyderMug 0x9
-
-#define Jurgen 8
-#define JurgenMug 0xA
-
-#define Merry 9
-#define MerryMug 0xC
 
 // Bosses
-#define Gregory 0x68
-#define GregoryMug 0x30
 
-#define XanthusMug 0x2F
 
 // Enemy Units
 #define PrologueBandit 0x80
 #define PrologueBanditNoExp 0x85
 
 // NPC Units
-#define ProloguePrisoner1 0x81
-#define ProloguePrisoner2 0x82
-#define ProloguePrisoner3 0x83
-#define ProloguePrisoner4 0x84

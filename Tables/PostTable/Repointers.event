@@ -195,6 +195,7 @@ POIN ChapterDataTable
 ORG $B6500
 POIN ChapterDataTable
 
+/*
 ORG $26730
 POIN StandingMapSpriteTable
 ORG $267B0
@@ -228,7 +229,7 @@ ORG $BAC2C
 POIN MovingMapSpriteTable
 ORG $BAC40
 POIN MovingMapSpriteTable
-
+*/
 //ORG $8472C
 //POIN DeathQuoteTable
 

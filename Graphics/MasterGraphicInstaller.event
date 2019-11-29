@@ -1,4 +1,9 @@
 //#include "Tilesets/Tileset Installer.event"
+ALIGN 4
+NightVillagePalette:
+#incbin "Tilesets/nightvillage.bin"
+
+EventPointerTable(0xF, NightVillagePalette)
 
 #include "StatScreen/Stat Screen.event"
 #include "Animations/_Master Animation Installer.event"

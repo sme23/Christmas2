@@ -76,12 +76,106 @@ BeginningScene:
 
 //tilechange 20 is left door, 19 is right door
 
+LOMA 1
+FADU 10
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText1
+TEXTEND
+
+//display mug at mid left position
+SHORT 0x1E21 RavenMug
+
+//positioned to top of screen
+SVAL 0xB 0x00060024
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText2
+TEXTEND
+
+//clear all mugs
+SHORT 0x1E20 (-3)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText3
+TEXTEND
+
+CenterTutorialTextBox
+TEXTSTART
+TEXTSHOW OpeningText4
+TEXTEND
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText5
+TEXTEND
+
+Text(OpeningText6) //clears face
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText7
+TEXTEND
+
+
+
+
+//display Serra mug
+SHORT 0x1E21 NormalSerraMug
+
+SVAL 0xB 0x00060024
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText81
+TEXTEND
+
+SHORT 0x1E20 (-3)
+STAL 10
+//display Oswin mug
+SHORT 0x1E21 NormalOswinMug
+
+SVAL 0xB 0x00060024
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText82
+TEXTEND
+
+SHORT 0x1E20 (-3)
+STAL 10
+//display Matthew mug
+SHORT 0x1E21 NormalMatthewMug
+
+SVAL 0xB 0x00060024
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText83
+TEXTEND
+
+SHORT 0x1E20 (-3)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText84
+TEXTEND
+
+//clear all mugs
+SHORT 0x1E20 (-3)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW OpeningText9
+TEXTEND
+
+FADI 10
+LOMA 0
+FADU 10
+
 LOAD1 0x1 Units1
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 EnemyUnits2
 ENUN
+
+
 GotoPrepScreen
 ENDA
 

@@ -105,3 +105,5 @@ to every house.[X]
 #include "Custom Text/Class Text.txt"
 #include "Custom Text/Character Text.txt"
 #include "Custom Text/Music Text.txt"
+#include "Custom Text/Chapter Text.txt"
+

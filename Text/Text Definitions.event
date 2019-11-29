@@ -575,5 +575,18 @@
 #define SongNameMinibossPM $B10
 #define SongNameGeneralGuyPM $B11
 #define SongNameTubbaBlubbaPM $B12
+#define OpeningText1 $B13
+#define OpeningText2 $B14
+#define OpeningText3 $B15
+#define OpeningText4 $B16
+#define OpeningText5 $B17
+#define OpeningText6 $B18
+#define OpeningText7 $B19
+#define OpeningText81 $B1A
+#define OpeningText82 $B1B
+#define OpeningText83 $B1C
+#define OpeningText84 $B1D
+#define OpeningText9 $B1E
+#define OhNoText $B1F
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

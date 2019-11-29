@@ -1,0 +1,69 @@
+## OpeningText1
+All the townsfolk in Ostia[N]
+loved Christmas a lot,[A][N]
+But Raven, who lived just[N]
+outside of Ostia, did not.[A][X]
+
+## OpeningText2
+Raven hated Christmas![N]
+The whole Christmas season![A][N]
+Now, please don't ask why.[N]
+No one quite knows the reason.[A][N]
+It could be, his family[N]
+died when he was small.[A][N]
+It could be, he never[N]
+knew Christmas at all.[A][X]
+
+## OpeningText3
+But, down in the town[N]
+of Lycia's heart,[A][N]
+The Marquees was giving[N]
+the townsfolk a start.[A][X]
+
+## OpeningText4
+[OpenMidLeft][LoadNormalHector]
+Oho![A][X]
+
+## OpeningText5
+He cried out, a familiar sound,[A][X]
+
+## OpeningText6
+[OpenMidLeft][LoadNormalHector]
+My holiday outfit cannot be found![A][X]
+
+## OpeningText7
+During the Christmas[N]
+of the year past,[A][N]
+Hector was given an[N]
+important task.[A][N]
+He was tasked with delivering[N]
+presents all night,[A][N]
+So the children may wake[N]
+with their feels of delight.[A][X]
+
+## OpeningText81
+Alongside him was[N]
+his reliable crew,[A][N]
+Lady Serra,[A][X]
+
+## OpeningText82
+And Sirs Oswin[A][X]
+
+## OpeningText83
+And Matthew.[A][X]
+
+## OpeningText84
+Together these four[N]
+would deliver presents[A][N]
+To all in Ostia,[N]
+even the peasants.[A][X]
+
+##OpeningText9
+But little did they know[N]
+that later that night,[A][N]
+They would encounter[N]
+a terrible sight...[A][X]
+
+## OhNoText
+oh no[A][X]
+

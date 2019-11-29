@@ -2377,6 +2377,58 @@ __TEXTPROCESSB12:
 #incbin ".TextEntries\text_buildfileSongNameTubbaBlubbaPM.fetxt.dmp"
 setText($B12, __TEXTPROCESSB12)
 
+__TEXTPROCESSB13:
+#incbin ".TextEntries\text_buildfileOpeningText1.fetxt.dmp"
+setText($B13, __TEXTPROCESSB13)
+
+__TEXTPROCESSB14:
+#incbin ".TextEntries\text_buildfileOpeningText2.fetxt.dmp"
+setText($B14, __TEXTPROCESSB14)
+
+__TEXTPROCESSB15:
+#incbin ".TextEntries\text_buildfileOpeningText3.fetxt.dmp"
+setText($B15, __TEXTPROCESSB15)
+
+__TEXTPROCESSB16:
+#incbin ".TextEntries\text_buildfileOpeningText4.fetxt.dmp"
+setText($B16, __TEXTPROCESSB16)
+
+__TEXTPROCESSB17:
+#incbin ".TextEntries\text_buildfileOpeningText5.fetxt.dmp"
+setText($B17, __TEXTPROCESSB17)
+
+__TEXTPROCESSB18:
+#incbin ".TextEntries\text_buildfileOpeningText6.fetxt.dmp"
+setText($B18, __TEXTPROCESSB18)
+
+__TEXTPROCESSB19:
+#incbin ".TextEntries\text_buildfileOpeningText7.fetxt.dmp"
+setText($B19, __TEXTPROCESSB19)
+
+__TEXTPROCESSB1A:
+#incbin ".TextEntries\text_buildfileOpeningText81.fetxt.dmp"
+setText($B1A, __TEXTPROCESSB1A)
+
+__TEXTPROCESSB1B:
+#incbin ".TextEntries\text_buildfileOpeningText82.fetxt.dmp"
+setText($B1B, __TEXTPROCESSB1B)
+
+__TEXTPROCESSB1C:
+#incbin ".TextEntries\text_buildfileOpeningText83.fetxt.dmp"
+setText($B1C, __TEXTPROCESSB1C)
+
+__TEXTPROCESSB1D:
+#incbin ".TextEntries\text_buildfileOpeningText84.fetxt.dmp"
+setText($B1D, __TEXTPROCESSB1D)
+
+__TEXTPROCESSB1E:
+#incbin ".TextEntries\text_buildfileOpeningText9.fetxt.dmp"
+setText($B1E, __TEXTPROCESSB1E)
+
+__TEXTPROCESSB1F:
+#incbin ".TextEntries\text_buildfileOhNoText.fetxt.dmp"
+setText($B1F, __TEXTPROCESSB1F)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

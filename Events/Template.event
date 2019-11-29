@@ -50,7 +50,7 @@ Units1:
 UNIT Hector GreatLord 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA4R3 [Armads,Tomahawk,Elixir] NoAI
 UNIT Oswin General 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA3R2 [Spear,HandAxe,SilverSword] NoAI
 UNIT Matthew Rogue 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA4R1 [IronSword] NoAI
-UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Entrap,Mend,Caudecus] NoAI
+UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Entrap,Mend,Caduceus] NoAI
 UNIT
 
 EnemyUnits:

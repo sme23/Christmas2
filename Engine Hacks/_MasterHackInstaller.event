@@ -145,9 +145,17 @@ POP
   //Change Sick Status to Freeze
   #include "Freeze/Freeze.event"
   #include "Freeze/EventFreeze.event"
+  
+  #include "UnitActionRework/UnitActionRework.event"
+  
+  #include "WeaponLockArray/AdvWeaponLocks.event"
+  
+  #include "ReaverSplit/ReaverSplit.event"
+  
+  #include "CannotCrit/CannotCrit.event"
 
   ALIGN 4
-  #include "SkillSystem/Master Skill Installer.event"
+  #include "SkillSystem/SkillSystemInstaller.event"
 
   #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
 
@@ -196,7 +204,7 @@ POP
   #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
   //Calculation loops (used for conflicting hacks, formerly "Battle Calculations.event")
-  #include "SkillSystem/Internals/CalcLoops/Calculation Loops.event"
+  #include "SkillSystem/Internals/CalcLoops/CalcLoops.event"
   
   #include "UnitMenu.event"
   #include "Popups.event"

@@ -44,7 +44,7 @@ WORD 0
 // Class Types not defined by Class Attributes
 
 ALIGN 4
-//#define ArmorClasses ""
+#define ArmorClasses ""
 ArmoredClassesList:
 BYTE ArmorClasses 0 // ArmorClasses defined in Master Skill Installer
 

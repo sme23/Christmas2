@@ -43,20 +43,16 @@ lsr r4,r4,#4
 
 mov r0,#0x1
 tst r3,r0
-bne AtRange
+bne SetWeaponType
 
 b TargetBehavior
 
 
 
 AtRange:
-mov r2,#0x3A
-ldrb r0,[r5,r2]
-strb r0,[r5,#0x14]
-
-mov r0,#0x1
-tst r3,r0
-bne SetWeaponType
+@mov r2,#0x3A
+@ldrb r0,[r5,r2]
+@strb r0,[r5,#0x14]
 
 lsl r4,r4,#28
 lsr r4,r4,#28
@@ -126,4 +122,3 @@ DefReturnPoint:
 .word 0x802A8BD
 MagicSwordList:
 @POIN MagicSwordList
-

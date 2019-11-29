@@ -1,17 +1,17 @@
-#define csvmacro011(arg000) "SHORT arg000 "
+#define csvmacro012(arg000) "SHORT arg000 "
 
 PUSH
 ORG 0xb12b04
-csvmacro011(0x0)
-csvmacro011(0x5c9)
-csvmacro011(0x5ca)
-csvmacro011(0x5cb)
-csvmacro011(0x5cc)
-csvmacro011(0x5cd)
-csvmacro011(0x5ce)
-csvmacro011(0x5cf)
-csvmacro011(0x5d0)
-csvmacro011(0x5d1)
-csvmacro011(0x5d2)
-csvmacro011(0x5d3)
+csvmacro012(0x0)
+csvmacro012(0x5c9)
+csvmacro012(0x5ca)
+csvmacro012(0x5cb)
+csvmacro012(0x5cc)
+csvmacro012(0x5cd)
+csvmacro012(0x5ce)
+csvmacro012(0x5cf)
+csvmacro012(0x5d0)
+csvmacro012(0x5d1)
+csvmacro012(0x5d2)
+csvmacro012(0x5d3)
 POP

@@ -5,8 +5,7 @@
 @TODO: also check inventory for skill items?
 
 .set GetUnitEquippedItem, 0x8016B28
-.set ItemTable, SkillGetter+4
-.set EquippedAccessoryGetter, ItemTable+4
+.set ItemTable, SkillGetter+0x04
 
 .thumb
 
@@ -37,22 +36,6 @@ ldrh r0, [r5, #0x1E]
 mov r1, #0xFF @get the item id
 and r0, r1
 cmp r0, #0
-beq TestAccessory
-mov r1, #36 @size of the item table
-mul r0, r1
-ldr r1, ItemTable
-add r0, r1 
-mov r1, #35 @last byte in the item table
-ldrb r0, [r0, r1]
-cmp r0, r4
-beq True
-
-TestAccessory:
-mov r0,r5
-ldr r1, EquippedAccessoryGetter
-mov lr,r1
-.short 0xF800
-cmp r0, #0
 beq False
 mov r1, #36 @size of the item table
 mul r0, r1
@@ -63,8 +46,6 @@ ldrb r0, [r0, r1]
 cmp r0, r4
 beq True
 
-
-
 False:
 mov r0, #0
 pop {r4-r5, pc}
@@ -73,7 +54,7 @@ True:
 mov r0, #1
 pop {r4-r5, pc}
 
-.ltorg
-.align
+.pool
+
 SkillGetter:
 @POIN SkillGetter

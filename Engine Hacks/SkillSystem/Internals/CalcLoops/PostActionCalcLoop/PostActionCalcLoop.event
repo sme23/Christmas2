@@ -1,7 +1,7 @@
 
 	/* Post-Action calc loop */
-
-#inctext lyn "PostActionCalcLoop.elf" "PostActionCalcLoopHook.elf"
+	
+#include "PostActionCalcLoop.lyn.event"
 PostActionCalcFunctions: // Parameters: r0 = character struct. Immediately after "Turn ended" bit in the turn status bitfield is set.
 POIN LungeUpdate
 #ifdef STAIRS_ASM
@@ -10,7 +10,6 @@ POIN LungeUpdate
 #ifdef ESCAPE_ARRIVE
 	POIN FinalEscapeThing
 #endif // ESCAPE_ARRIVE
-POIN PostActionRescueCorrection
 WORD 0
 
 PROTECT $1879A $187B4

@@ -45,6 +45,17 @@ setMugEntry(DorcasMug,DorcasPortrait,2,4,3,2)
 DorcasPortrait:
 #incext PortraitFormatter "Dorcas.png"
 
+setMugEntry(LuciusMug,LuciusPortrait,2,5,3,3)
+LuciusPortrait:
+#incext PortraitFormatter "Lucius.png"
+
+setMugEntry(PriscillaMug,PriscillaPortrait,2,6,3,4)
+PriscillaPortrait:
+#incext PortraitFormatter "Priscilla.png"
+
+setMugEntry(RavenMug,RavenPortrait,2,5,3,3)
+RavenPortrait:
+#incext PortraitFormatter "Raven.png"
 
 // Class Cards
 HeroCardFile:

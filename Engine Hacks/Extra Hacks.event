@@ -14,7 +14,7 @@
 
   #ifdef MinimugBox
   //Modular Minimug Box
-  #include "ModularMinimugBox-master/MMB Installer REDFE edit.event"
+  #include "ModularMinimugBox-master/MMB Installer Stan.event"
   #endif
 
   //Change Shop Music by Chapter

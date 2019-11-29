@@ -174,4 +174,8 @@ ORG WeaponIconOffset(MoonlightIcon)
 ORG WeaponIconOffset(EntrapIcon)
 #incext Png2Dmp "Icons/Entrap.png"
 
+// Levin Sword
+ORG WeaponIconOffset(LevinSwordIcon)
+#incext Png2Dmp "Icons/LevinSword.png"
+
 POP

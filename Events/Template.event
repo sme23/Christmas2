@@ -61,7 +61,7 @@ UNIT
 
 EnemyUnits2:
 UNIT Guy Swordmaster 0 Level(5,Enemy,False) [9,10] 0x0 0x0 1 REDA9R10 [LevinSword,KillingEdge,Vulnerary] AttackInRangeAI
-UNIT Dorcas Warrior 0 Level(5,Enemy,False) [14,3] 0x0 0x0 1 REDA14R3 [SteelAxe,SteelBow,Vulnerary] AttackInRangeAI
+UNIT Dorcas Warrior 0 Level(5,Enemy,False) [14,3] 0x0 0x0 1 REDA14R3 [EmeraldAxe,SteelBow,Vulnerary] AttackInRangeAI
 UNIT
 
 Traps1:

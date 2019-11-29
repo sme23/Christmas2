@@ -54,7 +54,7 @@ UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Physic,Men
 UNIT
 
 EnemyUnits:
-UNIT Lucius Bishop_F 0 Level(10,Enemy,False) [23,0] 0x0 0x0 1 REDA19R4 [Purge,Aura,Elixir] AttackInRangeAI
+UNIT Lucius Bishop_F 0 Level(10,Enemy,False) [23,0] 0x0 0x0 1 REDA19R4 [Aura,Elixir] AttackInRangeAI
 UNIT Raven Hero 0 Level(10,Enemy,False) [22,0] 0x0 0x0 1 REDA23R2 [BraveSword,Tomahawk,Elixir] NeverMoveAI
 UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [22,0] 0x0 0x0 1 REDA19R9 [Physic,Sleep,Mend] AttackInRangeAI
 UNIT

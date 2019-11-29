@@ -1,3 +1,11 @@
+//Great Lord
+#define GreatLord EphraimMasterLord
+#define GreatLordAxeAnim GreatLordLanceAnimation
+#define GreatLordHandaxeAnim EirikaSword2Animation
+#define GreatLordSwordAnim GreatLordUnarmedAnimation
+#define GreatLordUnarmedAnim GreatLordFSwordAnimation
+#define GreatLordArmadsAnim GreatLordFUnarmedAnimation
+
 // Huntsman
 #define Huntsman EphraimLord
 #define HuntsmanBowAnim EphraimLanceAnim

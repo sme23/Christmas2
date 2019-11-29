@@ -182,3 +182,20 @@ EndAnim
 	#include "Soldier Lance Installer.event"
 	#include "Soldier Unarmed Installer.event"
 }
+
+//Great Lord
+GreatLordAnimation:
+SpecialAnim(GreatLordArmadsAnim,Armads)
+SwordAnim(GreatLordSwordAnim)
+AxeAnim(GreatLordAxeAnim)
+HandaxeAnim(GreatLordHandaxeAnim)
+UnarmedAnim(GreatLordUnarmedAnim)
+EndAnim
+
+{
+	#include "HectorHandaxe Installer.event"
+	#include "HectorDisarmed Installer.event"
+	#include "HectorAxe Installer.event"
+	#include "HectorSword Installer.event"
+	#include "HectorArmads Installer.event"
+}

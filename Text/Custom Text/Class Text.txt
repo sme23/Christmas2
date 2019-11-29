@@ -190,3 +190,11 @@ LanceKnightDesc[X]
 
 ##AxeKnightDesc
 AxeKnightDesc[X]
+
+##GreatLordName
+Great Lord[X]
+
+##GreatLordDesc
+An honorific bestowed upon[N]
+especially gifted generals.[X]
+

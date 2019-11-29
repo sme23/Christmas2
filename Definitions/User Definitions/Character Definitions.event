@@ -8,8 +8,8 @@
 #define MatthewMug 0x8
 #define OswinMug 0x9
 #define SerraMug 0xA
-#define DorcasMug 7
-#define GuyMug 8
+#define DorcasMug 0xB
+#define GuyMug 0xC
 
 #define Hector 1
 #define Oswin 2
@@ -20,7 +20,13 @@
 
 
 // Bosses
+#define Lucius 7
+#define Raven 8
+#define Priscilla 9
 
+#define LuciusMug 0xD
+#define RavenMug 0xE
+#define PriscillaMug 0xF
 
 // Enemy Units
 #define PrologueBandit 0x80

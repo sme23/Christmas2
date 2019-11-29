@@ -241,7 +241,7 @@
 #define GreatLordLanceAnim 0x05
 #define EphriamT2LanceAnim GreatLordLanceAnim
 #define EirikaSword2Anim 0x06
-#define GreatLordUnarmedAnim 0x07
+#define EphraimGreatLordUnarmedAnim 0x07
 #define EphraimT2UnarmedAnim GreatLordUnarmedAnim
 #define GreatLordFSwordAnim 0x08
 #define EirikaT2SwordAnim GreatLordFSwordAnim

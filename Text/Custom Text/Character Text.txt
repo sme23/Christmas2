@@ -1,62 +1,66 @@
-##ArtemerName
-Artemer[X]
+##HectorName
+Hector[X]
 
-##ArtemerDesc
-ArtemerDesc[X]
+##HectorDesc
+Marquess Ostia's younger[N]
+brother. Reckless, but loyal.[X]
 
-##HelenaName
-Helena[X]
+##OswinName
+Oswin[X]
 
-##HelenaDesc
-HelenaDesc[X]
+##OswinDesc
+A knight in service to House[N]
+Ostia. Hector's sworn man.[X]
 
-##KeithName
-Keith[X]
+##MatthewName
+Matthew[X]
 
-##KeithDesc
-KeithDesc[X]
+##MatthewDesc
+A cheery thief. His casual[N]
+demeanor belies his skill.[X]
 
-##LexiName
-Lexi[X]
+##SerraName
+Serra[X]
 
-##LexiDesc
-LexiDesc[X]
+##SerraDesc
+A cleric in service to House[N]
+Ostia. Headstrong and bold.[X]
 
-##VerwaldName
-Verwald[X]
+##DorcasName
+Dorcas[X]
 
-##VerwaldDesc
-VerwaldDesc[X]
+##DorcasDesc
+A man from a small village in[N]
+Bern. Fights for his wife.[X]
 
-##SpikeName
-Spike[X]
+##GuyName
+Guy[X]
 
-##SpikeDesc
-SpikeDesc[X]
+##GuyDesc
+A youth from Sacae. Yearns[N]
+to be a swordmaster.[X]
 
-##RyderName
-Ryder[X]
+##LuciusName
+Lucius[X]
 
-##RyderDesc
-RyderDesc[X]
+##LuciusDesc
+A traveling acolyte.[N]
+Gentle and serene.[X]
 
-##JurgenName
-Jurgen[X]
+##RavenName
+Raven[X]
 
-##JurgenDesc
-JurgenDesc[X]
+##RavenDesc
+A troubled mercenary with a[N]
+grudge against House Ostia.[X]
 
-##MerryName
-Merry[X]
+##PriscillaName
+Priscilla[X]
 
-##MerryDesc
-MerryDesc[X]
+##PriscillaDesc
+A vassal in service to Count[N]
+Caerleon of Etruria.[X]
 
-##GregoryName
-Gregory[X]
-
-##GregoryDesc
-GregoryDesc[X]
 
 ##BanditName
 Bandit[X]

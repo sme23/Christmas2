@@ -1,4 +1,4 @@
-EventPointerTable(EventPointer, PointerList)
+EventPointerTable(0x7, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -12,6 +12,7 @@ POIN $0 $0 $0
 POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
+ALIGN 32
 TurnBasedEvents:
 END_MAIN
 
@@ -19,29 +20,48 @@ ALIGN 32
 CharacterBasedEvents:
 END_MAIN
 
+ALIGN 32
 MiscBasedEvents:
 CauseGameOverIfLordDies
 END_MAIN
 
+ALIGN 32
 LocationBasedEvents:
 END_MAIN
 
+ALIGN 32
 Dunno1:
 END_MAIN
 
+ALIGN 32
 Dunno2:
 END_MAIN
 
+ALIGN 32
 Dunno3:
 END_MAIN
 
+ALIGN 32
 Tutorial:
 END_MAIN
 
+ALIGN 4
 Units1:
+UNIT Hector GreatLord 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Armads,Tomahawk,Elixir] NoAI
+UNIT Oswin General 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Spear,HandAxe,SilverSword] NoAI
+UNIT Matthew Rogue 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Serra Valkyrie 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Physic,Mend,Elixir] NoAI
 UNIT
 
 EnemyUnits:
+UNIT Lucius Bishop_F 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [Purge,Aura,Elixir] AttackInRangeAI
+UNIT Raven Hero 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [BraveSword,Tomahawk,Elixir] NeverMoveAI
+UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [Physic,Sleep,Mend] AttackInRangeAI
+UNIT
+
+EnemyUnits2:
+UNIT Guy Swordmaster 0 Level(5,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [LevinSword,KillingEdge,Vulnerary] AttackInRangeAI
+UNIT Dorcas Warrior 0 Level(5,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [SteelAxe,SteelBow,Vulnerary] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -57,10 +77,15 @@ LOAD1 0x1 Units1
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
+LOAD1 0x1 EnemyUnits2
+ENUN
 GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC2 next_chapter
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
 NoFade
 ENDA

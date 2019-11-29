@@ -130,3 +130,8 @@
 
 #define Moonlight 0x44
 #define MoonlightIcon 0x42
+
+#define Armads Garm
+
+#define LevinSword 0xC4
+#define LevinSwordIcon LunarBraceIcon

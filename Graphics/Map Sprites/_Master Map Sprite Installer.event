@@ -60,3 +60,12 @@ SoldierStanding:
 #incext Png2Dmp "Files/Soldier/Standing.png" --lz77
 SoldierMoving:
 #incext Png2Dmp "Files/Soldier/Moving.png" --lz77
+
+// Great Lord
+GreatLordStanding:
+#incext Png2Dmp "Files/HectorStand.png" --lz77
+GreatLordMoving:
+#incext Png2Dmp "Files/HectorMove.png" --lz77
+GreatLordAP:
+#incbin "Files/HectorAP.bin"
+

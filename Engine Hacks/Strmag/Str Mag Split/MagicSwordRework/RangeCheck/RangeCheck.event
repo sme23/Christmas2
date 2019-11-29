@@ -8,5 +8,5 @@ RangeAnimHack:
 POIN RangeAnimList
 
 RangeAnimList:
-BYTE RuneSword Tomahawk HandAxe RuneSword LevinSword 0
+BYTE RuneSword Tomahawk HandAxe Runesword LevinSword 0
 ALIGN 4

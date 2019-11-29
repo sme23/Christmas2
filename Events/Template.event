@@ -47,21 +47,21 @@ END_MAIN
 
 ALIGN 4
 Units1:
-UNIT Hector GreatLord 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Armads,Tomahawk,Elixir] NoAI
-UNIT Oswin General 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Spear,HandAxe,SilverSword] NoAI
-UNIT Matthew Rogue 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT Serra Valkyrie 0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Physic,Mend,Elixir] NoAI
+UNIT Hector GreatLord 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA4R3 [Armads,Tomahawk,Elixir] NoAI
+UNIT Oswin General 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA3R2 [Spear,HandAxe,SilverSword] NoAI
+UNIT Matthew Rogue 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA4R1 [IronSword] NoAI
+UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Physic,Mend,Elixir] NoAI
 UNIT
 
 EnemyUnits:
-UNIT Lucius Bishop_F 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [Purge,Aura,Elixir] AttackInRangeAI
-UNIT Raven Hero 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [BraveSword,Tomahawk,Elixir] NeverMoveAI
-UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [Physic,Sleep,Mend] AttackInRangeAI
+UNIT Lucius Bishop_F 0 Level(10,Enemy,False) [23,0] 0x0 0x0 1 REDA19R4 [Purge,Aura,Elixir] AttackInRangeAI
+UNIT Raven Hero 0 Level(10,Enemy,False) [22,0] 0x0 0x0 1 REDA23R2 [BraveSword,Tomahawk,Elixir] NeverMoveAI
+UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [22,0] 0x0 0x0 1 REDA19R9 [Physic,Sleep,Mend] AttackInRangeAI
 UNIT
 
 EnemyUnits2:
-UNIT Guy Swordmaster 0 Level(5,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [LevinSword,KillingEdge,Vulnerary] AttackInRangeAI
-UNIT Dorcas Warrior 0 Level(5,Enemy,False) [0,0] 0x0 0x0 0x0 0x1 [SteelAxe,SteelBow,Vulnerary] AttackInRangeAI
+UNIT Guy Swordmaster 0 Level(5,Enemy,False) [9,10] 0x0 0x0 1 REDA9R10 [LevinSword,KillingEdge,Vulnerary] AttackInRangeAI
+UNIT Dorcas Warrior 0 Level(5,Enemy,False) [14,3] 0x0 0x0 1 REDA14R3 [SteelAxe,SteelBow,Vulnerary] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -73,6 +73,9 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+
+//tilechange 20 is left door, 19 is right door
+
 LOAD1 0x1 Units1
 ENUN
 LOAD1 0x1 EnemyUnits

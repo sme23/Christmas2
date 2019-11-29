@@ -2,14 +2,14 @@ INLINE ClassSkillTable,Skill
 None,0x0
 Huntsman,0x0
 Eirika Lord,0x0
-Ephraim Master Lord,CantoID
-Eirika Master Lord,CantoID
-Cavalier,CantoID
-Cavalier (F),CantoID
-Paladin,CantoID
-Paladin (F),CantoID
-Armour Knight,CantoID
-Armour Knight (F),CantoID
+Ephraim Master Lord,0x0
+Eirika Master Lord,0x0
+Cavalier,CantoPlusID
+Cavalier (F),CantoPlusID
+Paladin,CantoPlusID
+Paladin (F),CantoPlusID
+Armour Knight,0x0
+Armour Knight (F),0x0
 General,0x0
 General (F),0x0
 Thief,CunningID
@@ -28,20 +28,20 @@ Archer,0x0
 Archer (F),0x0
 Sniper,CritUpID
 Sniper (F),CritUpID
-Ranger,CantoID
-Ranger (F),CantoID
-Wyvern Rider,CantoID
-Wyvern Rider (F),CantoID
-Wyvern Lord,CantoID
-Wyvern Lord (F),CantoID
-Wyvern Knight,CantoID
-Wyvern Knight (F),CantoID
+Ranger,CantoPlusID
+Ranger (F),CantoPlusID
+Wyvern Rider,CantoPlusID
+Wyvern Rider (F),CantoPlusID
+Wyvern Lord,CantoPlusID
+Wyvern Lord (F),CantoPlusID
+Wyvern Knight,CantoPlusID
+Wyvern Knight (F),CantoPlusID
 Mage,0x0
 Mage (F),0x0
 Sage,0x0
 Sage (F),0x0
-Mage Knight,CantoID
-Mage Knight (F),CantoID
+Mage Knight,CantoPlusID
+Mage Knight (F),CantoPlusID
 Bishop,0x0
 Bishop (F),0x0
 Shaman,0x0
@@ -52,8 +52,8 @@ Summoner,SummonID
 Summoner (F),SummonID
 Rogue,CunningID
 Gorgon Egg,0x0
-Great Knight,CantoID
-Great Knight (F),CantoID
+Great Knight,CantoPlusID
+Great Knight (F),CantoPlusID
 Recruit (2),0x0
 Journeyman (3),0x0
 Pupil (3),0x0
@@ -71,11 +71,11 @@ Monk,0x0
 Priest,0x0
 Bard,DanceID
 Recruit (1),0x0
-Pegasus Knight,CantoID
-Falcon Knight,CantoID
+Pegasus Knight,CantoPlusID
+Falcon Knight,CantoPlusID
 Cleric,0x0
-Troubadour,CantoID
-Valkyrie,CantoID
+Troubadour,CantoPlusID
+Valkyrie,CantoPlusID
 Dancer,DanceID
 Soldier,0x0
 Necromancer,SummonID
@@ -92,8 +92,8 @@ Elder Bael,0x0
 Cyclops,0x0
 Mauthe Doog,0x0
 Gwyllgi,0x0
-Tarvos,CantoID
-Maelduin,CantoID
+Tarvos,CantoPlusID
+Maelduin,CantoPlusID
 Mogall,0x0
 Arch Mogall,0x0
 Gorgon,0x0
@@ -131,35 +131,35 @@ Dread Fighter,0x0
 Dread Fighter (F),0x0
 Deserter,0x0
 Spartan,0x0
-Dark Flier,CantoID
-Arbalist,CantoID
-Nomad,CantoID
+Dark Flier,CantoPlusID
+Arbalist,CantoPlusID
+Nomad,CantoPlusID
 Outlaw,CunningID
 Adventurer,0x0
 Dark Mage,0x0
-Nephilim,CantoID
-Harrier,CantoID
+Nephilim,CantoPlusID
+Harrier,CantoPlusID
 War Monk,0x0
 War Cleric,0x0
 Sword Armor,0x0
 Lance Armor,0x0
 Axe Armor,0x0
 Bow Armor,0x0
-Sword Paladin,CantoID
-Lance Paladin ,CantoID
-Axe Paladin,CantoID
+Sword Paladin,CantoPlusID
+Lance Paladin ,CantoPlusID
+Axe Paladin,CantoPlusID
 Mage Armor,0x0
 Baron,0x0
 Sorcerer,0x0
-Dark Knight,CantoID
-Dark Knight (F),CantoID
-Griffon Knight,CantoID
-Deva,CantoID
+Dark Knight,CantoPlusID
+Dark Knight (F),CantoPlusID
+Griffon Knight,CantoPlusID
+Deva,CantoPlusID
 Harbringer,0x0
-Thumaturge,CantoID
-Sword Knight,CantoID
-Lance Knight,CantoID
-Axe Knight,CantoID
+Thumaturge,CantoPlusID
+Sword Knight,CantoPlusID
+Lance Knight,CantoPlusID
+Axe Knight,CantoPlusID
 Ephraim Lord,0x0
 Ephraim Lord,0x0
 Ephraim Lord,0x0

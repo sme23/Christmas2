@@ -9,6 +9,7 @@ BYTE 00 00
 ALIGN 4
 
 EphraimGreatLordSkillList:
+BYTE 01 SmiteID
 BYTE 00 00
 ALIGN 4
 
@@ -24,10 +25,12 @@ BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
+BYTE 01 SmiteID
 BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
+BYTE 01 SmiteID
 BYTE 00 00
 ALIGN 4
 
@@ -36,30 +39,37 @@ BYTE 00 00
 ALIGN 4
 
 MercenarySkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 HeroSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 MyrmidonSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 SwordmasterSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 AssassinSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 ArcherSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 SniperSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
@@ -108,6 +118,8 @@ BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
+BYTE 01 StealPlusID
+BYTE 01 BargainID
 BYTE 00 00
 ALIGN 4
 
@@ -120,22 +132,27 @@ BYTE 00 00
 ALIGN 4
 
 FighterSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 WarriorSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 BrigandSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 PirateSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
 BerserkerSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
@@ -164,6 +181,7 @@ BYTE 00 00
 ALIGN 4
 
 ValkyrieSkillList:
+BYTE 01 PowerstaffID
 BYTE 00 00
 ALIGN 4
 
@@ -172,6 +190,7 @@ BYTE 00 00
 ALIGN 4
 
 SoldierSkillList:
+BYTE 01 ShoveID
 BYTE 00 00
 ALIGN 4
 
@@ -206,3 +225,9 @@ ALIGN 4
 DemonKingSkillList:
 BYTE 00 00
 ALIGN 4
+
+BossSkillList:
+BYTE 01 WatchfulID
+BYTE 00 00
+ALIGN 4
+

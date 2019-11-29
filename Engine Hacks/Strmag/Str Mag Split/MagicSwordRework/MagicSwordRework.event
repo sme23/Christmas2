@@ -27,7 +27,7 @@
 	BYTE 0 0 0 //terminator
 
 
-
+	#include "RangeCheck/RangeCheck.event"
 
 	PUSH
 	ORG 0x2A882

@@ -1,14 +1,14 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Artemer,ForagerID
-Helena,LiveToServeID
-Keith,AdeptID
-Lexi,SwapID
-Verwald,0x0
-Spike,0x0
-Ryder,AcrobatID
-Jurgen,0x0
-Merry,0x0
+Hector,DragonFangID
+Oswin,GridmasterID
+Matthew,ShadeID
+Serra,TomeRangeUpID
+Dorcas,WaryFighterID
+Guy,ImbueID
+Lucius,PrescienceID
+Raven,TowerShieldPlusID
+Priscilla,ShortShieldID
 0,0x0
 0,0x0
 0,0x0

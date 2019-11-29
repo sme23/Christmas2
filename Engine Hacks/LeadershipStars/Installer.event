@@ -31,14 +31,15 @@ BYTE 1 // change to 0 if you don't want this behaviour
 
 ALIGN 4
 LeadershipTable:
-// ALLIES
-// ENEMIES
-BYTE ONeill 1
-BYTE Breguet 1
-BYTE Bazba 1
-BYTE Saar 1
-BYTE Novala 1
-BYTE Zonta 1
+BYTE Hector 4
+BYTE Oswin 1
+BYTE Matthew 0
+BYTE Serra 0
+BYTE Dorcas 0
+BYTE Guy 0
+BYTE Lucius 1
+BYTE Priscilla 1
+BYTE Raven 3
 SHORT 0x00
 
 PUSH

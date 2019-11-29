@@ -291,7 +291,7 @@ ORG SkillIcon(ExpertiseID)
 #incbin "SkillIcons/Expertise.dmp"
 
 ORG SkillIcon(CelerityID)
-#incbin "SkillIcons/Celerity.dmp"
+#incext Png2Dmp "SkillIcons/Celerity.png"
 
 ORG SkillIcon(FieryBloodID)
 #incbin "SkillIcons/FieryBlood.dmp"
@@ -776,5 +776,13 @@ ORG SkillIcon(ArcaneBladeID)
 ORG SkillIcon(PoiseID)
 #incbin "SkillIcons/Poise.dmp"
 
+ORG SkillIcon(ShadeID)
+#incbin "SkillIcons/Shade.dmp"
+
+ORG SkillIcon(ImbueID)
+#incext Png2Dmp "SkillIcons/Imbue.png"
+
+ORG SkillIcon(GridmasterID)
+#incext Png2Dmp "SkillIcons/Gridmaster.png"
 
 ORG SkillIcons+0x8000

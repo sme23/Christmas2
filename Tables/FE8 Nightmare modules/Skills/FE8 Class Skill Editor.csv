@@ -50,7 +50,7 @@ Druid,0x0
 Druid (F),0x0
 Summoner,SummonID
 Summoner (F),SummonID
-Rogue,CunningID
+Rogue,LocktouchID
 Gorgon Egg,0x0
 Great Knight,CantoPlusID
 Great Knight (F),CantoPlusID

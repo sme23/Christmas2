@@ -118,8 +118,8 @@ BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
-BYTE 01 StealPlusID
-BYTE 01 BargainID
+BYTE 255 StealPlusID
+BYTE 255 BargainID
 BYTE 00 00
 ALIGN 4
 

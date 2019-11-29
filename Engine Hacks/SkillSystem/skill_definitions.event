@@ -7,11 +7,11 @@
 
 //Provoke: Enemies are more likely to target this unit.
 //By Tequila
-#define ProvokeID 6
+#define ProvokeID 255
 
 //Shade: Enemies are less likely to target this unit.
 //By Sme
-#define ShadeID 255
+#define ShadeID 6
 
 //Shade+: Enemies will not target this unit.
 //By Sme
@@ -200,11 +200,11 @@
 
 //Forager: Recover 20% HP each turn if on a Plain, Forest or Mountain.
 //By Leonarth
-#define ForagerID 176
+#define ForagerID 255
 
 //Imbue: Recover HP equal to Magic at the start of each turn.
 //By Sme
-#define ImbueID 255
+#define ImbueID 176
 
 //Movement Skills
 
@@ -293,7 +293,7 @@
 
 //Savage Blow: After attacking, enemies within 2 tiles take 20% damage.
 //By circleseverywhere
-#define SavageBlowID 89
+#define SavageBlowID 255
 
 //Cultured: If unit attacks next to a unit with Nice Thighs, move again. -50 hit against units with Nice Thighs.
 //By Sme
@@ -301,7 +301,7 @@
 
 //Gridmaster: Movement skills do not end your action.
 //By Sme
-#define GridmasterID 255
+#define GridmasterID 89
 
 
 //Pre-Battle Skills

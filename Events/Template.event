@@ -18,6 +18,8 @@ END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
+CharacterEventBothWays(7,DorcasRecruit,Oswin,Dorcas)
+CharacterEventBothWays(8,GuyRecruit,Matthew,Guy)
 END_MAIN
 
 ALIGN 32
@@ -27,6 +29,23 @@ END_MAIN
 
 ALIGN 32
 LocationBasedEvents:
+Village(9,Village1,0,9)
+Village(10,Village2,5,7)
+Village(11,Village3,10,2)
+Village(12,Village4,12,2)
+Village(13,Village5,12,5)
+Village(14,Village6,10,8)
+Village(15,Village7,12,8)
+Village(16,Village8,12,11)
+Village(17,Village9,14,11)
+Village(18,Village10,16,11)
+Village(19,Village11,17,7)
+Village(20,Village12,18,2)
+Village(21,Village13,22,5)
+Village(22,Village14,22,10)
+Village(23,Village15,24,10)
+Armory(ArmoryList,7,3)
+Vendor(VendorList,1,4)
 END_MAIN
 
 ALIGN 32
@@ -186,3 +205,85 @@ EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
 ENDA
+
+
+
+DorcasRecruit:
+CUSA Dorcas
+NoFade
+ENDA
+
+GuyRecruit:
+CUSA Guy
+NoFade
+ENDA
+
+Village1:
+NoFade
+ENDA
+
+Village2:
+NoFade
+ENDA
+
+Village3:
+NoFade
+ENDA
+
+Village4:
+NoFade
+ENDA
+
+Village5:
+NoFade
+ENDA
+
+Village6:
+NoFade
+ENDA
+
+Village7:
+NoFade
+ENDA
+
+Village8:
+NoFade
+ENDA
+
+Village9:
+NoFade
+ENDA
+
+Village10:
+NoFade
+ENDA
+
+Village11:
+NoFade
+ENDA
+
+Village12:
+NoFade
+ENDA
+
+Village13:
+NoFade
+ENDA
+
+Village14:
+NoFade
+ENDA
+
+
+Village15:
+NoFade
+ENDA
+
+
+ArmoryList:
+SHLI
+ALIGN 4
+
+VendorList:
+SHLI
+ALIGN 4

@@ -231,3 +231,7 @@ BYTE 01 WatchfulID
 BYTE 00 00
 ALIGN 4
 
+OswinSkillList:
+BYTE 01 CelerityID
+BYTE 00 00
+ALIGN 4

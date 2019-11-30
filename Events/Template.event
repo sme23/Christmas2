@@ -46,6 +46,10 @@ Village(22,Village14,22,10)
 Village(23,Village15,24,10)
 Armory(ArmoryList,7,3)
 Vendor(VendorList,1,4)
+Chest(AegisShield,8,12)
+Chest(LegRing,19,11)
+Chest(WrathManual,24,7)
+Chest(SolManual,17,4)
 END_MAIN
 
 ALIGN 32
@@ -68,7 +72,7 @@ ALIGN 4
 Units1:
 UNIT Hector GreatLord 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA4R3 [Armads,Tomahawk,Elixir] NoAI
 UNIT Oswin General 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA3R2 [Spear,HandAxe,SilverSword] NoAI
-UNIT Matthew Rogue 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA4R2 [IronSword] NoAI
+UNIT Matthew Rogue 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA4R2 [IronSword,WhiteGem] NoAI
 UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Entrap,Mend,Caduceus] NoAI
 UNIT
 
@@ -83,6 +87,30 @@ UNIT Guy Swordmaster 0 Level(5,Enemy,False) [9,10] 0x0 0x0 1 REDA9R10 [LevinSwor
 UNIT Dorcas Warrior 0 Level(5,Enemy,False) [14,3] 0x0 0x0 1 REDA14R3 [EmeraldAxe,SteelBow,Vulnerary] AttackInRangeAI
 UNIT
 
+EnemyUnits3:
+UNIT PrologueBandit Sage 0 Level(2,Enemy,True) [3,7] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT PrologueBandit Swordmaster_F 0 Level(2,Enemy,True) [9,5] 0x2 0x0 0x0 0x1 [LightBrand] AttackInRangeAI
+UNIT PrologueBandit Warrior 0 Level(1,Enemy,True) [4,12] 0x0 0x0 0x0 0x1 [SteelAxe,SteelBow] AttackInRangeAI
+UNIT PrologueBandit Paladin 0 Level(3,Enemy,True) [13,6] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT PrologueBandit Sniper 0 Level(2,Enemy,True) [9,5] 0x0 0x0 0x0 0x1 [SilverBow] AttackInRangeAI
+UNIT PrologueBandit MageKnight_F 0 Level(3,Enemy,True) [16,2] 0x0 0x0 0x0 0x1 [Thunder] AttackInRangeAI
+UNIT PrologueBandit Bishop 0 Level(2,Enemy,True) [14,8] 0x0 0x0 0x0 0x1 [Divine] AttackInRangeAI
+UNIT PrologueBandit Berserker 0 Level(2,Enemy,True) [21,11] 0x0 0x0 0x0 0x1 [KillerAxe,BlueGem] AttackInRangeAI
+UNIT PrologueBandit Hero 0 Level(3,Enemy,True) [15,12] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
+UNIT PrologueBandit Druid 0 Level(3,Enemy,True) [20,2] 0x0 0x0 0x0 0x1 [Flux,RedGem] AttackInRangeAI
+UNIT PrologueBandit Falcoknight 0 Level(4,Enemy,True) [23,5] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT PrologueBandit WyvernLord_F 0 Level(3,Enemy,True) [17,8] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT PrologueBandit WyvernKnight 0 Level(3,Enemy,True) [23,0] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT PrologueBandit WyvernLord 0 Level(4,Enemy,True) [24,9] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
+UNIT PrologueBandit Hero 0 Level(4,Enemy,True) [0,11] 0x0 0x0 0x0 0x1 [Tomahawk,RedGem] AttackInRangeAI
+//UNIT PrologueBandit Druid 0 Level(4,Enemy,True) [,] 0x0 0x0 0x0 0x1 [Nosferatu] AttackInRangeAI
+//UNIT PrologueBandit Warrior 0 Level(4,Enemy,True) [,] 0x2 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+//UNIT PrologueBandit Sniper 0 Level(5,Enemy,True) [,] 0x2 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+//UNIT PrologueBandit Paladin 0 Level(5,Enemy,True) [,] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
+//UNIT PrologueBandit GreatKnight 0 Level(5,Enemy,True) [,] 0x0 0x0 0x0 0x1 [SteelSword,SteelLance,SteelAxe] AttackInRangeAI
+UNIT
+
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -93,7 +121,6 @@ ALIGN 4
 
 BeginningScene:
 
-//tilechange 20 is left door, 19 is right door
 
 LOMA 1
 FADU 10
@@ -183,6 +210,8 @@ TEXTEND
 
 FADI 10
 LOMA 0
+TILECHANGE 19
+TILECHANGE 20
 FADU 10
 
 LOAD1 0x1 Units1
@@ -190,6 +219,8 @@ ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 EnemyUnits2
+ENUN
+LOAD1 0x1 EnemyUnits3
 ENUN
 
 
@@ -279,9 +310,10 @@ ENDA
 
 
 ArmoryList:
-SHLI
+SHLI SteelSword RubySword WindSword Runesword SteelLance SapphireLance Javelin SteelAxe EmeraldAxe HandAxe SteelBow HuntingBow Longbow IronShield SteelShield
 ALIGN 4
 
 VendorList:
-SHLI
+SHLI Vulnerary PureWater MasterKey CritRing KnightRing Shade Flux Nosferatu Shine Divine Purge Mend Physic StoneStaff PoisonStaff
 ALIGN 4
+

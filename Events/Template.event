@@ -168,15 +168,13 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW OpeningText83
 TEXTEND
 
+//clear all mugs
 SHORT 0x1E20 (-3)
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW OpeningText84
 TEXTEND
-
-//clear all mugs
-SHORT 0x1E20 (-3)
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART

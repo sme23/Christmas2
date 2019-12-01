@@ -4,9 +4,9 @@ ALIGN 4
 DeathQuoteTable:
 //ChapterSpecificDeathQuotes
 //ChapterDeathQuote(Character,Chapter,Flag,TextID)
-ChapterDeathQuote(Raven,0,2,OhNoText)
-ChapterDeathQuote(Lucius,0,2,OhNoText)
-ChapterDeathQuote(Priscilla,0,2,OhNoText)
+ChapterDeathQuote(Raven,0,24,OhNoText)
+ChapterDeathQuote(Lucius,0,25,OhNoText)
+ChapterDeathQuote(Priscilla,0,26,OhNoText)
 
 //AlwaysDeathQuotes
 //AlwaysDeathQuote(Character,Flag,TextID)

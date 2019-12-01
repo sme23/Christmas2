@@ -24,6 +24,7 @@ END_MAIN
 
 ALIGN 32
 MiscBasedEvents:
+AFEV 0 CheckIfWon 0
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -242,6 +243,12 @@ ENUN
 CAM1 [0,0]
 FADU 10
 
+
+
+//initialize win counter
+COUNTER_SET 0 0
+
+
 NoFade
 ENDA
 
@@ -267,79 +274,108 @@ ENDA
 
 Village1:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village2:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village3:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village4:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village5:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village6:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village7:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village8:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village9:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village10:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village11:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village12:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village13:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village14:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
 Village15:
 Text(1,OhNoText)
+COUNTER_INC 0
 NoFade
 ENDA
 
+CheckIfWon:
+COUNTER_CHECK 0
+SVAL 1 15
+BNE 1 1 0xC
+  CHECK_EVENTID 24
+  BEQ 1 1 0xC
+    CHECK_EVENTID 25
+	BEQ 1 1 0xC
+	  CHECK_EVENTID 26
+	  BEQ 1 1 0xC
+        CALL EndingScene
+LABEL 1
+NoFade
+ENDA
 
 ArmoryList:
 SHLI SteelSword RubySword WindSword Runesword SteelLance SapphireLance Javelin SteelAxe EmeraldAxe HandAxe SteelBow HuntingBow Longbow IronShield SteelShield

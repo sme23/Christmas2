@@ -31,6 +31,7 @@ ALIGN 4
 
 GeneralSkillList:
 BYTE 01 SmiteID
+BYTE 01 CelerityID
 BYTE 00 00
 ALIGN 4
 

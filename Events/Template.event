@@ -210,21 +210,39 @@ TEXTEND
 
 FADI 10
 LOMA 0
-TILECHANGE 19
-TILECHANGE 20
+CAM1 [0,0]
 FADU 10
+
+TILECHANGE 19
+SOUN 0xB1
+STAL 10
 
 LOAD1 0x1 Units1
 ENUN
+
+Text(OhNoText)
+
+CAM1 [24,0]
+STAL 10
+TILECHANGE 20
+SOUN 0xB1
+STAL 10
 LOAD1 0x1 EnemyUnits
 ENUN
+
+Text(OhNoText)
+
+FADI 10
+
 LOAD1 0x1 EnemyUnits2
 ENUN
 LOAD1 0x1 EnemyUnits3
 ENUN
 
+CAM1 [0,0]
+FADU 10
 
-GotoPrepScreen
+NoFade
 ENDA
 
 EndingScene:
@@ -248,63 +266,77 @@ NoFade
 ENDA
 
 Village1:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village2:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village3:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village4:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village5:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village6:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village7:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village8:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village9:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village10:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village11:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village12:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village13:
+Text(1,OhNoText)
 NoFade
 ENDA
 
 Village14:
+Text(1,OhNoText)
 NoFade
 ENDA
 
-
 Village15:
+Text(1,OhNoText)
 NoFade
 ENDA
 

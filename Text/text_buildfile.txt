@@ -93,7 +93,7 @@ Unequip[X]
 Saving Christmas Again[X]
 
 ## PrologueObjective
-Deliver gifts[X]
+ Deliver gifts[X]
 
 ##PrologueDetailObjective
 Deliver gifts[N]

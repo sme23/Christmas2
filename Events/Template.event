@@ -461,153 +461,153 @@ SVAL 1 0
 BEQ 29 1 0xC
   SVAL 1 1
   BEQ 15 1 0xC
-    CALL 1VillageVisitedEvent
+    CALL OneVillageVisitedEvent
   LABEL 15
   SVAL 1 2
   BEQ 16 1 0xC
-    CALL 2VillageVisitedEvent
+    CALL TwoVillageVisitedEvent
   LABEL 16
   SVAL 1 3
   BEQ 17 1 0xC
-    CALL 3VillageVisitedEvent
+    CALL ThreeVillageVisitedEvent
   LABEL 17
   SVAL 1 4
   BEQ 18 1 0xC
-    CALL 4VillageVisitedEvent
+    CALL FourVillageVisitedEvent
   LABEL 18
   SVAL 1 5
   BEQ 19 1 0xC
-    CALL 5VillageVisitedEvent
+    CALL FiveVillageVisitedEvent
   LABEL 19
   SVAL 1 6
   BEQ 20 1 0xC
-    CALL 6VillageVisitedEvent
+    CALL SixVillageVisitedEvent
   LABEL 20
   SVAL 1 7
   BEQ 21 1 0xC
-    CALL 7VillageVisitedEvent
+    CALL SevenVillageVisitedEvent
   LABEL 21
   SVAL 1 8
   BEQ 22 1 0xC
-    CALL 8VillageVisitedEvent
+    CALL EightVillageVisitedEvent
   LABEL 22
   SVAL 1 9
   BEQ 23 1 0xC
-    CALL 9VillageVisitedEvent
+    CALL NineVillageVisitedEvent
   LABEL 23
   SVAL 1 10
   BEQ 24 1 0xC
-    CALL 10VillageVisitedEvent
+    CALL TenVillageVisitedEvent
   LABEL 24
   SVAL 1 11
   BEQ 25 1 0xC
-    CALL 11VillageVisitedEvent
+    CALL ElevenVillageVisitedEvent
   LABEL 25
   SVAL 1 12
   BEQ 26 1 0xC
-    CALL 12VillageVisitedEvent
+    CALL TwelveVillageVisitedEvent
   LABEL 26
   SVAL 1 13
   BEQ 27 1 0xC
-    CALL 13VillageVisitedEvent
+    CALL ThirteenVillageVisitedEvent
   LABEL 27
   SVAL 1 14
   BEQ 28 1 0xC
-    CALL 14VillageVisitedEvent
+    CALL FourteenVillageVisitedEvent
   LABEL 28
   SVAL 1 15
   BEQ 29 1 0xC
-    CALL 15VillageVisitedEvent
+    CALL FifteenVillageVisitedEvent
 LABEL 29
 
 NoFade
 ENDA
 
-1VillageVisitedEvent:
+OneVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-2VillageVisitedEvent:
+TwoVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-3VillageVisitedEvent:
+ThreeVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-4VillageVisitedEvent:
+FourVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-5VillageVisitedEvent:
+FiveVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-6VillageVisitedEvent:
+SixVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-7VillageVisitedEvent:
+SevenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-8VillageVisitedEvent:
+EightVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-9VillageVisitedEvent:
+NineVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-10VillageVisitedEvent:
+TenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-11VillageVisitedEvent:
+ElevenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-12VillageVisitedEvent:
+TwelveVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-13VillageVisitedEvent:
+ThirteenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-14VillageVisitedEvent:
+FourteenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade
 ENDB
 
-15VillageVisitedEvent:
+FifteenVillageVisitedEvent:
 Text(OhNoText)
 
 NoFade

@@ -1,0 +1,5 @@
+//In all of these: return value in r0, r8=active char struct
+
+//MSS Stat Getters
+#include "Stats/RatingGetter.lyn.event"
+#include "Stats/WeaponLevelGetter.lyn.event"

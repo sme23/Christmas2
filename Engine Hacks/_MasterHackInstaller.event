@@ -187,11 +187,7 @@ POP
   #include "Entrap/Installer.event"
   
   ALIGN 4
-  #include "Enfeeble/Enfeeble.event"
-  
-  ALIGN 4
-  #include "AntiThiefDoorChest/AntiThiefDoorChest.event"
-  
+  #include "Enfeeble/Enfeeble.event" 
   
   //Disable guide sort for glitchiness reasons
   PUSH
@@ -209,7 +205,7 @@ POP
   #include "UnitMenu.event"
   #include "Popups.event"
   #include "Extra Hacks.event"
-  
+  #include "savemenu.event"
   
   
  

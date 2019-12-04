@@ -2,8 +2,8 @@
 Hector[X]
 
 ##HectorDesc
-Marquess Ostia's younger[N]
-brother. Reckless, but loyal.[X]
+Marquess Ostia.[N]
+Reckless, but loyal.[X]
 
 ##OswinName
 Oswin[X]

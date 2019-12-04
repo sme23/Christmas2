@@ -229,26 +229,23 @@ STAL 10
 TILECHANGE 20
 SOUN 0xB1
 STAL 10
-LOAD1 0x1 EnemyUnits
-ENUN
+
+//load in cutscene enemy bosses 
 
 Text(OhNoText)
 
+//load out cutscene enemy bosses
+
 FADI 10
-
-LOAD1 0x1 EnemyUnits2
+LOAD1 0x1 EnemyUnits3 //keep this as the starting enemy group
 ENUN
-LOAD1 0x1 EnemyUnits3
-ENUN
-
 CAM1 [0,0]
 FADU 10
 
-
+Text(OhNoText)
 
 //initialize win counter
 COUNTER_SET 0 0
-
 
 NoFade
 ENDA
@@ -387,75 +384,9 @@ SHLI Vulnerary PureWater MasterKey CritRing KnightRing Shade Flux Nosferatu Shin
 ALIGN 4
 
 GlobalPostVillageEventCheck:
-//villages use flags 9-23
-//using counter 1, check all of them and increment the counter if they are set
+//counter 0 is # of visited villages
 
-COUNTER_SET 1 0
-
-CHECK_EVENTID 9
-BEQ 0 0 0xC
-  COUNTER_INC 1
-LABEL 0
-CHECK_EVENTID 10
-BEQ 1 0 0xC
-  COUNTER_INC 1
-LABEL 1
-CHECK_EVENTID 11
-BEQ 2 0 0xC
-  COUNTER_INC 1
-LABEL 2
-CHECK_EVENTID 12
-BEQ 3 0 0xC
-  COUNTER_INC 1
-LABEL 3
-CHECK_EVENTID 13
-BEQ 4 0 0xC
-  COUNTER_INC 1
-LABEL 4
-CHECK_EVENTID 14
-BEQ 5 0 0xC
-  COUNTER_INC 1
-LABEL 5
-CHECK_EVENTID 15
-BEQ 6 0 0xC
-  COUNTER_INC 1
-LABEL 6
-CHECK_EVENTID 16
-BEQ 7 0 0xC
-  COUNTER_INC 1
-LABEL 7
-CHECK_EVENTID 17
-BEQ 8 0 0xC
-  COUNTER_INC 1
-LABEL 8
-CHECK_EVENTID 18
-BEQ 9 0 0xC
-  COUNTER_INC 1
-LABEL 9
-CHECK_EVENTID 19
-BEQ 10 0 0xC
-  COUNTER_INC 1
-LABEL 10
-CHECK_EVENTID 20
-BEQ 11 0 0xC
-  COUNTER_INC 1
-LABEL 11
-CHECK_EVENTID 21
-BEQ 12 0 0xC
-  COUNTER_INC 1
-LABEL 12
-CHECK_EVENTID 22
-BEQ 13 0 0xC
-  COUNTER_INC 1
-LABEL 13
-CHECK_EVENTID 23
-BEQ 14 0 0xC
-  COUNTER_INC 1
-LABEL 14
-
-//counter 1 is now # of visited villages
-
-COUNTER_CHECK 1
+COUNTER_CHECK 0
 
 SVAL 1 0
 BEQ 29 1 0xC
@@ -524,92 +455,207 @@ NoFade
 ENDA
 
 OneVillageVisitedEvent:
-Text(OhNoText)
 
+Text(OhNoText) //Guy spawns on the map with a few other units and says something
 NoFade
 ENDB
 
 TwoVillageVisitedEvent:
-Text(OhNoText)
-
+Text(OhNoText) //Serra complains about how slow this is going
 NoFade
 ENDB
 
 ThreeVillageVisitedEvent:
-Text(OhNoText)
 
+Text(OhNoText) //Random Event
 NoFade
 ENDB
 
 FourVillageVisitedEvent:
-Text(OhNoText)
 
+Text(OhNoText) //Spawns a chest-seeking thief in the bottom left with an almost-full inventory (so he goes for the chest closest then skedaddles), then Matthew comments on it
 NoFade
 ENDB
 
 FiveVillageVisitedEvent:
-Text(OhNoText)
+
+Text(OhNoText) //Dorcas spawns on the map with a few other units and says something
 
 NoFade
 ENDB
 
 SixVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Random Event
 
 NoFade
 ENDB
 
 SevenVillageVisitedEvent:
-Text(OhNoText)
 
+Text(OhNoText) //Random Event
 NoFade
 ENDB
 
 EightVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) ////Lucius and Priscilla spawn on the map with a few other units each after a conversation between them and Raven
 
 NoFade
 ENDB
 
 NineVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Random Event
 
 NoFade
 ENDB
 
 TenVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Random Event
 
 NoFade
 ENDB
 
 ElevenVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Spawns a chest-seeking thief from the top right, two free inventory slots (making one chest always guaranteed as these are the only two)
 
 NoFade
 ENDB
 
 TwelveVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Random Event
 
 NoFade
 ENDB
 
 ThirteenVillageVisitedEvent:
-Text(OhNoText)
+Text(OhNoText) //Raven enters the map and says the thanos line
 
 NoFade
 ENDB
 
 FourteenVillageVisitedEvent:
-Text(OhNoText)
-
+Text(OhNoText) //Serra complaining again but now we're almost done
 NoFade
 ENDB
 
 FifteenVillageVisitedEvent:
+Text(OhNoText) //Two possible texts based on the status of Raven; if alive, a "now all we have to do is take down Raven" and if dead a "that should be it"
+
+NoFade
+ENDB
+
+
+#define RandomEventFlag1 121
+#define RandomEventFlag2 122
+#define RandomEventFlag3 123
+#define RandomEventFlag4 124
+#define RandomEventFlag5 125
+#define RandomEventFlag6 126
+
+RandomEventHandler:
+
+LABEL 777
+
+//roll a number 0-5
+RANDOMNUMBER 5 //assumedly returns in slot 0xC
+SVAL 1 0
+BNE 0 1 0xC //if number isn't 0, go to the next check
+  //number is 0! is the first random event flag set?
+  CHECK_EVENTID RandomEventFlag1
+  SVAL 1 1
+  BEQ 0 1 0xC //skip calling this random event if so
+    CALL RandomEvent1 //this will end internally
+LABEL 0
+
+SVAL 1 1
+BNE 1 1 0xC //if number isn't 1, go to the next check
+  //number is 1! is the second flag set?
+  CHECK_EVENTID RandomEventFlag2
+  SVAL 1 1
+  BEQ 1 1 0xC //skip calling this random event if so
+    CALL RandomEvent2 //this will end internally  
+LABEL 1
+
+SVAL 1 2
+BNE 2 1 0xC //if number isn't 2, go to the next check
+  //number is 2! is the third flag set?
+  CHECK_EVENTID RandomEventFlag3
+  SVAL 1 1
+  BEQ 2 1 0xC //skip calling this random event if so
+    CALL RandomEvent3 //this will end internally  
+LABEL 2
+
+SVAL 1 3
+BNE 3 1 0xC //if number isn't 3, go to the next check
+  //number is 3, or any prior number if the last random event(s) have already occurred! is the fourth flag set?
+  CHECK_EVENTID RandomEventFlag4
+  SVAL 1 1
+  BEQ 2 1 0xC //skip calling this random event if so
+    CALL RandomEvent4 //this will end internally  
+LABEL 3
+
+SVAL 1 4
+BNE 4 1 0xC //if number isn't 4, go to the next check
+  //number is 4, or any prior number if the last random event(s) have already occurred! is the fifth flag set?
+  CHECK_EVENTID RandomEventFlag5
+  SVAL 1 1
+  BEQ 2 1 0xC //skip calling this random event if so
+    CALL RandomEvent5 //this will end internally  
+LABEL 4
+SVAL 1 5
+BNE 5 1 0xC //if number isn't 5, go to the next check
+//number is 5, or any other number if the last random event(s) have already occurred! is the sixth flag set?
+  CHECK_EVENTID RandomEventFlag6
+  SVAL 1 1
+  BEQ 5 1 0xC //skip calling this random event if so
+    CALL RandomEvent6 //this will end internally  
+LABEL 5
+
+//if we rerolled the same number, we run this all again
+GOTO 777
+
+//this point should never be reachable, so let's give an error message
 Text(OhNoText)
 
 NoFade
 ENDB
+
+RandomEvent1: //weather picks up (weather swaps from snow to blizzard)
+ENUT RandomEventFlag1
+WEA1 BlizzardWeather
+Text(OhNoText)
+NoFade
+ENDB
+
+RandomEvent2: //find some gold
+ENUT RandomEventFlag2
+Text(OhNoText)
+GiveMoney(10000)
+NoFade
+ENDB
+
+RandomEvent3: //
+ENUT RandomEventFlag3
+//do random event thing here
+NoFade
+ENDB
+
+RandomEvent4: //
+ENUT RandomEventFlag4
+//do random event thing here
+NoFade
+ENDB
+
+RandomEvent5: //
+ENUT RandomEventFlag5
+//do random event thing here
+NoFade
+ENDB
+
+RandomEvent6: //
+ENUT RandomEventFlag6
+//do random event thing here
+NoFade
+ENDB
+
+
 

@@ -1,5 +1,5 @@
 
-#define MainMenuMusic Comrades
+#define MainMenuMusic 0x43
 
 
 PUSH

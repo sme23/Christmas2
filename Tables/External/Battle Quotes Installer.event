@@ -1,4 +1,4 @@
-#undef BattleQuoteTable
+//#undef BattleQuoteTable
 
 //TwoWayBattleQuote(eventID,char1,char2,textID)
 //BattleQuote(eventID,char1,char2,textID)

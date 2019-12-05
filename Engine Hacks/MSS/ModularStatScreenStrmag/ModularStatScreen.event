@@ -138,6 +138,7 @@
 	POIN GetLeadershipStarCount
 	POIN AccessorySkillGetter
 	POIN ItemTable
+	WORD SS_RatingText
   
   ALIGN 4
   MSS_page2:
@@ -147,6 +148,8 @@
   MSS_page3:
     #incbin "asm/mss_page3_newranks.dmp"
     WORD SS_TalkText
+	WORD SS_BloodText
+	WORD SS_BiorhythmText
 
   ALIGN 4
   NewPageNameGraphic:

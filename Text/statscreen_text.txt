@@ -37,3 +37,15 @@ currently equipped weapon.[X]
 Skill provided by the[N]
 currently equipped accessory.[X]
 
+## SS_RatingText
+Rtg[X]
+
+## SS_RatingDesc
+Sum of all stats.[X]
+
+## SS_BiorhythmText
+Bio[X]
+
+## SS_BloodText
+Bld[X]
+

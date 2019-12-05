@@ -529,9 +529,9 @@ ENDB
 
 EightVillageVisitedEvent:
 Text(OhNoText) ////Lucius and Priscilla spawn on the map with a few other units each after a conversation between them and Raven
-LOAD1 0x1 EnemyGroup5 //Lucius
+LOAD1 0x1 EnemyUnits5 //Lucius
 ENUN
-LOAD1 0x1 EnemyGroup6 //Priscilla
+LOAD1 0x1 EnemyUnits6 //Priscilla
 ENUN
 NoFade
 ENDB

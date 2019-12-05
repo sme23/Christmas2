@@ -1,4 +1,4 @@
-#undef DeathQuoteTable
+//#undef DeathQuoteTable
 
 ALIGN 4
 DeathQuoteTable:

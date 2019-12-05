@@ -1,6 +1,5 @@
 //#define Dracoshield DragonShield
 #define DracoshieldIcon DragonShieldIcon
-#undef DragonShield
 #undef DragonShieldIcon
 
 #define AdeptManual 0xA3

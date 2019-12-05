@@ -1,4 +1,4 @@
-#undef SupportConversationTable
+//#undef SupportConversationTable
 //SupportEntry(char1,char2,Ctext,Btext,Atext)
 
 ALIGN 4

@@ -14,6 +14,7 @@
 .set Growth_Getters_Table, Display_Growths_options+4
 .set Get_Palette_Index, Growth_Getters_Table+4
 .equ GetCharge, Get_Palette_Index+4
+.equ RatingTextID,GetCharge+4
 
 page_start
 
@@ -120,8 +121,8 @@ b		NextColumn
 
 NextColumn:
 
-draw_textID_at 13, 17, textID=0x4f7 @con
-draw_con_bar_with_getter_at 16, 17
+@draw_textID_at 13, 17, textID=0x4f7 @con
+@draw_con_bar_with_getter_at 16, 17
 
 
 draw_textID_at 21, 3, textID=0x4f8 @aid
@@ -202,6 +203,29 @@ SkillEnd:
 
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15
+
+
+.set ss_RatingText, (RatingTextID - . - 6)
+ldr r0, =ss_RatingText
+add r0, pc
+ldr r0, [r0]
+draw_textID_at 13, 17, width=4
+mov r0, #0
+mov r2, r8
+mov r3, #0x14
+RatingLoop:
+ldrb r1, [r2, r3]
+add r0, r1
+add r3, #1
+cmp r3, #0x1B
+bne RatingLoop
+ldrb r1, [r2, #0x1D] @ mov
+add r0, r1
+add r2, #0x3A @ mag
+ldrb r1, [r2]
+add r0, r1
+draw_number_at 16, 17 @Unit Rating
+
 
 @blh DrawBWLNumbers
 

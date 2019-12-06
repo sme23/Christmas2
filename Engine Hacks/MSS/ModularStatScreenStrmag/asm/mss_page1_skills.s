@@ -18,7 +18,6 @@
 .set GetLeadershipStarCount, MagClassTable+4
 .set AccessorySkillGetter, GetLeadershipStarCount+4
 .set ItemTable, AccessorySkillGetter+4
-.equ RatingTextID,ItemTable+4
 
 page_start
 
@@ -119,7 +118,7 @@ draw_textID_at 22, 11, textID=0x4f8 @aid
 draw_number_at 26, 11, 0x80189B8, 2 @aid getter
 draw_aid_icon_at 27, 11
 
-@draw_status_text_at 13, 13
+draw_status_text_at 13, 13
 
 @draw_textID_at 21, 9, textID=0x4f1 @affin
 
@@ -271,27 +270,6 @@ cmp		r0,#0
 beq		DontDrawIcon
 draw_icon_at 27, 13, 0xCA @change this to the ID you put the icon in
 DontDrawIcon:
-
-.set ss_RatingText, (RatingTextID - . - 6)
-ldr r0, =ss_RatingText
-add r0, pc
-ldr r0, [r0]
-draw_textID_at 13, 13, width=4
-mov r0, #0
-mov r2, r8
-mov r3, #0x14
-RatingLoop:
-ldrb r1, [r2, r3]
-add r0, r1
-add r3, #1
-cmp r3, #0x1B
-bne RatingLoop
-ldrb r1, [r2, #0x1D] @ mov
-add r0, r1
-add r2, #0x3A @ mag
-ldrb r1, [r2]
-add r0, r1
-draw_number_at 17, 13 @Unit Rating
 
 
 

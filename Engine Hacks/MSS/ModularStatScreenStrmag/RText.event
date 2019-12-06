@@ -96,9 +96,7 @@ ST_Con:
 ST_Aid:
   RMenu(ST_Mov,ST_Lead,ST_Con,0,0xAE,0x58,0x54F)
 ST_Cond:
-  //RMenu(ST_Con,ST_Skill1,ST_Class,ST_Lead,0x66,0x68,0x552,ConditionGetter)
-	RMenu(ST_Con,ST_Skill1,ST_Class,ST_Lead,0x66,0x68,SS_RatingDesc)
-
+  RMenu(ST_Con,ST_Skill1,ST_Class,ST_Lead,0x66,0x68,0x552,ConditionGetter)
 
 ST_Affin:
   RMenu(0,ST_Class,0,ST_Name,0x1,0x50,0x551)

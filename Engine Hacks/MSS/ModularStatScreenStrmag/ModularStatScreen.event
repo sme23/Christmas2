@@ -117,8 +117,16 @@
   ORG $17E98
   callHack_r3(New_Unit_Exp)
   SHORT 0xE005  
+  
+  ORG $86E44
+  jumpToHack(MSS_leftstatscreen);
 
   POP
+  
+	 ALIGN 4
+	MSS_leftstatscreen:
+    #incbin "asm/mss_leftstatscreen.dmp"
+    POIN HP_Name_Color
   
 	ALIGN 4
 	MSS_page1:
@@ -138,7 +146,6 @@
 	POIN GetLeadershipStarCount
 	POIN AccessorySkillGetter
 	POIN ItemTable
-	WORD SS_RatingText
   
   ALIGN 4
   MSS_page2:
@@ -148,8 +155,6 @@
   MSS_page3:
     #incbin "asm/mss_page3_newranks.dmp"
     WORD SS_TalkText
-	WORD SS_BloodText
-	WORD SS_BiorhythmText
 
   ALIGN 4
   NewPageNameGraphic:
@@ -235,8 +240,6 @@
     #incbin "asm/Check Rescue Arrows.dmp"
     POIN SkillTester
     WORD SaviorID
-
-MESSAGE Rescue_Arrows
 
   ALIGN 4
   Get_Palette_Index:

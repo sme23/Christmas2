@@ -1,7 +1,5 @@
 .thumb
 .include "mss_defs.s"
-.set SS_BloodText, SS_TalkText+4
-.set SS_BiorhythmText, SS_BloodText+4
 
 page_start
 
@@ -50,31 +48,15 @@ b EndRanks
 EndRanks:
 pop {r5-r7}
 
-@columns are 13 and 21
-
-draw_status_text_at 13, 8
-
-draw_trv_text_at 13, 10
-
 .set ss_talkloc, (SS_TalkText - . - 6)
   ldr r0, =ss_talkloc
   add r0, pc
   ldr r0, [r0]
-draw_talk_text_at 13, 12
+draw_talk_text_at 14, 8
 
-@ldr r0, SS_BloodText
-@draw_textID_at 14, 12 @Blood label text
+draw_trv_text_at 22, 8
 
-@ldr r0, SS_BiorhythmText
-@draw_textID_at 14, 14 @Bio label text
-
-
-
-
-
-
-
-@blh      DrawSupports
+blh      DrawSupports
 
 page_end
 

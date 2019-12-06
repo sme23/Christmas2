@@ -117,40 +117,18 @@
   ORG $17E98
   callHack_r3(New_Unit_Exp)
   SHORT 0xE005  
+  
+  ORG $86E44
+  jumpToHack(MSS_leftstatscreen)
 
   POP
   
-	ALIGN 4
-	MSS_page1:
-	#incbin "asm/mss_page1_skills.dmp"
-	POIN SkillIcons
-	POIN Skill_Getter
-	POIN SkillTester
-	WORD SaviorID
-	WORD CelerityID
-	WORD SS_SkillsText
-	WORD SS_TalkText
-	WORD Growth_Options
-	POIN Growth_Getter_Table
-	POIN Get_Palette_Index
-	WORD 0
-	POIN MagClassTable
-	POIN GetLeadershipStarCount
-	POIN AccessorySkillGetter
-	POIN ItemTable
-	WORD SS_RatingText
-  
-  ALIGN 4
-  MSS_page2:
-    #incbin "asm/mss_page2_original.dmp"
-
-  ALIGN 4
-  MSS_page3:
-    #incbin "asm/mss_page3_newranks.dmp"
-    WORD SS_TalkText
-	WORD SS_BloodText
-	WORD SS_BiorhythmText
-
+	ALIGN 4 
+	#include "asm/mss_main.lyn.event"
+	#include "asm/IDLinks.event"
+	
+	MESSAGE MSS_page1
+	
   ALIGN 4
   NewPageNameGraphic:
     #incext Png2Dmp "asm/pagenamegraphic.png" --lz77
@@ -165,9 +143,7 @@
   NewPageNamePalette:
     #incbin "asm/palettecycler.dmp"
 
-  ALIGN 4
-  Button_Branch:
-    #incbin "asm/Button Branch.dmp"
+//this growth stuff can probably be moved somewhere else entirely
 
   ALIGN 4
 	Growth_Getter_Table:
@@ -175,107 +151,53 @@
 
 	ALIGN 4
 	Get_Hp_Growth:
-	#incbin "asm/Growth Getters/Get_Hp_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Hp_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Str_Growth:
-	#incbin "asm/Growth Getters/Get_Str_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Str_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Mag_Growth:
-	#incbin "asm/Growth Getters/Get_Mag_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Mag_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	POIN MagCharTable
 	ALIGN 4
 	
 	Get_Skl_Growth:
-	#incbin "asm/Growth Getters/Get_Skl_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Skl_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Spd_Growth:
-	#incbin "asm/Growth Getters/Get_Spd_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Spd_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Def_Growth:
-	#incbin "asm/Growth Getters/Get_Def_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Def_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Res_Growth:
-	#incbin "asm/Growth Getters/Get_Res_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Res_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	ALIGN 4
 	
 	Get_Luk_Growth:
-	#incbin "asm/Growth Getters/Get_Luk_Growth.dmp"
+	#incbin "asm/GrowthGetters/Get_Luk_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 
 	ALIGN 4
 	Extra_Growth_Boosts:
-	#incbin "asm/Growth Getters/Extra_Growth_Boosts.dmp"
+	#incbin "asm/GrowthGetters/Extra_Growth_Boosts.dmp"
 	WORD Growth_Options
 	POIN ItemTable
-
-  ALIGN 4
-  Load_Page:
-    #incbin "asm/Load Page.dmp"
-    WORD Stat_Page_Ram_Loc
-
-  ALIGN 4
-  Store_Page:
-    #incbin "asm/Store Page.dmp"
-    WORD Stat_Page_Ram_Loc
-
-  ALIGN 4
-  Rescue_Arrows:
-    #incbin "asm/Check Rescue Arrows.dmp"
-    POIN SkillTester
-    WORD SaviorID
-
-MESSAGE Rescue_Arrows
-
-  ALIGN 4
-  Get_Palette_Index:
-    #incbin "asm/Get_Palette_Index.dmp"
-    POIN Growth_Color_Table
-
-  ALIGN 4
-  HP_Name_Color:
-    #incbin "asm/HP Name Color.dmp"
-    POIN New_Palettes
-    WORD Growth_Options
-    POIN Get_Hp_Growth
-    POIN Get_Palette_Index
-  
-  	ALIGN 4
-	Write_Growths_To_Battle_Struct:
-	#incbin "asm/Write_Growths_To_Battle_Struct.dmp"
-	POIN Class_Level_Cap_Table Get_Hp_Growth Get_Str_Growth Get_Skl_Growth Get_Spd_Growth Get_Def_Growth Get_Res_Growth Get_Mag_Growth Get_Luk_Growth
-	WORD Growth_Options
-
-/*
-  This has been moved to a CSV
-  ALIGN 4
-  Class_Level_Cap_Table:
-  #incbin "Display Growths Options/Class_Level_Cap_Table.dmp"
-*/
-
-	ALIGN 4
-	Enemy_Autolevel:
-	#incbin "asm/Enemy_Autolevel.dmp"
-	WORD Growth_Options
-	
-	ALIGN 4
-	New_Unit_Exp:
-	#incbin "asm/New_Unit_Exp.dmp"
-	POIN Class_Level_Cap_Table
 	
   ALIGN 4
-  Growth_Color_Table:
+  Growth_Colors_Table:
     #include "Display Growths Options/Growth Colors Table.txt"
 
   ALIGN 4
@@ -286,14 +208,18 @@ MESSAGE Rescue_Arrows
 
 //Remove glowy spinny circle thingy from stat screen
 
+#ifdef REMOVE_GLOWY
+
 PUSH
 ORG $88620
 POIN RemoveGlowy
 POP
 
 ALIGN 4
-//RemoveGlowy:
-//#incext Png2Dmp "RemoveGlowy.png" --lz77
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77
+
+#endif // REMOVE_GLOWY
 
 // POP
 #else // _FE8_

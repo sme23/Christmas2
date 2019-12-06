@@ -1,0 +1,31 @@
+ALIGN 4
+SkillsTextIDLink:
+WORD SS_SkillsText
+
+ALIGN 4
+RatingTextIDLink:
+WORD SS_RatingText
+
+ALIGN 4
+GrowthOptionsIDLink:
+WORD Growth_Options
+
+ALIGN 4
+RamLocationIDLink:
+WORD Stat_Page_Ram_Loc
+
+ALIGN 4
+SaviorIDLink:
+WORD SaviorID
+
+ALIGN 4
+TalkTextIDLink:
+WORD SS_TalkText
+
+ALIGN 4
+BloodTextIDLink:
+WORD SS_BloodText
+
+ALIGN 4
+BiorhythmTextIDLink:
+WORD SS_BiorhythmText

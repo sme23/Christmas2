@@ -15,7 +15,7 @@ PROC_SET_NAME($205DD4) //savemenu
 
 PROC_LABEL(0) // INIT MAIN MENU
 PROC_YIELD
-PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
+//PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
 PROC_CALL_ROUTINE($A8C2D) 
 PROC_YIELD
 PROC_CALL_ROUTINE($A8CD5) 
@@ -98,7 +98,7 @@ PROC_WHILE_ROUTINE($AE2B9) //FadeOutExists
 PROC_WHILE_ROUTINE($2951) //song fade out/in(?)
 PROC_CALL_ROUTINE($AA159) //called when entering the sound room
 PROC_YIELD
-PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
+//PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
 PROC_CALL_ROUTINE($A8C2D) //called when returning to menu from sound room
 PROC_YIELD
 PROC_CALL_ROUTINE($A8CD5) //called when returning to menu from sound room
@@ -113,7 +113,7 @@ PROC_LABEL(21)
 PROC_YIELD
 
 PROC_LABEL(18) // EXIT TO TITLE
-PROC_CALL_ROUTINE_ARG($D01FD,0x43) //play no-into title screen music
+//PROC_CALL_ROUTINE_ARG($D01FD,0x43) //play no-into title screen music
 PROC_CALL_ROUTINE_ARG($AE2F5,4) //NewFadeOut
 PROC_WHILE_ROUTINE($AE2B9) //FadeOutExists
 PROC_GOTO(15)

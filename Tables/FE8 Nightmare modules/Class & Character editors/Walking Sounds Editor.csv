@@ -1,9 +1,9 @@
 INLINE WalkingSoundTable,Walking Sound
 None,0x0
-Huntsman,0x0
-Eirika Lord,0x0
-Ephraim Master Lord,CavalryWalk
-Eirika Master Lord,CavalryWalk
+Huntsman,ArmorWalk
+Eirika Lord,ArmorWalk
+Ephraim Master Lord,ArmorWalk
+Eirika Master Lord,ArmorWalk
 Cavalier,CavalryWalk
 Cavalier (F),CavalryWalk
 Paladin,CavalryWalk

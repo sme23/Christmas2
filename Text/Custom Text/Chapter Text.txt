@@ -263,7 +263,7 @@ SO annoying![A][X]
 Leila[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##GuyDeathQuote
-[OpenMidRight][LoadGuy][CloseEyes
+[OpenMidRight][LoadGuy][CloseEyes]
 I will be[ToggleMouthMove]...[ToggleMouthMove]the best[ToggleMouthMove]...[.....][ToggleMouthMove][N]
 swordsman in all of Sacae[ToggleMouthMove]...[ToggleMouthMove][A][X]
 

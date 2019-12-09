@@ -5,10 +5,10 @@
 ALIGN 4
 WalkingSoundTable:
 csvmacro008(0x0)
-csvmacro008(0x0)
-csvmacro008(0x0)
-csvmacro008(CavalryWalk)
-csvmacro008(CavalryWalk)
+csvmacro008(ArmorWalk)
+csvmacro008(ArmorWalk)
+csvmacro008(ArmorWalk)
+csvmacro008(ArmorWalk)
 csvmacro008(CavalryWalk)
 csvmacro008(CavalryWalk)
 csvmacro008(CavalryWalk)

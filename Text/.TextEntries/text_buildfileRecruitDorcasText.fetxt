@@ -1,2 +1,48 @@
-[X]
+[OpenMidRight][LoadDorcas][OpenMidLeft][LoadOswin]
+
+Ah, Dorcas![A]
+
+[OpenMidRight]
+
+[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+I take it you're not here[N]
+
+to join the Ostian knights.[A]
+
+[OpenMidRight]
+
+[ToggleMouthMove]...[ToggleMouthMove]Natalie needed more medicine.[A][N]
+
+These men offered me the gold she[N]
+
+needs to fight along side them.[A]
+
+[OpenMidLeft]
+
+You're on the losing[N]
+
+side of this battle.[A][N]
+
+I'd hate to take you[N]
+
+away from Natalie.[A]
+
+[OpenMidRight]
+
+[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+Fight alongside Ostia.[A][N]
+
+I'll see that you get paid[N]
+
+double what they offered you.[A]
+
+[OpenMidRight]
+
+[ToggleMouthMove]...[ToggleMouthMove]You're right.[A][X]
 

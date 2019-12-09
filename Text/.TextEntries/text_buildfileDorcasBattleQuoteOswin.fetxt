@@ -1,2 +1,8 @@
-[X]
+[OpenMidRight][LoadOswin]
+
+Dorcas? Is that you?[A]
+
+[ClearFace][OpenMidLeft][LoadDorcas]
+
+[ToggleMouthMove]...[ToggleMouthMove][A][X]
 

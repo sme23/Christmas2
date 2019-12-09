@@ -1,2 +1,34 @@
-[X]
+[OpenMidLeft][LoadMatthew][OpenMidRight][LoadGuy]
+
+M-Matthew!?[A][N]
+
+What are you doing here?[A]
+
+[OpenMidLeft]
+
+I should be asking[N]
+
+you the same thing.[A]
+
+[OpenMidRight]
+
+Well, I needed work, and[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+Tell you what, why don't you repay[N]
+
+one of the favors that you owe me.[A][N]
+
+Fight alongside us, and I'll see[N]
+
+that you get paid at the end of this.[A]
+
+[OpenMidRight]
+
+Aw man, again?[A][N]
+
+Are you just following me[N]
+
+around to ruin my jobs!?[A][X]
 

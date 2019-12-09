@@ -1,2 +1,10 @@
-[X]
+[OpenMidRight][LoadGuy]
+
+Lady Priscilla?[N]
+
+You're involved in this?[A]
+
+[ClearFace][OpenMidLeft][LoadPriscilla]
+
+[ToggleMouthMove]...[ToggleMouthMove][A][X]
 

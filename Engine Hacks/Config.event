@@ -53,4 +53,6 @@
 // If commented, Poison Strike and Grisly Wound will not check whether no damage was dealt before applying additional damage.
 #define RESIDUAL_DAMAGE_REQUIRES_BATTLE_DAMAGE
 
+#define CAPTURE_SKILL_REQUIRED
+
 #endif // HAX_CONFIG

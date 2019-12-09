@@ -64,8 +64,176 @@ that later that night,[A][N]
 They would encounter[N]
 a terrible sight...[A][X]
 
+##OpeningText10
+[OpenMidRight][LoadFace][0x64][0x1]
+Hector and friends enter[A][X]
+
+##OpeningText11
+[OpenMidRight][LoadFace][0x64][0x1]
+Raven and friends briefly enter, then leave[A][X]
+
+##OpeningText12
+[OpenMidRight][LoadFace][0x64][0x1]
+Reaffirm objective[A][X]
+
 ## OhNoText
 oh no[A][X]
 
+## ErrorText
+[OpenMidRight][LoadFace][0x64][0x1]
+ERROR![A][N]
+This should not appear![A][X]
+
+## Village1Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Guy appears[A][X]
+
+##Village2Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Serra complains[A][X]
+
+##Village3Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 1[A][X]
+
+##Village4Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Spawn thief 1[A][X]
+
+##Village5Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Dorcas appears[A][X]
+
+##Village6Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 2[A][X]
+
+##Village7Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 3[A][X]
+
+##Village8Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Lucius and Priscilla appear[A][X]
+
+##Village9Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 4[A][X]
+
+##Village10Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 5[A][X]
+
+##Village11Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Spawn thief 2[A][X]
+
+##Village12Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Random event 6[A][X]
+
+##Village13Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Raven appears[A][X]
+
+##Village14Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Serra complains again[A][X]
+
+##Village15Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Final text[A][X]
+
+##RandomEvent1Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 1[A][X]
+
+##RandomEvent2Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 2[A][X]
+
+##RandomEvent3Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 3[A][X]
 
 
+##RandomEvent4Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 4[A][X]
+
+##RandomEvent5Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 5[A][X]
+
+##RandomEvent6Text
+[OpenMidRight][LoadFace][0x64][0x1]
+Event 6[A][X]
+
+##RecruitGuyText
+[X]
+
+##RecruitDorcasText
+[X]
+
+##HectorDeathQuote
+[X]
+
+##OswinDeathQuote
+[X]
+
+##SerraDeathQuote
+[X]
+
+##MatthewDeathQuote
+[X]
+
+##GuyDeathQuote
+[X]
+
+##DorcasDeathQuote
+[X]
+
+##GuyBattleQuote
+[X]
+
+##GuyBattleQuoteMatthew
+[X]
+
+##GuyDeathQuoteEnemy
+[X]
+
+##DorcasBattleQuote
+[X]
+
+##DorcasBattleQuoteOswin
+[X]
+
+##DorcasDeathQuoteEnemy
+[X]
+
+##LuciusBattleQuote
+[X]
+
+##LuciusBattleQuoteSerra
+[X]
+
+##PriscillaBattleQuote
+[X]
+
+##PriscillaBattleQuoteGuy
+[X]
+
+##RavenBattleQuote
+[X]
+
+##RavenBattleQuoteHector
+[X]
+
+##LuciusDeathQuote
+[X]
+
+##PriscillaDeathQuote
+[X]
+
+##RavenDeathQuote
+[X]

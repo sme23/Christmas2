@@ -4,18 +4,20 @@ ALIGN 4
 DeathQuoteTable:
 //ChapterSpecificDeathQuotes
 //ChapterDeathQuote(Character,Chapter,Flag,TextID)
-ChapterDeathQuote(Raven,0,24,OhNoText)
-ChapterDeathQuote(Lucius,0,25,OhNoText)
-ChapterDeathQuote(Priscilla,0,26,OhNoText)
+ChapterDeathQuote(Raven,0,24,RavenDeathQuote)
+ChapterDeathQuote(Lucius,0,25,LuciusDeathQuote)
+ChapterDeathQuote(Priscilla,0,26,PriscillaDeathQuote)
+ChapterDeathQuote(Guy,0,37,GuyDeathQuoteEnemy)
+ChapterDeathQuote(Dorcas,0,38,DorcasDeathQuoteEnemy)
 
 //AlwaysDeathQuotes
 //AlwaysDeathQuote(Character,Flag,TextID)
-AlwaysDeathQuote(Hector,0x65,OhNoText)
-AlwaysDeathQuote(Oswin,0,OhNoText)
-AlwaysDeathQuote(Matthew,0,OhNoText)
-AlwaysDeathQuote(Serra,0,OhNoText)
-AlwaysDeathQuote(Dorcas,0,OhNoText)
-AlwaysDeathQuote(Guy,0,OhNoText)
+AlwaysDeathQuote(Hector,0x65,HectorDeathQuote)
+AlwaysDeathQuote(Oswin,0,OswinDeathQuote)
+AlwaysDeathQuote(Matthew,0,MatthewDeathQuote)
+AlwaysDeathQuote(Serra,0,SerraDeathQuote)
+AlwaysDeathQuote(Dorcas,0,DorcasDeathQuote)
+AlwaysDeathQuote(Guy,0,GuyDeathQuote)
 
 EndQuote
 

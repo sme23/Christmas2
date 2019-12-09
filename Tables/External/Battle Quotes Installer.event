@@ -5,6 +5,16 @@
 
 ALIGN 4
 BattleQuoteTable:
+//TwoWayBattleQuote(27,0,Raven,RavenBattleQuote)
+TwoWayBattleQuote(28,0,Lucius,LuciusBattleQuote)
+TwoWayBattleQuote(29,0,Priscilla,PriscillaBattleQuote)
+//TwoWayBattleQuote(30,0,Guy,GuyBattleQuote)
+TwoWayBattleQuote(31,0,Dorcas,DorcasBattleQuote)
+TwoWayBattleQuote(32,Hector,Raven,RavenBattleQuoteHector)
+TwoWayBattleQuote(33,Guy,Priscilla,PriscillaBattleQuoteGuy)
+TwoWayBattleQuote(34,Serra,Lucius,LuciusBattleQuoteSerra)
+BattleQuote(35,Matthew,Guy,GuyBattleQuoteMatthew)
+BattleQuote(36,Oswin,Dorcas,DorcasBattleQuoteOswin)
 
 EndQuote
 

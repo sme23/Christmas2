@@ -85,12 +85,19 @@ ERROR![A][N]
 This should not appear![A][X]
 
 ## Village1Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Guy appears[A][X]
+[OpenMidRight][LoadGuy]
+I'd rather not be involved here,[N]
+but food costs gold[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I wonder if Matthew's gonna show[N]
+up out of nowhere this time too.[A][X]
 
 ##Village2Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Serra complains[A][X]
+[OpenMidRight][LoadSerra]
+Ugh, this is going [....]sooo [......]sloooow.[....][A][N]
+Can't we go any faster?[A]
+[ClearFace][OpenMidLeft][LoadHector]
+Relax, Serra. We have all the[N]
+time we could possibly need.[A][X]
 
 ##Village3Text
 [OpenMidRight][LoadFace][0x64][0x1]
@@ -101,8 +108,10 @@ Random event 1[A][X]
 Spawn thief 1[A][X]
 
 ##Village5Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Dorcas appears[A][X]
+[OpenMidRight][LoadDorcas]
+[ToggleMouthMove]...[ToggleMouthMove][A][N]
+It would break Natalie's heart[N]
+to see me back with bandits.[A][X]
 
 ##Village6Text
 [OpenMidRight][LoadFace][0x64][0x1]
@@ -113,8 +122,12 @@ Random event 2[A][X]
 Random event 3[A][X]
 
 ##Village8Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Lucius and Priscilla appear[A][X]
+[OpenLeft][LoadLucius][OpenFarLeft][LoadPriscilla][OpenMidRight][LoadRaven]
+This is taking too long.[A][N]
+Lucius! Priscilla![N]
+Go in there and clean things up.[A]
+[OpenLeft]
+As you say, Lord Raymond.[A][X]
 
 ##Village9Text
 [OpenMidRight][LoadFace][0x64][0x1]
@@ -133,16 +146,29 @@ Spawn thief 2[A][X]
 Random event 6[A][X]
 
 ##Village13Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Raven appears[A][X]
+[OpenMidRight][LoadRaven]
+We still haven't succeeded?[N]
+What are those numbskulls up to?[A][2NL]
+Fine. I'll do it myself.[A][X]
 
 ##Village14Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Serra complains again[A][X]
+[OpenMidRight][LoadSerra]
+Are we dooone yet?[A][N]
+I just want to go hooome.[A]
+[ClearFace][OpenMidLeft][LoadOswin]
+Soon, Lady Serra.[A][N]
+Only one more house to visit.[A][X]
 
 ##Village15Text
-[OpenMidRight][LoadFace][0x64][0x1]
-Final text[A][X]
+[OpenMidRight][LoadHector]
+Alright, that's the last house.[A][N]
+Now we just need to deal[N]
+with these ruffians about[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##Village15TextAlt
+[OpenMidRight][LoadHector]
+Alright, that's the last house.[A][N]
+Let's head back.[A][X]
 
 ##RandomEvent1Text
 [OpenMidRight][LoadFace][0x64][0x1]
@@ -170,70 +196,172 @@ Event 5[A][X]
 Event 6[A][X]
 
 ##RecruitGuyText
-[X]
+[OpenMidLeft][LoadMatthew][OpenMidRight][LoadGuy]
+M-Matthew!?[A][N]
+What are you doing here?[A]
+[OpenMidLeft]
+I should be asking[N]
+you the same thing.[A]
+[OpenMidRight]
+Well, I needed work, and[ToggleMouthMove]...[ToggleMouthMove][A]
+[OpenMidLeft]
+Tell you what, why don't you repay[N]
+one of the favors that you owe me.[A][N]
+Fight alongside us, and I'll see[N]
+that you get paid at the end of this.[A]
+[OpenMidRight]
+Aw man, again?[A][N]
+Are you just following me[N]
+around to ruin my jobs!?[A][X]
 
 ##RecruitDorcasText
-[X]
+[OpenMidRight][LoadDorcas][OpenMidLeft][LoadOswin]
+Ah, Dorcas![A]
+[OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove][A]
+[OpenMidLeft]
+I take it you're not here[N]
+to join the Ostian knights.[A]
+[OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove]Natalie needed more medicine.[A][N]
+These men offered me the gold she[N]
+needs to fight along side them.[A]
+[OpenMidLeft]
+You're on the losing[N]
+side of this battle.[A][N]
+I'd hate to take you[N]
+away from Natalie.[A]
+[OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove][A]
+[OpenMidLeft]
+Fight alongside Ostia.[A][N]
+I'll see that you get paid[N]
+double what they offered you.[A]
+[OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove]You're right.[A][X]
 
 ##HectorDeathQuote
+[OpenMidRight][LoadHector][CloseEyes]
+No![N]
+Not here! Not now[ToggleMouthMove]...[ToggleMouthMove][A]
 [X]
 
 ##OswinDeathQuote
-[X]
+[OpenMidRight][LoadOswin][CloseEyes]
+Gaaaah[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Lord Hector[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I'm sorry, but[ToggleMouthMove]...[ToggleMouthMove][N]
+I must withdraw.[A][X]
 
 ##SerraDeathQuote
-[X]
+[OpenMidRight][LoadSerra][CloseEyes]
+Ooh! Why me? This is[N]
+SO annoying![A][X]
 
 ##MatthewDeathQuote
-[X]
+[OpenMidRight][LoadMatthew][CloseEyes]
+Leila[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##GuyDeathQuote
-[X]
+[OpenMidRight][LoadGuy][CloseEyes
+I will be[ToggleMouthMove]...[ToggleMouthMove]the best[ToggleMouthMove]...[.....][ToggleMouthMove][N]
+swordsman in all of Sacae[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##DorcasDeathQuote
-[X]
+I'm sorry, Natalie[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I swore I'd help you[ToggleMouthMove]...[ToggleMouthMove]and now, I've broken[ToggleMouthMove]...[ToggleMouthMove]my[N] oath[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##GuyBattleQuote
 [X]
 
 ##GuyBattleQuoteMatthew
-[X]
+[OpenMidLeft][LoadGuy]
+Matthew!?[A]
+[ClearFace][OpenMidRight][LoadMatthew]
+It seems we're enemies[N]
+this time around, Guy.[A]
+[ClearFace][OpenMidLeft][LoadGuy]
+I won't hold back![A][X]
 
 ##GuyDeathQuoteEnemy
+[OpenMidLeft][LoadGuy]
+[CloseEyes]
+Lady[ToggleMouthMove]...[ToggleMouthMove][....][N]
+Priscilla[ToggleMouthMove]...[ToggleMouthMove][....][A]
 [X]
 
 ##DorcasBattleQuote
+[OpenMidLeft][LoadDorcas]
+[ToggleMouthMove]...[ToggleMouthMove]For Natalie![A]
 [X]
 
 ##DorcasBattleQuoteOswin
-[X]
+[OpenMidRight][LoadOswin]
+Dorcas? Is that you?[A]
+[ClearFace][OpenMidLeft][LoadDorcas]
+[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##DorcasDeathQuoteEnemy
-[X]
+[OpenMidLeft][LoadDorcas][CloseEyes]
+I'm sorry, Natalie[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##LuciusBattleQuote
-[X]
+[OpenMidLeft][LoadLucius]
+I'll not let you[N]
+harm Lord Raymond.[A][X]
 
 ##LuciusBattleQuoteSerra
-[X]
+[OpenMidRight][LoadSerra]
+Ah, Lucius.[A][N]
+Beautiful as ever, I see.[A]
+[ClearFace][OpenMidLeft][LoadLucius]
+[ToggleMouthMove]...[ToggleMouthMove]Lady Serra.[A][X]
 
 ##PriscillaBattleQuote
+[OpenMidLeft][LoadPriscilla]
+For Raymond![A]
 [X]
 
 ##PriscillaBattleQuoteGuy
-[X]
+[OpenMidRight][LoadGuy]
+Lady Priscilla?[N]
+You're involved in this?[A]
+[ClearFace][OpenMidLeft][LoadPriscilla]
+[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##RavenBattleQuote
 [X]
 
 ##RavenBattleQuoteHector
-[X]
+[OpenMidLeft][LoadRaven]
+Murderer![A]
+[ClearFace][OpenMidRight][LoadHector]
+What? We already[N]
+went over this![A][N]
+I even offered[N]
+your home back![A]
+[ClearFace][OpenMidLeft][LoadRaven]
+You can't restore[N]
+the Christmases[A][N]
+you stole from me![A][X]
 
 ##LuciusDeathQuote
+[OpenMidLeft][LoadLucius][CloseEyes]
+Lord Raymond[ToggleMouthMove]...[ToggleMouthMove][A][N]
+May your future be[N]
+bathed in light[ToggleMouthMove]...[ToggleMouthMove][A]
 [X]
 
 ##PriscillaDeathQuote
+[OpenMidLeft][LoadPriscilla][CloseEyes]
+Raymond, my brother[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I wanted only one[N]
+more[ToggleMouthMove]...[ToggleMouthMove][A]
 [X]
 
 ##RavenDeathQuote
-[X]
+[OpenMidLeft][LoadRaven]
+[CloseEyes]
+I'm done for.[A][N]
+Is this really[ToggleMouthMove]...[ToggleMouthMove]the best[N]
+I could aspire to?[A][X]

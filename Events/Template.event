@@ -508,7 +508,7 @@ NoFade
 ENDB
 
 ThreeVillageVisitedEvent:
-Text(Village3Text) //Random Event
+//Text(Village3Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
@@ -517,7 +517,7 @@ FourVillageVisitedEvent:
 CAM1 [0,12]
 LOAD1 0x1 FirstThief
 ENUN
-Text(Village4Text) //Spawns a chest-seeking thief in the bottom left with an almost-full inventory (so he goes for the chest closest then skedaddles), then Matthew comments on it
+//Text(Village4Text) //Spawns a chest-seeking thief in the bottom left with an almost-full inventory (so he goes for the chest closest then skedaddles), then Matthew comments on it
 NoFade
 ENDB
 
@@ -533,13 +533,13 @@ NoFade
 ENDB
 
 SixVillageVisitedEvent:
-Text(Village6Text) //Random Event
+//Text(Village6Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
 
 SevenVillageVisitedEvent:
-Text(Village7Text) //Random Event
+//Text(Village7Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
@@ -554,13 +554,13 @@ NoFade
 ENDB
 
 NineVillageVisitedEvent:
-Text(Village9Text) //Random Event
+//Text(Village9Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
 
 TenVillageVisitedEvent:
-Text(Village10Text) //Random Event
+//Text(Village10Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
@@ -569,7 +569,7 @@ ElevenVillageVisitedEvent:
 CAM1 [24,12]
 LOAD1 0x1 SecondThief
 ENUN
-Text(Village11Text) //Spawns a chest-seeking thief from the top right, two free inventory slots (making one chest always guaranteed as these are the only two)
+//Text(Village11Text) //Spawns a chest-seeking thief from the top right, two free inventory slots (making one chest always guaranteed as these are the only two)
 
 NoFade
 ENDB
@@ -587,7 +587,7 @@ EscapePoint(24, 12, MoveDown)
 EscapePointEnd
 
 TwelveVillageVisitedEvent:
-Text(Village12Text) //Random Event
+//Text(Village12Text) //Random Event
 CALL RandomEventHandler
 NoFade
 ENDB
@@ -604,9 +604,18 @@ Text(Village14Text) //Serra complaining again but now we're almost done
 NoFade
 ENDB
 
-FifteenVillageVisitedEvent:
-Text(Village15Text) //Two possible texts based on the status of Raven; if alive, a "now all we have to do is take down Raven" and if dead a "that should be it" followed by chapter ending
-
+FifteenVillageVisitedEvent: //Two possible texts based on the status of Raven; if alive, a "now all we have to do is take down Raven" and if dead a "that should be it" followed by chapter ending
+CHECK_EVENTID 24
+BNE 1 0 0xC
+  Text(Village15Text) 
+  CAM1 Raven
+  CUMO Raven
+  STAL 40
+  CURE
+  GOTO 2
+LABEL 1
+Text(Village15TextAlt)
+LABEL 2
 NoFade
 ENDB
 

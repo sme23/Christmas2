@@ -1,4 +1,12 @@
-[OpenMidRight][LoadFace][0x64][0x1]
+[OpenLeft][LoadLucius][OpenFarLeft][LoadPriscilla][OpenMidRight][LoadRaven]
 
-Lucius and Priscilla appear[A][X]
+This is taking too long.[A][N]
+
+Lucius! Priscilla![N]
+
+Go in there and clean things up.[A]
+
+[OpenLeft]
+
+As you say, Lord Raymond.[A][X]
 

@@ -56,19 +56,19 @@ mov r0,#1
 mov r1,#8
 mov r2,#0x10
 mov r3,#0
-bl 8001DF0 @locate in FE8U, probably a common func
+blh #0x8001EA0
 mov r0,#0
 str r0,[sp]
 mov r1,#0
 mov r2,#1
 mov r3,#0
-bl 8001E20 @locate in FE8U, probably a common func
+blh #0x8001ED0
 mov r0,#1
 str r0,[sp]
 mov r1,#1
 mov r2,#1
 mov r3,#1
-bl 8001E5C @locate in FE8U, probably a common func
+blh #0x8001F0C
 ldr r2,=#0x3003020 @this isn't active unit pointer so dunno, need a doc
 ldrb r0,[r2,#1]
 mov r1,#1
@@ -82,9 +82,9 @@ orr r0,r1
 mov r1,#0x10
 orr r0,r1
 strb r0,[r2,#1]
-ldr r0,=8AC0EBC @is this a proc?
+ldr r0,=#0x8A3D654
 mov r1,r4
-bl 8002BCC @locate in FE8U, probably a common func
+blh #0x8002C7C
 add sp,#4
 pop {r4}
 pop {r0}
@@ -145,17 +145,17 @@ mov r1,r7
 add r1,#0x39
 strb r0,[r1]
 str r6,[r7,#0x2C]
-ldr r0,=#0x8A9A39C @graphics?
-ldr r1,=#0x6017000 @?????
+ldr r0,=#0x8A9A39C @gfx?
+ldr r1,=#0x6017000
 blh 8013008 @locate in fe8u
-ldr r0,=#0x8A9A4E4 @graphics?
+ldr r0,=#0x8A9A4E4 @palette
 mov r1,#0xF8
 lsl r1,r1,#2
 mov r2,#0x20
-blh 8000D68 @locate in fe8u, probably a common func
-ldr r0,=#0x80A2E65 @graphics?
+blh #0x8000DB8
+ldr r0,=#0x80A2E65 @needs ported
 mov r1,r7
-blh 80B1D98 @locate in fe8u
+blh #0x80AD2F8
 add sp,#4
 pop {r3-r5}
 mov r8,r3
@@ -209,13 +209,13 @@ mov r0,#0
 str r0,[r4,#0x2C]
 ldr r1,=#0x6017000
 mov r0,r6
-blh 8013008 @locate in fe8u
-ldr r0,=#0x8A9A4E4 @gfx?
+blh #0x8012F50
+ldr r0,=#0x8A9A4E4 @needs ported
 mov r1,#0xF8
 lsl r1,r1,#2
 mov r2,#0x20
-blh 8000D68 @locate in fe8u
-ldr r2,=#202BCEC @locate in fe8u
+blh 08000DB8
+ldr r2,=#0x202BCEC @locate in fe8u
 add r2,#0x40
 ldrb r1,[r2]
 mov r0,#0x61
@@ -224,15 +224,15 @@ and r0,r1
 mov r1,#0x20
 orr r0,r1
 strb r0,[r2]
-ldr r0,=#0x80A3301 @is this a for each/is there a func at 80A3300?
+ldr r0,=#0x80A3301 @needs ported
 mov r1,r4
-blh 80B1D98 @locate in fe8u
+blh #0x80AD2F8
 mov r0,r4
-blh 8004B84 @locate in fe8u
+blh 8004B84 @needs ported
 mov r0,#0
-blh 8001E98 @locate in fe8u
+blh #0x8001F48
 mov r0,#0
-blh 8001EB4 @locate in fe8u
+blh #0x8001F64
 pop {r4-r6}
 pop {r0}
 bx r0
@@ -244,8 +244,8 @@ bx r0
 
 push {r4,r14}
 mov r4,r0
-ldr r0,=#0x8A95370 @gfx?
-blh 8002C30 @locate in fe8u
+ldr r0,=#0x8A95370 @needs ported
+blh #0x8002CE0
 add r0,#0x29
 strb r4,[r0]
 pop {r4}

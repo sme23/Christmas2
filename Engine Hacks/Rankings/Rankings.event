@@ -1,0 +1,53 @@
+//Most of the functions for this are already in the game, going unused
+
+/*
+080ba8f8    Strategy Rating Getter    0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080ba9f0    Survival Rating Getter    0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080bab54    Funds Rating Getter       0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080baa28    Exp Rating Getter         0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080bab20    Combat Rating Getter      0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080babf4    Overall Rating Getter     0=E 1=D 2=C 3=B 4=A 5=S    {J}
+080A93E8    Subroutine for Strategy Getter    {J}
+080BADB0    Subroutine for Survival Getter    {J}
+080bade8    Subroutine for Combat Getter      {J}
+080171F8    Subroutine for Funds Getter       {J}
+080BACC8    Calculate strategy rating at end of chapter    {J}
+080BAE60    Calculate funds rating at end of chapter       {J}
+080BAFA8    Calculate exp rating at end of chapter         {J}
+
+080B5D74    Strategy Rating Getter    0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080B5E6C    Survival Rating Getter    0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080B5FD0    Funds Rating Getter       0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080B5EA4    Exp Rating Getter         0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080B5F9C    Combat Rating Getter      0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080B6070    Overall Rating Getter     0=E 1=D 2=C 3=B 4=A 5=S    {U}
+080A49A4    Subroutine for Strategy Getter    {U}
+080B622C    Subroutine for Survival Getter    {U}
+080B6264    Subroutine for Combat Getter      {U}
+08017450    Subroutine for Funds Getter       {U}
+080B6144    Calculate strategy rating at end of chapter    {U}
+080B62DC    Calculate funds rating at end of chapter       {U}
+080B6424    Calculate exp rating at end of chapter         {U}
+*/
+
+//Some of the functions are only in FE8J
+
+/*
+080BD02C    Draw Ratings    {J}
+080BCC90    Set BG for Ratings    {J}
+
+080A3074    Rating w/ Stars 1    {J}
+080A3458    Rating w/ Stars 2    {J}
+080A2BF8    Rating for Prep Screen    {J}
+*/
+
+//And this proc is only in FE8J
+
+/*
+BD03C=Display tactics evaluation screen    {J}    //08AC0F10 Ratings
+*/
+
+
+//todo: port the proc and functions to FE8U
+//todo: write ASMC to call eval screen
+//todo: inject end-of-chapter calcs/EMS to save ranks

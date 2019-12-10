@@ -50,8 +50,8 @@ Village(22,Village14,22,10)
 Village(23,Village15,24,10)
 Armory(ArmoryList,7,3)
 Vendor(VendorList,1,4)
-Chest(AegisShield,8,12)
-Chest(LegRing,19,11)
+Chest(,8,12)
+Chest(,19,11)
 Chest(WrathManual,24,7)
 Chest(SolManual,17,4)
 END_MAIN
@@ -77,7 +77,7 @@ Units1:
 UNIT Hector GreatLord 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA4R3 [Armads,Tomahawk,Elixir] NoAI
 UNIT Oswin General 0 Level(5,Ally,0) [3,0] 0x0 0x0 1 REDA3R2 [Spear,HandAxe,SilverSword] NoAI
 UNIT Matthew Rogue 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA4R2 [IronSword,WhiteGem] NoAI
-UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Entrap,Mend,Caduceus] NoAI
+UNIT Serra Valkyrie 0 Level(5,Ally,0) [4,0] 0x0 0x0 1 REDA5R1 [Divine,Entrap,Mend] NoAI
 UNIT
 
 EnemyUnits: //Raven
@@ -415,11 +415,11 @@ NoFade
 ENDA
 
 ArmoryList:
-SHLI SteelSword RubySword WindSword Runesword SteelLance SapphireLance Javelin SteelAxe EmeraldAxe HandAxe SteelBow HuntingBow Longbow IronShield SteelShield
+SHLI SteelSword RubySword WindSword Runesword SteelLance SapphireLance Javelin SteelAxe EmeraldAxe HandAxe SteelBow HuntingBow Longbow
 ALIGN 4
 
 VendorList:
-SHLI Vulnerary PureWater MasterKey CritRing KnightRing Shade Flux Nosferatu Shine Divine Purge Mend Physic StoneStaff PoisonStaff
+SHLI Vulnerary PureWater MasterKey Shine Divine Purge Mend Physic StoneStaff PoisonStaff
 ALIGN 4
 
 GlobalPostVillageEventCheck:
@@ -770,3 +770,21 @@ RandomReinforcements2:
 UNIT PrologueBandit Bishop 0 Level(3,Enemy,True) [24,12] 0x0 0x0 0x1 REDA22R11 [Physic] HealUnits
 UNIT PrologueBandit Paladin 0 Level(3,Enemy,True) [24,12] 0x0 0x0 0x1 REDA21R12 [Javelin] NoAI
 UNIT
+
+//scoring system
+
+CalculateScore:
+
+//rated on:
+//tactics - turn count
+//survival - base score for keeping everyone alive, -1 per unit death
+//funds - cost-per-use of every item in every playable unit's inventory + gold/100; use an ASMC for this, shouldn't be difficult
+//actually can we port FE7's rank display screen from FE8J? (or FE7U ig but that sounds more boring)
+
+
+
+
+
+
+
+

@@ -189,6 +189,9 @@ POP
   ALIGN 4
   #include "Enfeeble/Enfeeble.event" 
   
+  ALIGN 4
+  #include "Rankings/Rankings.event"
+  
   //Disable guide sort for glitchiness reasons
   PUSH
     ORG 0xCEF7C 

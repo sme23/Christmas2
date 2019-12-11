@@ -2641,6 +2641,102 @@ __TEXTPROCESSB50:
 #incbin ".TextEntries\text_buildfileRavenDeathQuote.fetxt.dmp"
 setText($B50, __TEXTPROCESSB50)
 
+__TEXTPROCESSB51:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingS.fetxt.dmp"
+setText($B51, __TEXTPROCESSB51)
+
+__TEXTPROCESSB52:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingA.fetxt.dmp"
+setText($B52, __TEXTPROCESSB52)
+
+__TEXTPROCESSB53:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingB.fetxt.dmp"
+setText($B53, __TEXTPROCESSB53)
+
+__TEXTPROCESSB54:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingC.fetxt.dmp"
+setText($B54, __TEXTPROCESSB54)
+
+__TEXTPROCESSB55:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingD.fetxt.dmp"
+setText($B55, __TEXTPROCESSB55)
+
+__TEXTPROCESSB56:
+#incbin ".TextEntries\text_buildfileTextTacticsRatingE.fetxt.dmp"
+setText($B56, __TEXTPROCESSB56)
+
+__TEXTPROCESSB57:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingS.fetxt.dmp"
+setText($B57, __TEXTPROCESSB57)
+
+__TEXTPROCESSB58:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingA.fetxt.dmp"
+setText($B58, __TEXTPROCESSB58)
+
+__TEXTPROCESSB59:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingB.fetxt.dmp"
+setText($B59, __TEXTPROCESSB59)
+
+__TEXTPROCESSB5A:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingC.fetxt.dmp"
+setText($B5A, __TEXTPROCESSB5A)
+
+__TEXTPROCESSB5B:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingD.fetxt.dmp"
+setText($B5B, __TEXTPROCESSB5B)
+
+__TEXTPROCESSB5C:
+#incbin ".TextEntries\text_buildfileTextSurvivalRatingE.fetxt.dmp"
+setText($B5C, __TEXTPROCESSB5C)
+
+__TEXTPROCESSB5D:
+#incbin ".TextEntries\text_buildfileTextFundsRatingS.fetxt.dmp"
+setText($B5D, __TEXTPROCESSB5D)
+
+__TEXTPROCESSB5E:
+#incbin ".TextEntries\text_buildfileTextFundsRatingA.fetxt.dmp"
+setText($B5E, __TEXTPROCESSB5E)
+
+__TEXTPROCESSB5F:
+#incbin ".TextEntries\text_buildfileTextFundsRatingB.fetxt.dmp"
+setText($B5F, __TEXTPROCESSB5F)
+
+__TEXTPROCESSB60:
+#incbin ".TextEntries\text_buildfileTextFundsRatingC.fetxt.dmp"
+setText($B60, __TEXTPROCESSB60)
+
+__TEXTPROCESSB61:
+#incbin ".TextEntries\text_buildfileTextFundsRatingD.fetxt.dmp"
+setText($B61, __TEXTPROCESSB61)
+
+__TEXTPROCESSB62:
+#incbin ".TextEntries\text_buildfileTextFundsRatingE.fetxt.dmp"
+setText($B62, __TEXTPROCESSB62)
+
+__TEXTPROCESSB63:
+#incbin ".TextEntries\text_buildfileTextOverallRatingS.fetxt.dmp"
+setText($B63, __TEXTPROCESSB63)
+
+__TEXTPROCESSB64:
+#incbin ".TextEntries\text_buildfileTextOverallRatingA.fetxt.dmp"
+setText($B64, __TEXTPROCESSB64)
+
+__TEXTPROCESSB65:
+#incbin ".TextEntries\text_buildfileTextOverallRatingB.fetxt.dmp"
+setText($B65, __TEXTPROCESSB65)
+
+__TEXTPROCESSB66:
+#incbin ".TextEntries\text_buildfileTextOverallRatingC.fetxt.dmp"
+setText($B66, __TEXTPROCESSB66)
+
+__TEXTPROCESSB67:
+#incbin ".TextEntries\text_buildfileTextOverallRatingD.fetxt.dmp"
+setText($B67, __TEXTPROCESSB67)
+
+__TEXTPROCESSB68:
+#incbin ".TextEntries\text_buildfileTextOverallRatingE.fetxt.dmp"
+setText($B68, __TEXTPROCESSB68)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

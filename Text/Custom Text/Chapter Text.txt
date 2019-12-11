@@ -365,3 +365,127 @@ more[ToggleMouthMove]...[ToggleMouthMove][A]
 I'm done for.[A][N]
 Is this really[ToggleMouthMove]...[ToggleMouthMove]the best[N]
 I could aspire to?[A][X]
+
+##TextTacticsRatingS
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: S[A]
+[X]
+
+##TextTacticsRatingA
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: A[A]
+[X]
+
+##TextTacticsRatingB
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: B[A]
+[X]
+
+##TextTacticsRatingC
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: C[A]
+[X]
+
+##TextTacticsRatingD
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: D[A]
+[X]
+
+##TextTacticsRatingE
+[OpenMidRight][LoadFace][0x64][0x1]
+Tactics Rank: E[A]
+[X]
+
+
+##TextSurvivalRatingS
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: S[A]
+[X]
+
+##TextSurvivalRatingA
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: A[A]
+[X]
+
+##TextSurvivalRatingB
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: B[A]
+[X]
+
+##TextSurvivalRatingC
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: C[A]
+[X]
+
+##TextSurvivalRatingD
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: D[A]
+[X]
+
+##TextSurvivalRatingE
+[OpenMidRight][LoadFace][0x64][0x1]
+Survival Rank: E[A]
+[X]
+
+
+##TextFundsRatingS
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: S[A]
+[X]
+
+##TextFundsRatingA
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: A[A]
+[X]
+
+##TextFundsRatingB
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: B[A]
+[X]
+
+##TextFundsRatingC
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: C[A]
+[X]
+
+##TextFundsRatingD
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: D[A]
+[X]
+
+##TextFundsRatingE
+[OpenMidRight][LoadFace][0x64][0x1]
+Funds Rank: E[A]
+[X]
+
+
+##TextOverallRatingS
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: S[A]
+[X]
+
+##TextOverallRatingA
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: A[A]
+[X]
+
+##TextOverallRatingB
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: B[A]
+[X]
+
+##TextOverallRatingC
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: C[A]
+[X]
+
+##TextOverallRatingD
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: D[A]
+[X]
+
+##TextOverallRatingE
+[OpenMidRight][LoadFace][0x64][0x1]
+Final Rank: E[A]
+[X]
+

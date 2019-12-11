@@ -50,8 +50,8 @@ Village(22,Village14,22,10)
 Village(23,Village15,24,10)
 Armory(ArmoryList,7,3)
 Vendor(VendorList,1,4)
-Chest(,8,12)
-Chest(,19,11)
+Chest(BlueGem,8,12)
+Chest(RedGem,19,11)
 Chest(WrathManual,24,7)
 Chest(SolManual,17,4)
 END_MAIN
@@ -265,6 +265,15 @@ NoFade
 ENDA
 
 EndingScene:
+
+
+
+
+CALL CalculateScore
+
+
+
+
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
 EVBIT_F 0x2
@@ -777,14 +786,306 @@ CalculateScore:
 
 //rated on:
 //tactics - turn count
-//survival - base score for keeping everyone alive, -1 per unit death
-//funds - cost-per-use of every item in every playable unit's inventory + gold/100; use an ASMC for this, shouldn't be difficult
-//actually can we port FE7's rank display screen from FE8J? (or FE7U ig but that sounds more boring)
+//survival - base score for keeping everyone alive, -1 per unit death (use the EventSurvivalGetter ASMC for this)
+//funds - cost of all items owned + gold (use the EventFundsGetter ASMC for this)
+
+//in these 3 categories you get a score each and then one overall
+//0=E 1=D 2=C 3=B 4=A 5=S
+//EventFundsGetter will return the rank value (set in chapter data the comparative value on this)
+
+//turn count ranks are 5 S, 6-7 A, 8 B, 9 C, 10 D, 11+ E
+
+//each of these categories are at max 5, meaning all 3 fit in a counter
+//so, counter ranges for overall ranking:
+//S - 15
+//A - 11-14
+//B - 8-10
+//C - 5-9
+//D - 2-4
+//E - 0-1
+
+//you really have to go out of your way to rank lower than C
+
+
+//there's no way to add more than 1 to a counter at a time
+//let's use counter 1 for this
+
+COUNTER_SET 1 0 //overall ranking
+COUNTER_SET 2 0 //tactics ranking
+COUNTER_SET 3 0 //survival ranking
+COUNTER_SET 4 0 //funds ranking
+
+CHECK_TURNS
+
+//mem slot C = turn count
+
+SVAL 1 5
+BGT 1 1 0xC
+  COUNTER_INC 1
+  COUNTER_INC 2
+LABEL 1
+
+SVAL 1 7
+BGT 2 1 0xC
+  COUNTER_INC 1
+  COUNTER_INC 2
+LABEL 2
+
+SVAL 1 8
+BGT 3 1 0xC
+  COUNTER_INC 1
+  COUNTER_INC 2
+LABEL 3
+
+SVAL 1 9
+BGT 4 1 0xC
+  COUNTER_INC 1
+  COUNTER_INC 2
+LABEL 4
+
+SVAL 1 10
+BGT 5 1 0xC
+  COUNTER_INC 1
+  COUNTER_INC 2
+LABEL 5
+
+ASMC EventSurvivalGetter|1
+
+//mem slot 1 = ranking
+
+//no way to add a value in a slot to a counter so doing it the hard way
+
+SVAL 2 5
+BLT 6 1 2
+  COUNTER_INC 1
+  COUNTER_INC 3
+LABEL 6
+
+SVAL 2 4
+BLT 7 1 2
+  COUNTER_INC 1
+  COUNTER_INC 3
+LABEL 7
+
+SVAL 2 3
+BLT 8 1 2
+  COUNTER_INC 1
+  COUNTER_INC 3
+LABEL 8
+
+SVAL 2 2
+BLT 9 1 2
+  COUNTER_INC 1
+  COUNTER_INC 3
+LABEL 9
+
+SVAL 2 1
+BLT 10 1 2
+  COUNTER_INC 1
+  COUNTER_INC 3
+LABEL 10
+
+
+ASMC EventFundsGetter|1
+
+//mem slot 1 = funds
+
+//no way to add a value in a slot to a counter so doing it the hard way
+
+SVAL 2 5
+BLT 11 1 2
+  COUNTER_INC 1
+  COUNTER_INC 4
+LABEL 11
+
+SVAL 2 4
+BLT 12 1 2
+  COUNTER_INC 1
+  COUNTER_INC 4
+LABEL 12
+
+SVAL 2 3
+BLT 13 1 2
+  COUNTER_INC 1
+  COUNTER_INC 4
+LABEL 13
+
+SVAL 2 2
+BLT 14 1 2
+  COUNTER_INC 1
+  COUNTER_INC 4
+LABEL 14
+
+SVAL 2 1
+BLT 15 1 2
+  COUNTER_INC 1
+  COUNTER_INC 4
+LABEL 15
+
+//counter now contains overall score
+
+
+//tactics ranking
+
+COUNTER_CHECK 2
+
+SVAL 1 5
+BNE 22 1 0xC
+  Text(TextTacticsRatingS)
+  GOTO 27
+LABEL 22
+
+SVAL 1 4
+BNE 23 1 0xC
+  Text(TextTacticsRatingA)
+  GOTO 27
+LABEL 23
+
+SVAL 1 3
+BNE 24 1 0xC
+  Text(TextTacticsRatingB)
+  GOTO 27
+LABEL 24
+
+SVAL 1 2
+BNE 25 1 0xC
+  Text(TextTacticsRatingC)
+  GOTO 27
+LABEL 25
+
+SVAL 1 1
+BNE 26 1 0xC
+  Text(TextTacticsRatingD)
+  GOTO 27
+LABEL 26
+
+Text(TextTacticsRatingE)
+
+LABEL 27
 
 
 
+//survival ranking
+
+COUNTER_CHECK 3
+
+SVAL 1 5
+BNE 28 1 0xC
+  Text(TextSurvivalRatingS)
+  GOTO 33
+LABEL 28
+
+SVAL 1 4
+BNE 29 1 0xC
+  Text(TextSurvivalRatingA)
+  GOTO 33
+LABEL 29
+
+SVAL 1 3
+BNE 30 1 0xC
+  Text(TextSurvivalRatingB)
+  GOTO 33
+LABEL 30
+
+SVAL 1 2
+BNE 31 1 0xC
+  Text(TextSurvivalRatingC)
+  GOTO 33
+LABEL 31
+
+SVAL 1 1
+BNE 32 1 0xC
+  Text(TextSurvivalRatingD)
+  GOTO 33
+LABEL 32
+
+Text(TextSurvivalRatingE)
+
+LABEL 33
 
 
+//funds ranking
 
+COUNTER_CHECK 4
+SVAL 1 5
+BNE 34 1 0xC
+  Text(TextFundsRatingS)
+  GOTO 39
+LABEL 34
+
+SVAL 1 4
+BNE 35 1 0xC
+  Text(TextFundsRatingA)
+  GOTO 39
+LABEL 35
+
+SVAL 1 3
+BNE 36 1 0xC
+  Text(TextFundsRatingB)
+  GOTO 39
+LABEL 36
+
+SVAL 1 2
+BNE 37 1 0xC
+  Text(TextFundsRatingC)
+  GOTO 39
+LABEL 37
+
+SVAL 1 1
+BNE 38 1 0xC
+  Text(TextFundsRatingD)
+  GOTO 39
+LABEL 38
+
+Text(TextFundsRatingE)
+
+LABEL 39
+
+
+//final ranking
+
+COUNTER_CHECK 1
+SVAL 1 15
+BNE 16 1 0xC
+    MUSC 61
+	Text(TextOverallRatingS)
+	GOTO 21
+LABEL 16
+
+SVAL 1 11
+BLT 17 1 0xC
+	MUSC 61
+	Text(TextOverallRatingA)
+	GOTO 21
+LABEL 17
+
+SVAL 1 8
+BLT 18 1 0xC
+	MUSC 60
+	Text(TextOverallRatingB)
+	GOTO 21
+LABEL 18
+
+SVAL 1 5
+BLT 19 1 0xC
+	MUSC 60
+	Text(TextOverallRatingC)
+	GOTO 21
+LABEL 19
+
+SVAL 1 2
+BLT 20 1 0xC
+	MUSC 58
+	Text(TextOverallRatingD)
+	GOTO 21
+LABEL 20
+
+MUSC 58
+Text(TextOverallRatingE)
+
+LABEL 21
+
+NoFade
+ENDA
 
 

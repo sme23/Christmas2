@@ -42,8 +42,8 @@ mov r0,#0
 str r0,[r5,#0x30]
 str r0,[r5,#0x2C]
 blh #0x804EB54
-ldr r0,=#0x20234A8 @locate in fe8u
-ldr r1,=#0x8AC718C @needs ported
+ldr r0,=#0x20234A8
+ldr r1,=UnknownData1
 mov r2,#0x80
 lsl r2,r2,#5
 blh #0x80D74A0
@@ -65,7 +65,7 @@ Label1:
 mov r1,r4
 add r1,#0x1A
 lsl r1,r1,#5
-ldr r0,=#0x8AC6BD8 @needs ported
+ldr r0,=UnknownData2
 mov r2,#0x20
 blh #0x8000DB8
 add r0,r4,#1
@@ -73,29 +73,29 @@ lsl r0,r0,#0x10
 lsr r4,r0,#0x10
 cmp r4,#4
 bls Label1
-ldr r0,=#0x8AC6C58 @needs ported
+ldr r0,=UnknownData3
 mov r1,#0xF8
 lsl r1,r1,#2
 mov r2,#0x20
 blh #0x8000DB8
-ldr r0,=#0x8AC6BF8 @needs ported
+ldr r0,=UnknownData4
 mov r1,#0xB0
 lsl r1,r1,#2
 mov r2,#0x20
 blh #0x8000DB8
-ldr r0,=#0x8AC6BF8 @needs ported
+ldr r0,=UnknownData5
 mov r1,#0xB0
 lsl r1,r1,#2
 mov r2,#0x20
 blh #0x8000DB8
-ldr r0,=#0x8AC6C18 @needs ported
+ldr r0,=UnknownData6
 mov r1,#0xB8
 lsl r1,r1,#2
 mov r2,#0x20
 blh #0x8000DB8
 mov r0,#0xF
 blh #0x8001FAC
-ldr r45,=#0x202BCEC @locate in fe8u
+ldr r4,=#0x202BCF0 @locate in fe8u
 ldrb r1,[r4,#0x14]
 mov r0,#0x80
 and r0,r1
@@ -185,7 +185,7 @@ add r0,#0xA
 add r1,sp,#8
 ldrh r2,[r1]
 mov r1,#2
-blh 8004A90
+blh #0x8004B88
 mov r0,r4
 add r0,#0xC
 mov r1,#2
@@ -239,7 +239,7 @@ bls Label4
 ldr r0,=#0x80B7BD9
 mov r1,r5
 blh #0x80AD2F8
-ldr r0,=#0x8AC6C18 @needs ported
+ldr r0,=UnknownData7
 mov r1,r0
 add r1,#0x20
 mov r2,#1
@@ -268,7 +268,7 @@ RankingProcFunc2:
 
 push {r14}
 mov r2,r0
-ldr r0,=#0x202BCEC @locate in fe8u
+ldr r0,=#0x202BCF0 @locate in fe8u
 ldrb r1,[r0,#0x14]
 mov r0,#0x80
 and r0,r1
@@ -396,7 +396,7 @@ cmp r1,r0
 bne Label16
 mov r0,#0
 str r0,[r4,#0x30]
-ldr r0,=#0x202BCEC @locate in fe8u
+ldr r0,=#0x202BCF0 @locate in fe8u
 ldrb r1,[r0,#0x14]
 mov r0,#0x80
 and r0,r1
@@ -421,7 +421,7 @@ Label14:
 ldr r0,[r4,#0x2C]
 add r0,#1
 str r0,[r4,#0x2C]
-ldr r0,=#0x202BCEC @locate in fe8u
+ldr r0,=#0x202BCF0 @locate in fe8u
 add r0,#0x41
 ldrb r0,[r0]
 lsl r0,r0,#0x1E
@@ -451,7 +451,7 @@ RankingProcFunc4:
 
 push {r4,r14}
 mov r4,r0
-ldr r0,=#0x85775CC @needs ported
+ldr r0,=UnknownData8
 ldr r0,[r0]
 ldrh r1,[r0,#8]
 mov r0,#0xB

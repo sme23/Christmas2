@@ -1,3 +1,5 @@
+#include "ProcDefinitions.event"
+
 //Most of the functions for this are already in the game, going unused
 
 /*
@@ -48,6 +50,10 @@ BD03C=Display tactics evaluation screen    {J}    //08AC0F10 Ratings
 */
 
 
+#include "RankingDisplayRoutines.lyn.event"
+#include "RankingProcRoutines.lyn.event"
+#include "EventRankingGetters.lyn.event"
+
 ALIGN 4
 RankingDisplayProc: //haha this is the longest proc I've dealt with yet
 
@@ -85,7 +91,7 @@ PROC_LABEL(0x64)
 PROC_SLEEP(0x20)
 PROC_LOOP_ROUTINE(RankingProcFunc4) 
 PROC_CALL_ROUTINE(RankingProcFunc5) 
-PROC_CALL_ROUTINE_ARG($AE2F4) 
+PROC_CALL_ROUTINE_ARG($AE2F4,4) 
 PROC_WHILE_ROUTINE($AE2B8) 
 PROC_SLEEP(0x1E)
 PROC_END
@@ -102,6 +108,71 @@ ALIGN 4
 RankingMenuPalette:
 #incext Png2Dmp "gfx.png" --palette-only
 
+//there's a bunch of unknown data still so let's port that too as dmps
+
+ALIGN 4
+UnknownData1:
+#incbin "UnknownData1.dmp"
+
+ALIGN 4
+UnknownData2:
+#incbin "UnknownData2.dmp"
+
+ALIGN 4
+UnknownData3:
+#incbin "UnknownData3.dmp"
+
+ALIGN 4
+UnknownData4:
+#incbin "UnknownData4.dmp"
+
+ALIGN 4
+UnknownData5:
+#incbin "UnknownData5.dmp"
+
+ALIGN 4
+UnknownData6:
+#incbin "UnknownData6.dmp"
+
+ALIGN 4
+UnknownData7:
+#incbin "UnknownData7.dmp"
+
+ALIGN 4
+UnknownData8:
+#incbin "UnknownData8.dmp"
+
+ALIGN 4
+UnknownData9:
+#incbin "UnknownData9.dmp"
+
+ALIGN 4
+UnknownData10:
+#incbin "UnknownData10.dmp"
+
+ALIGN 4
+UnknownData11:
+#incbin "UnknownData11.dmp"
+
+ALIGN 4
+UnknownData12:
+#incbin "UnknownData12.dmp"
+
+ALIGN 4
+UnknownData13:
+#incbin "UnknownData13.dmp"
+
+ALIGN 4
+UnknownData14:
+#incbin "UnknownData14.dmp"
+
+ALIGN 4
+UnknownData15:
+#incbin "UnknownData15.dmp"
+
+ALIGN 4
+UnknownData16:
+#incbin "UnknownData16.dmp"
 
 //todo: write ASMC to call eval screen; calling DrawRankings should be the way to go
 //long-term probably not gonna do but put as a task anyhow todo: inject end-of-chapter calcs/EMS to save ranks

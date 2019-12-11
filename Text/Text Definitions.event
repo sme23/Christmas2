@@ -665,5 +665,7 @@
 #define TextOverallRatingC $B66
 #define TextOverallRatingD $B67
 #define TextOverallRatingE $B68
+#define EndingText1 $B69
+#define EndingText2 $B6A
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

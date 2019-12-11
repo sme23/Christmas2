@@ -489,3 +489,13 @@ Final Rank: D[A]
 Final Rank: E[A]
 [X]
 
+
+##EndingText1
+[OpenMidRight][LoadFace][0x64][0x1]
+Final story wrap-up[A][X]
+
+##EndingText2
+[OpenMidRight][LoadFace][0x64][0x1]
+Anna does your rating[A][X]
+
+

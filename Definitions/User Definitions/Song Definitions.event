@@ -7,3 +7,4 @@
 #define MinibossPMSong 0x1B
 #define GeneralGuyPMSong 0x1C
 #define TubbaBlubbaPMSong 0x1D
+#define DrumrollPleaseSong 0x10

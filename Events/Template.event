@@ -266,13 +266,17 @@ ENDA
 
 EndingScene:
 
+MUSC Victory
 
+Text(EndingText1)
 
+MUSC 0x7FFF
+
+Text(EndingText2)
+
+MUSC DrumrollPleaseSong
 
 CALL CalculateScore
-
-
-
 
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120

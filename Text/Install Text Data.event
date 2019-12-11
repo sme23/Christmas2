@@ -2737,6 +2737,14 @@ __TEXTPROCESSB68:
 #incbin ".TextEntries\text_buildfileTextOverallRatingE.fetxt.dmp"
 setText($B68, __TEXTPROCESSB68)
 
+__TEXTPROCESSB69:
+#incbin ".TextEntries\text_buildfileEndingText1.fetxt.dmp"
+setText($B69, __TEXTPROCESSB69)
+
+__TEXTPROCESSB6A:
+#incbin ".TextEntries\text_buildfileEndingText2.fetxt.dmp"
+setText($B6A, __TEXTPROCESSB6A)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

@@ -1,0 +1,81 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	DrumrollPlease_grp  voicegroup000
+	#define	DrumrollPlease_pri  0
+	#define	DrumrollPlease_rev  0
+	#define	DrumrollPlease_mvl  75
+	#define	DrumrollPlease_key  0
+	#define	DrumrollPlease_tbs  1
+	#define	DrumrollPlease_exg  0
+	#define	DrumrollPlease_cmp  1
+
+	// .rodata
+	//	DrumrollPlease
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+DrumrollPlease_1:
+	BYTE		VOL     127*DrumrollPlease_mvl/mxv
+	BYTE	KEYSH   DrumrollPlease_key+0
+DrumrollPlease_1_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		N24     Ds1   v104
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 001   ----------------------------------------
+DrumrollPlease_1_001:
+	BYTE		N24     Ds1   v104
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DrumrollPlease_1_001
+	BYTE	GoTo
+	 POIN2	DrumrollPlease_1_B1
+DrumrollPlease_1_B2:
+// 008   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+DrumrollPlease:
+	BYTE	1	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	DrumrollPlease_pri	// Priority
+	BYTE	DrumrollPlease_rev	// Reverb.
+
+	POIN2	DrumrollPlease_grp
+
+	POIN2	DrumrollPlease_1
+
+	

@@ -44,3 +44,6 @@ SongTable(GeneralGuyPMSong,GeneralGuyPM,BattleMusicGroup)
 
 SongTable(TubbaBlubbaPMSong,TubbaBlubbaPM,BattleMusicGroup)
 #include "s Files/TubbaBlubbaPM.event"
+
+SongTable(DrumrollPleaseSong,DrumrollPlease,MapMusicGroup)
+#include "s Files/DrumrollPlease.event"

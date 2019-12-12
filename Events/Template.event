@@ -275,9 +275,9 @@ NoFade
 ENDA
 
 CutsceneRavenCrew:
-UNIT Raven Hero 0 Level(0,Enemy,0) [24,0] 0x0 0x0 0x1 REDA23R4 NoItems NoAI
-UNIT Priscilla Valkyrie 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R3 NoItems NoAI
-UNIT Lucius Bishop_F 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R5 NoItems NoAI
+UNIT Raven Hero 0 Level(0,Enemy,0) [24,0] 0x0 0x0 0x1 REDA23R2 NoItems NoAI
+UNIT Priscilla Valkyrie 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R1 NoItems NoAI
+UNIT Lucius Bishop_F 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R3 NoItems NoAI
 UNIT
 
 EndingScene:

@@ -290,7 +290,12 @@ MUSC Victory
 
 Text(EndingText1)
 
-SetBackground(1)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+LOMA 1
+FADU 10
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -327,11 +332,6 @@ TEXTEND
 
 FADI 1
 
-CLEA 0
-CLEE 0
-CLEN 0
-
-LOMA 1
 FADU 10
 
 MUSC 0x7FFF

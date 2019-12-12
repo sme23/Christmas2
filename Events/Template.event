@@ -245,15 +245,25 @@ SOUN 0xB1
 STAL 10
 
 //load in cutscene enemy bosses 
+LOAD1 0x1 CutsceneRavenCrew
+ENUN
 
 Text(OpeningText11)
 
-//load out cutscene enemy bosses
+MOVE 0 Raven [24,0]
+MOVE 0 Priscilla [23,0]
+MOVE 0 Lucius [23,0]
+ENUN
+DISA Raven
+DISA Priscilla
+DISA Lucius
+
+CAM1 [0,0]
+STAL 10
 
 FADI 10
 LOAD1 0x1 EnemyUnits3 //keep this as the starting enemy group
 ENUN
-CAM1 [0,0]
 FADU 10
 
 Text(OpeningText12)
@@ -264,11 +274,19 @@ COUNTER_SET 0 0
 NoFade
 ENDA
 
+CutsceneRavenCrew:
+UNIT Raven Hero 0 Level(0,Enemy,0) [24,0] 0x0 0x0 0x1 REDA23R4 NoItems NoAI
+UNIT Priscilla Valkyrie 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R3 NoItems NoAI
+UNIT Lucius Bishop_F 0 Level(0,Enemy,0) [23,0] 0x0 0x0 0x1 REDA21R5 NoItems NoAI
+UNIT
+
 EndingScene:
 
 MUSC Victory
 
 Text(EndingText1)
+
+SetBackground(1)
 
 MUSC 0x7FFF
 
@@ -276,7 +294,7 @@ STAL 10
 
 MUSC 53
 
-Text(EndingText2)
+Text(EndingTextFinal)
 
 MUSC DrumrollPleaseSong
 

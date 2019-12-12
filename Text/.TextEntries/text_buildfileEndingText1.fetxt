@@ -1,4 +1,36 @@
-[OpenMidRight][LoadFace][0x64][0x1]
+[OpenMidLeft][LoadHector][OpenMidRight][LoadRaven]
 
-Final story wrap-up[A][X]
+Damn you![N]
+
+Damn you to hell![A][N]
+
+First you kill my family,[A][N]
+
+then you kill my Christmases,[A][N]
+
+and now you kill me!?[A][N]
+
+Go ahead then, do it![A]
+
+[OpenMidLeft]
+
+[ToggleMouthMove]...[ToggleMouthMove]No.[A][N]
+
+It's Christmas, friend.[N]
+
+No one is truly an enemy on this day.[A][N]
+
+Why don't you celebrate with us?[A][N]
+
+[OpenMidRight]
+
+[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+
+[ToggleMouthMove]......[ToggleMouthMove][A][2NL]
+
+[ToggleMouthMove]..........................[ToggleMouthMove][N]
+
+[ToggleMouthMove]..........................[ToggleMouthMove][A]
+
+[X]
 

@@ -11,3 +11,25 @@ EventPointerTable(0xF, NightVillagePalette)
 #include "Palettes/Palette Setup.event"
 #include "Map Sprites/_Master Map Sprite Installer.event"
 #include "Item Icons/_Master Icon Installer.event"
+
+#define ChristmasCG 0x32
+
+PUSH
+ORG 0x95DF74
+POIN CGimg
+POIN CGtsa
+POIN CGpal
+POP
+
+ALIGN 4
+CGimg:
+#incbin "CGimg.dmp"
+
+ALIGN 4
+CGtsa:
+#incbin "CGtsa.dmp"
+
+ALIGN 4
+CGpal:
+#incbin "CGpal.dmp"
+

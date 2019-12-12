@@ -87,7 +87,7 @@ Good.[A][N]
 Now that we've taken their gifts,[A][N]
 their food,[A][N]
 and their holiday cheer,[A][N] 
-it's time to ransack what's left.[A][X]
+it's time to burn what's left.[A][X]
 
 ##OpeningText12
 [OpenMidRight][LoadHector]
@@ -529,7 +529,7 @@ Go ahead then, do it![A]
 [ToggleMouthMove]...[ToggleMouthMove]No.[A][N]
 It's Christmas, friend.[N]
 No one is truly an enemy on this day.[A][N]
-Why don't you celebrate with us?[A][N}
+Why don't you celebrate with us?[A][N]
 [OpenMidRight]
 [ToggleMouthMove]...[ToggleMouthMove][A][2NL]
 [ToggleMouthMove]......[ToggleMouthMove][A][2NL]
@@ -538,27 +538,54 @@ Why don't you celebrate with us?[A][N}
 [X]
 
 ##EndingText2
-And Raven, with his feet ice-cold in the snow,
-Stood puzzling and puzzling: 
+And Raven, with his feet[N]
+ice-cold in the snow,[A][N]
+Stood puzzling and puzzling:[A][X]
 
-How could it be so?
-I stole all their ribbons! I stole all their tags!
-I stole all their packages, boxes, and bags!"
+##EndingText3
+[OpenMidRight][LoadRaven]
+How could it be so?[A][N]
+I stole all their ribbons![N]
+I stole all their tags![A][N]
+I stole all their packages,[N]
+boxes, and bags!"[A][X]
 
-And he puzzled three minutes, till his puzzler was sore.
-Then Raven though of something he hadn't before!
+##EndingText4
+And he puzzled three minutes,[N]
+till his puzzler was sore.[A][N]
+Then Raven thought of[N]
+something he hadn't before![A][X]
 
-"Maybe Christmas," 
+##EndingText5
+[OpenMidRight][LoadRaven]
+Maybe Christmas,[A][X]
 
-he thought, 
+##EndingText6
+he thought,[A][X]
 
-"doesn't come from a store. Maybe Christmas ... perhaps ... means a little bit more!"
+##EndingText7
+[OpenMidRight][LoadRaven]
+doesn't come from a store.[A][N]
+Maybe Christmas[ToggleMouthMove]...[ToggleMouthMove]perhaps[ToggleMouthMove]...[ToggleMouthMove][N]
+means a little bit more![A][X]
 
+##EndingText8
 And what happened then...?[A][N]
 Well...in Ostia they say[A][N]
 that Raven's small heart[N]
 grew three sizes that day![A][N]
 
+And the minute his heart[N]
+didn't feel quite so tight,[A][N]
+He whizzed with his load[N]
+through the bright morning light[A][N]
+And he brought back the toys![N]
+And the food for the feast![A][N]
+And he...[A][X]
+
+##EndingText9
+...HE HIMSELF...![A][N]
+Raven carved the roast beast![A][X]
 
 
 ##EndingTextFinal

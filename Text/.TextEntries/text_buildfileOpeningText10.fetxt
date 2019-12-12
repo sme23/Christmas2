@@ -1,4 +1,14 @@
-[OpenMidRight][LoadFace][0x64][0x1]
+[OpenMidLeft][LoadMatthew]
 
-Hector and friends enter[A][X]
+[OpenMidRight][LoadHector]
+
+What's all the commotion here about?[A][N]
+
+We just got back from delivering[N]
+
+gifts to all of Lycia![A]
+
+[OpenMidLeft]
+
+Look! Who's that over there?[A][X]
 

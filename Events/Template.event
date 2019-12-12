@@ -288,6 +288,44 @@ Text(EndingText1)
 
 SetBackground(1)
 
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW EndingText2
+TEXTEND
+
+Text(EndingText3)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW EndingText4
+TEXTEND
+
+Text(EndingText5)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW EndingText6
+TEXTEND
+
+Text(EndingText7)
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW EndingText8
+TEXTEND
+
+SetBackground(ChristmasCG)
+
+SVAL 0xB 0x00060024
+TUTORIALTEXTBOXSTART
+TEXTSHOW EndingText9
+TEXTEND
+
+FADI 1
+
+LOMA 1
+FADU 10
+
 MUSC 0x7FFF
 
 STAL 10

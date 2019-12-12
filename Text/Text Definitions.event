@@ -667,8 +667,16 @@
 #define TextOverallRatingE $B68
 #define EndingText1 $B69
 #define EndingText2 $B6A
-#define VisitVillageText1 $B6B
-#define VisitVillageText2 $B6C
-#define VisitVillageText3 $B6D
+#define EndingText3 $B6B
+#define EndingText4 $B6C
+#define EndingText5 $B6D
+#define EndingText6 $B6E
+#define EndingText7 $B6F
+#define EndingText8 $B70
+#define EndingText9 $B71
+#define EndingTextFinal $B72
+#define VisitVillageText1 $B73
+#define VisitVillageText2 $B74
+#define VisitVillageText3 $B75
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

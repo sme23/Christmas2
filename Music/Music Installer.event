@@ -20,8 +20,8 @@
 SongTable(TrialSong,trial,MapMusicGroup)
 #include "Trial/trial.event"
 
-SongTable(E1M1Song,e1m1,MapMusicGroup)
-#include "s Files/e1m1.event"
+SongTable(E1M1Song,IceSide,MapMusicGroup)
+#include "s Files/IceSide.event"
 
 SongTable(BlasterMasterS1Song,DistantYear,MapMusicGroup)
 //#include "s Files/FreezeezyRoads.event"

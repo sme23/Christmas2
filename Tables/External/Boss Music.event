@@ -3,6 +3,9 @@
 
 ALIGN 4
 BossMusicList:
+BossMusicEntry(Lucius,TubbaBlubbaPMSong)
+BossMusicEntry(Priscilla,TubbaBlubbaPMSong)
+BossMusicEntry(Raven,SongNameGeneralGuyPM)
 BossMusicEnd
 
 PUSH

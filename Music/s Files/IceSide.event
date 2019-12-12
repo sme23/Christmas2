@@ -1,0 +1,3209 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	IceSide_grp  voicegroup000
+	#define	IceSide_pri  0
+	#define	IceSide_rev  0
+	#define	IceSide_mvl  85
+	#define	IceSide_key  0
+	#define	IceSide_tbs  1
+	#define	IceSide_exg  0
+	#define	IceSide_cmp  1
+
+	// .rodata
+	//	IceSide
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+IceSide_1:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   140*IceSide_tbs/2
+	BYTE		VOICE   34
+	BYTE		VOL     56*IceSide_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+IceSide_1_B1:
+// 001   ----------------------------------------
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		N12     Gn1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+// 002   ----------------------------------------
+IceSide_1_002:
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+IceSide_1_003:
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		N12     Gn1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 017   ----------------------------------------
+IceSide_1_017:
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		N12     Gn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+IceSide_1_018:
+	BYTE		N24     Cs2   v127
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE	W24
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+IceSide_1_019:
+	BYTE		N24     Gn1   v127
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_018
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_019
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_018
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_019
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_018
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_019
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_017
+// 034   ----------------------------------------
+IceSide_1_034:
+	BYTE		N24     Gs1   v127
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE	W24
+	BYTE	PEND
+// 035   ----------------------------------------
+IceSide_1_035:
+	BYTE		N24     Fn1   v127
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE	PEND
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_034
+// 037   ----------------------------------------
+	BYTE		N24     Dn2   v127
+	BYTE	W24
+	BYTE		        An1 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE		        An1 
+	BYTE	W24
+// 038   ----------------------------------------
+IceSide_1_038:
+	BYTE		N24     Bn1   v127
+	BYTE	W24
+	BYTE		        Fs1 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE	W24
+	BYTE		        Fs1 
+	BYTE	W24
+	BYTE	PEND
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_034
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_038
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_035
+// 042   ----------------------------------------
+	BYTE		N24     As1   v127
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_034
+// 044   ----------------------------------------
+	BYTE		N24     Cs2   v127
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE	W24
+// 045   ----------------------------------------
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_017
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_018
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_019
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_018
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_019
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_1_002
+	BYTE	GoTo
+	 POIN2	IceSide_1_B1
+IceSide_1_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.6) ****************//
+
+IceSide_2:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		PAN     c_v-24
+	BYTE		VOL     80*IceSide_mvl/mxv
+	BYTE		N24     Cn3   v127
+	BYTE	W24
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N24     Gn3 
+	BYTE	W24
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+IceSide_2_B1:
+// 001   ----------------------------------------
+	BYTE		N12     Gn3   v127
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N36     En3 
+	BYTE	W36
+	BYTE		N18     Cn3 
+	BYTE	W18
+	BYTE		N02     Dn3 
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W01
+	BYTE		        Fn3 
+	BYTE	W02
+	BYTE		        Gn3 
+	BYTE	W01
+// 002   ----------------------------------------
+IceSide_2_002:
+	BYTE		N02     An3   v127
+	BYTE	W02
+	BYTE		N09     Bn3 
+	BYTE	W10
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N06     Ds3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N12     Ds3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+// 004   ----------------------------------------
+IceSide_2_004:
+	BYTE		N24     Cn3   v127
+	BYTE	W24
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N24     Gn3 
+	BYTE	W24
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N36     En3 
+	BYTE	W36
+	BYTE		N18     Cn3 
+	BYTE	W18
+	BYTE		N02     Dn3 
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W01
+	BYTE		        Fn3 
+	BYTE	W02
+	BYTE		        Gn3 
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_2_002
+// 007   ----------------------------------------
+	BYTE		N06     As3   v127
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N12     As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+IceSide_2_026:
+	BYTE		N24     Cn4   v120
+	BYTE	W24
+	BYTE		N12     En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		N24     Gn4 
+	BYTE	W24
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 027   ----------------------------------------
+IceSide_2_027:
+	BYTE		N12     Gn4   v120
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N36     En4 
+	BYTE	W36
+	BYTE		N18     Cn4 
+	BYTE	W18
+	BYTE		N02     Dn4 
+	BYTE	W02
+	BYTE		        En4 
+	BYTE	W01
+	BYTE		        Fn4 
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	PEND
+// 028   ----------------------------------------
+IceSide_2_028:
+	BYTE		N02     An4   v120
+	BYTE	W02
+	BYTE		N09     Bn4 
+	BYTE	W10
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 029   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N12     Gn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N06     Ds4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N12     Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_2_026
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_2_027
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_2_028
+// 033   ----------------------------------------
+	BYTE		N06     As4   v120
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		N12     As4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_2_004
+	BYTE	GoTo
+	 POIN2	IceSide_2_B1
+IceSide_2_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.7) ****************//
+
+IceSide_3:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		VOL     72*IceSide_mvl/mxv
+	BYTE		PAN     c_v+26
+	BYTE	W96
+IceSide_3_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		PAN     c_v+16
+	BYTE		N17     Cn5   v127
+	BYTE	W24
+	BYTE		N05     En5 
+	BYTE	W12
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE		N12     Gs5 
+	BYTE	W12
+	BYTE		N05     Gn5 
+	BYTE	W24
+	BYTE		N02     En5 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 011   ----------------------------------------
+IceSide_3_011:
+	BYTE		N12     Gn5   v127
+	BYTE	W12
+	BYTE		N05     Gs5 
+	BYTE	W12
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE		N06     En5 
+	BYTE	W36
+	BYTE		N18     Cn5 
+	BYTE	W18
+	BYTE		N02     Dn5 
+	BYTE	W02
+	BYTE		        En5 
+	BYTE	W01
+	BYTE		        Fn5 
+	BYTE	W02
+	BYTE		        Gn5 
+	BYTE	W01
+	BYTE	PEND
+// 012   ----------------------------------------
+IceSide_3_012:
+	BYTE		N02     An5   v127
+	BYTE	W02
+	BYTE		N03     Bn5 
+	BYTE	W10
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N04     Cn6 
+	BYTE	W12
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs5 
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		N05     Gn5 
+	BYTE	W12
+	BYTE		N06     En5 
+	BYTE	W12
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N17     Cn5 
+	BYTE	W24
+	BYTE		N05     En5 
+	BYTE	W12
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE		N12     Gs5 
+	BYTE	W12
+	BYTE		N05     Gn5 
+	BYTE	W24
+	BYTE		N02     En5 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_011
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_012
+// 017   ----------------------------------------
+	BYTE		N04     As5   v127
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W06
+	BYTE		        As5 
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W06
+	BYTE		        As5 
+	BYTE	W12
+	BYTE		        Bn5 
+	BYTE	W12
+	BYTE		N11     Cn6 
+	BYTE	W12
+	BYTE		N06     Cn5 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+IceSide_3_026:
+	BYTE	W12
+	BYTE		N06     Cn5   v052
+	BYTE	W24
+	BYTE		        Gn5 
+	BYTE	W24
+	BYTE		        Cn5 
+	BYTE	W24
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE	PEND
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_3_026
+// 034   ----------------------------------------
+	BYTE		N18     Gs4   v127
+	BYTE	W24
+	BYTE		N04     Cn5 
+	BYTE	W12
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		N12     Fn5 
+	BYTE	W12
+	BYTE		N07     Ds5 
+	BYTE	W24
+	BYTE		N03     Gs4 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 035   ----------------------------------------
+	BYTE		N06     An4 
+	BYTE	W12
+	BYTE		N04     Cn5 
+	BYTE	W12
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N08     Fn4 
+	BYTE	W36
+	BYTE		N18     Fn5 
+	BYTE	W18
+	BYTE		N02     Gn5 
+	BYTE	W02
+	BYTE		        An5 
+	BYTE	W02
+	BYTE		N01     Bn5 
+	BYTE	W02
+// 036   ----------------------------------------
+	BYTE		N03     Cn6 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N04     Ds6 
+	BYTE	W12
+	BYTE		        Gs5 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE		N06     Fs5 
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W12
+	BYTE		N04     An5 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+	BYTE		        An5 
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+	BYTE		        An5 
+	BYTE	W12
+	BYTE		N05     Dn6 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N16     Bn4 
+	BYTE	W24
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		        Fs5 
+	BYTE	W12
+	BYTE		N12     Gs5 
+	BYTE	W12
+	BYTE		N06     Fs5 
+	BYTE	W24
+	BYTE		N03     Bn4 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+// 039   ----------------------------------------
+	BYTE		N06     Cn5 
+	BYTE	W12
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		N08     Gs4 
+	BYTE	W36
+	BYTE		N15     Cn5 
+	BYTE	W15
+	BYTE		N02     Dn5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W02
+	BYTE		N01     Fn5 
+	BYTE	W01
+	BYTE		        Gn5 
+	BYTE	W02
+	BYTE		        An5 
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE		N04     Bn5 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Ds6 
+	BYTE	W12
+	BYTE		N04     Fs5 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		N06     Fn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W12
+	BYTE		N05     An5 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+	BYTE		        An5 
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+	BYTE		        An5 
+	BYTE	W12
+	BYTE		N05     Cn6 
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		N16     As5 
+	BYTE	W24
+	BYTE		N05     Dn6 
+	BYTE	W12
+	BYTE		        Fn6 
+	BYTE	W12
+	BYTE		N12     Gn6 
+	BYTE	W12
+	BYTE		N05     Fn6 
+	BYTE	W24
+	BYTE		N03     As5 
+	BYTE	W06
+	BYTE		N04     An5 
+	BYTE	W06
+// 043   ----------------------------------------
+	BYTE		N05     Gs5 
+	BYTE	W12
+	BYTE		N06     Cn6 
+	BYTE	W12
+	BYTE		N05     Gs5 
+	BYTE	W12
+	BYTE		N07     Ds5 
+	BYTE	W60
+// 044   ----------------------------------------
+	BYTE		N17     Cs5 
+	BYTE	W24
+	BYTE		N05     Fn5 
+	BYTE	W12
+	BYTE		        Gs5 
+	BYTE	W12
+	BYTE		N10     As5 
+	BYTE	W12
+	BYTE		N06     Gs5 
+	BYTE	W24
+	BYTE		N03     Fn5 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 045   ----------------------------------------
+	BYTE		N06     Gn5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W12
+	BYTE		N04     Bn5 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        As5 
+	BYTE	W06
+	BYTE		        Bn5 
+	BYTE	W06
+	BYTE		        As5 
+	BYTE	W06
+	BYTE		        Bn5 
+	BYTE	W12
+	BYTE		N05     Dn6 
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		        Cn6 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_3_B1
+IceSide_3_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.8) ****************//
+
+IceSide_4:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   11
+	BYTE		VOL     114*IceSide_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+IceSide_4_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+IceSide_4_008:
+	BYTE		N24     Cn4   v028
+	BYTE	W12
+	BYTE		        Gn4   v052
+	BYTE	W12
+	BYTE		        En4   v028
+	BYTE	W12
+	BYTE		        Gs4   v072
+	BYTE	W12
+	BYTE		        Cn4   v028
+	BYTE	W12
+	BYTE		        Gn4   v052
+	BYTE	W12
+	BYTE		        En4   v028
+	BYTE	W12
+	BYTE		        Gs4   v072
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 034   ----------------------------------------
+IceSide_4_034:
+	BYTE		N96     Cn3   v060
+	BYTE	W01
+	BYTE		        Ds3 
+	BYTE	W02
+	BYTE		        Gs3 
+	BYTE	W92
+	BYTE	W01
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W01
+	BYTE		        Fn3 
+	BYTE	W02
+	BYTE		        An3 
+	BYTE	W92
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_034
+// 037   ----------------------------------------
+	BYTE		N96     Dn3   v060
+	BYTE	W01
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE		        An3 
+	BYTE	W92
+	BYTE	W01
+// 038   ----------------------------------------
+IceSide_4_038:
+	BYTE		N96     Ds3   v060
+	BYTE	W01
+	BYTE		        Fs3 
+	BYTE	W02
+	BYTE		        Bn3 
+	BYTE	W92
+	BYTE	W01
+	BYTE	PEND
+// 039   ----------------------------------------
+IceSide_4_039:
+	BYTE		N96     Ds3   v060
+	BYTE	W01
+	BYTE		        Gs3 
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W92
+	BYTE	W01
+	BYTE	PEND
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_038
+// 041   ----------------------------------------
+	BYTE		N96     Fn3   v060
+	BYTE	W01
+	BYTE		        An3 
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W92
+	BYTE	W01
+// 042   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W01
+	BYTE		        Fn3 
+	BYTE	W02
+	BYTE		        As3 
+	BYTE	W92
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_039
+// 044   ----------------------------------------
+	BYTE		N96     Fn3   v060
+	BYTE	W01
+	BYTE		        Gs3 
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W92
+	BYTE	W01
+// 045   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W01
+	BYTE		        Bn3 
+	BYTE	W02
+	BYTE		        Dn4 
+	BYTE	W92
+	BYTE	W01
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_4_008
+// 054   ----------------------------------------
+	BYTE		N09     Cs3   v060
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N12     Fn3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N09     Ds3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N12     Gs3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		N04     Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+// 055   ----------------------------------------
+	BYTE		N09     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N09     An3 
+	BYTE	W06
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N09     Fs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N15     Gn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 056   ----------------------------------------
+	BYTE		N09     Cs3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N12     Fn3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N09     Ds3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N12     Gs3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N09     An3 
+	BYTE	W06
+	BYTE		N04     Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		        An3 
+	BYTE	W04
+// 057   ----------------------------------------
+	BYTE		N09     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N09     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N01     Dn4 
+	BYTE	W01
+	BYTE		N14     Ds4 
+	BYTE	W11
+	BYTE		N15     Dn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+// 058   ----------------------------------------
+	BYTE		N80     Cn4 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_4_B1
+IceSide_4_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.9) ****************//
+
+IceSide_5:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		VOL     64*IceSide_mvl/mxv
+	BYTE		PAN     c_v+26
+	BYTE	W96
+IceSide_5_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+IceSide_5_018:
+	BYTE		N04     Cs3   v100
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_5_018
+// 021   ----------------------------------------
+	BYTE		N04     Gn3   v100
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N12     Ds4 
+	BYTE	W12
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE		N12     Ds4 
+	BYTE	W12
+	BYTE		N04     Dn4 
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+IceSide_5_054:
+	BYTE		N96     Gs3   v020
+	BYTE		N96     Cs4 
+	BYTE		N96     Fn4 
+	BYTE	W96
+	BYTE	PEND
+// 055   ----------------------------------------
+IceSide_5_055:
+	BYTE		N96     Bn3   v020
+	BYTE		N96     Dn4 
+	BYTE		N96     Gn4 
+	BYTE	W96
+	BYTE	PEND
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_5_054
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_5_055
+// 058   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_5_B1
+IceSide_5_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.11) ****************//
+
+IceSide_6:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		PAN     c_v+15
+	BYTE		VOL     79*IceSide_mvl/mxv
+	BYTE	W96
+IceSide_6_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+IceSide_6_022:
+	BYTE		N06     Cs2   v127
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		N12     Fn2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		N12     Gs2 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		        An2 
+	BYTE	W04
+	BYTE		        Gs2 
+	BYTE	W04
+	BYTE		        An2 
+	BYTE	W04
+	BYTE		        Gs2 
+	BYTE	W04
+	BYTE		        An2 
+	BYTE	W04
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE		N06     Gn2 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		N12     Bn2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE	W06
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_6_022
+// 025   ----------------------------------------
+	BYTE		N06     Gn2   v127
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		N12     Bn2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N01     Dn3 
+	BYTE	W01
+	BYTE		N10     Ds3 
+	BYTE	W11
+	BYTE		N12     Dn3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 026   ----------------------------------------
+	BYTE		N80     Cn3 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_6_B1
+IceSide_6_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.12) ****************//
+
+IceSide_7:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   46
+	BYTE		PAN     c_v-15
+	BYTE		VOL     78*IceSide_mvl/mxv
+	BYTE	W96
+IceSide_7_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+IceSide_7_034:
+	BYTE	W12
+	BYTE		N06     Gs3   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 035   ----------------------------------------
+IceSide_7_035:
+	BYTE	W12
+	BYTE		N06     An3   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE	PEND
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_034
+// 037   ----------------------------------------
+	BYTE	W12
+	BYTE		N06     An3   v080
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 038   ----------------------------------------
+IceSide_7_038:
+	BYTE	W12
+	BYTE		N06     Bn3   v080
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_034
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_038
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_035
+// 042   ----------------------------------------
+	BYTE	W12
+	BYTE		N06     As3   v080
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_034
+// 044   ----------------------------------------
+	BYTE	W12
+	BYTE		N06     Gs3   v080
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+// 045   ----------------------------------------
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+// 046   ----------------------------------------
+IceSide_7_046:
+	BYTE		N06     Cn4   v127
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Gs4   v100
+	BYTE	W12
+	BYTE		        Gn4   v127
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 047   ----------------------------------------
+IceSide_7_047:
+	BYTE		N06     Gn4   v127
+	BYTE	W12
+	BYTE		        Gs4   v100
+	BYTE	W12
+	BYTE		        Gn4   v127
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W36
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 048   ----------------------------------------
+IceSide_7_048:
+	BYTE		N06     Bn4   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 049   ----------------------------------------
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Gs4   v100
+	BYTE	W06
+	BYTE		        Gn4   v127
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_046
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_047
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_7_048
+// 053   ----------------------------------------
+	BYTE		N06     As4   v127
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W24
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_7_B1
+IceSide_7_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.13) ****************//
+
+IceSide_8:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		PAN     c_v-24
+	BYTE		VOL     80*IceSide_mvl/mxv
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE		N06     En2 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+IceSide_8_B1:
+// 001   ----------------------------------------
+	BYTE		N12     Gn2   v127
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N36     En2 
+	BYTE	W36
+	BYTE		N18     Cn2 
+	BYTE	W18
+	BYTE		N02     Dn2 
+	BYTE	W02
+	BYTE		        En2 
+	BYTE	W01
+	BYTE		        Fn2 
+	BYTE	W02
+	BYTE		        Gn2 
+	BYTE	W01
+// 002   ----------------------------------------
+IceSide_8_002:
+	BYTE		N02     An2   v127
+	BYTE	W02
+	BYTE		N09     Bn2 
+	BYTE	W10
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE	W06
+	BYTE		N12     Ds2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+// 004   ----------------------------------------
+IceSide_8_004:
+	BYTE		N24     Cn2   v127
+	BYTE	W24
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE		N06     En2 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N36     En2 
+	BYTE	W36
+	BYTE		N18     Cn2 
+	BYTE	W18
+	BYTE		N02     Dn2 
+	BYTE	W02
+	BYTE		        En2 
+	BYTE	W01
+	BYTE		        Fn2 
+	BYTE	W02
+	BYTE		        Gn2 
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_8_002
+// 007   ----------------------------------------
+	BYTE		N06     As2   v127
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N12     As2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+IceSide_8_026:
+	BYTE		N24     Cn2   v120
+	BYTE	W24
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE		N06     En2 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 027   ----------------------------------------
+IceSide_8_027:
+	BYTE		N12     Gn2   v120
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N36     En2 
+	BYTE	W36
+	BYTE		N18     Cn2 
+	BYTE	W18
+	BYTE		N02     Dn2 
+	BYTE	W02
+	BYTE		        En2 
+	BYTE	W01
+	BYTE		        Fn2 
+	BYTE	W02
+	BYTE		        Gn2 
+	BYTE	W01
+	BYTE	PEND
+// 028   ----------------------------------------
+IceSide_8_028:
+	BYTE		N02     An2   v120
+	BYTE	W02
+	BYTE		N09     Bn2 
+	BYTE	W10
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 029   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		N12     Gn2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE	W06
+	BYTE		N12     Ds2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_8_026
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_8_027
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_8_028
+// 033   ----------------------------------------
+	BYTE		N06     As2   v120
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N12     As2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_8_004
+	BYTE	GoTo
+	 POIN2	IceSide_8_B1
+IceSide_8_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.15) ****************//
+
+IceSide_9:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		VOL     71*IceSide_mvl/mxv
+	BYTE		PAN     c_v+26
+	BYTE	W96
+IceSide_9_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		PAN     c_v+16
+	BYTE		N17     Cn4   v127
+	BYTE	W24
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N12     Gs4 
+	BYTE	W12
+	BYTE		N05     Gn4 
+	BYTE	W24
+	BYTE		N02     En4 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 011   ----------------------------------------
+IceSide_9_011:
+	BYTE		N12     Gn4   v127
+	BYTE	W12
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N06     En4 
+	BYTE	W36
+	BYTE		N18     Cn4 
+	BYTE	W18
+	BYTE		N02     Dn4 
+	BYTE	W02
+	BYTE		        En4 
+	BYTE	W01
+	BYTE		        Fn4 
+	BYTE	W02
+	BYTE		        Gn4 
+	BYTE	W01
+	BYTE	PEND
+// 012   ----------------------------------------
+IceSide_9_012:
+	BYTE		N02     An4   v127
+	BYTE	W02
+	BYTE		N03     Bn4 
+	BYTE	W10
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N04     Cn5 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Gs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N05     Gn4 
+	BYTE	W12
+	BYTE		N06     En4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N17     Cn4 
+	BYTE	W24
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N12     Gs4 
+	BYTE	W12
+	BYTE		N05     Gn4 
+	BYTE	W24
+	BYTE		N02     En4 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_9_011
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_9_012
+// 017   ----------------------------------------
+	BYTE		N04     As4   v127
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE		N18     Gs3 
+	BYTE	W24
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		N12     Fn4 
+	BYTE	W12
+	BYTE		N07     Ds4 
+	BYTE	W24
+	BYTE		N03     Gs3 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 035   ----------------------------------------
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		N05     An3 
+	BYTE	W12
+	BYTE		N08     Fn3 
+	BYTE	W36
+	BYTE		N18     Fn4 
+	BYTE	W18
+	BYTE		N02     Gn4 
+	BYTE	W02
+	BYTE		        An4 
+	BYTE	W02
+	BYTE		N01     Bn4 
+	BYTE	W02
+// 036   ----------------------------------------
+	BYTE		N03     Cn5 
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N04     Ds5 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE		N06     Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		N04     An4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N05     Dn5 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N16     Bn3 
+	BYTE	W24
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		N12     Gs4 
+	BYTE	W12
+	BYTE		N06     Fs4 
+	BYTE	W24
+	BYTE		N03     Bn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+// 039   ----------------------------------------
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N08     Gs3 
+	BYTE	W36
+	BYTE		N15     Cn4 
+	BYTE	W15
+	BYTE		N02     Dn4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W02
+	BYTE		N01     Fn4 
+	BYTE	W01
+	BYTE		        Gn4 
+	BYTE	W02
+	BYTE		        An4 
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE		N04     Bn4 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		N04     Fs4 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		N06     Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N05     Cn5 
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		N16     As4 
+	BYTE	W24
+	BYTE		N05     Dn5 
+	BYTE	W12
+	BYTE		        Fn5 
+	BYTE	W12
+	BYTE		N12     Gn5 
+	BYTE	W12
+	BYTE		N05     Fn5 
+	BYTE	W24
+	BYTE		N03     As4 
+	BYTE	W06
+	BYTE		N04     An4 
+	BYTE	W06
+// 043   ----------------------------------------
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		N06     Cn5 
+	BYTE	W12
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		N07     Ds4 
+	BYTE	W60
+// 044   ----------------------------------------
+	BYTE		N17     Cs4 
+	BYTE	W24
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		N10     As4 
+	BYTE	W12
+	BYTE		N06     Gs4 
+	BYTE	W24
+	BYTE		N03     Fn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 045   ----------------------------------------
+	BYTE		N06     Gn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N04     Bn4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		N05     Dn5 
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_9_B1
+IceSide_9_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.16) ****************//
+
+IceSide_10:
+	BYTE	KEYSH   IceSide_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		VOL     64*IceSide_mvl/mxv
+	BYTE	W96
+IceSide_10_B1:
+// 001   ----------------------------------------
+	BYTE	W18
+	BYTE		PAN     c_v+0
+	BYTE	W78
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+IceSide_10_018:
+	BYTE		N06     Cs3   v060
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N12     Fn3 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     Ds3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N12     Gs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N24     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N12     Gn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	IceSide_10_018
+// 021   ----------------------------------------
+	BYTE		N06     Gn3   v060
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N12     Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		N48     Cs4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE		PAN     c_v-19
+	BYTE		N96     Fn2   v032
+	BYTE		N96     Gs2 
+	BYTE		N96     Cs3 
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE		        Dn2 
+	BYTE		N96     Gn2 
+	BYTE		N96     Bn2 
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE		        Fn2 
+	BYTE		N96     Gs2 
+	BYTE		N96     Cs3 
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE		        Gn2 
+	BYTE		N96     Bn2 
+	BYTE		N96     Dn3 
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE		N36     En2 
+	BYTE		N36     Gn2 
+	BYTE		N36     Cn3 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	IceSide_10_B1
+IceSide_10_B2:
+// 059   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+IceSide:
+	BYTE	10	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	IceSide_pri	// Priority
+	BYTE	IceSide_rev	// Reverb.
+
+	POIN2	IceSide_grp
+
+	POIN2	IceSide_1
+	POIN2	IceSide_2
+	POIN2	IceSide_3
+	POIN2	IceSide_4
+	POIN2	IceSide_5
+	POIN2	IceSide_6
+	POIN2	IceSide_7
+	POIN2	IceSide_8
+	POIN2	IceSide_9
+	POIN2	IceSide_10
+
+	

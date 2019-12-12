@@ -2,19 +2,19 @@
 Trial[X]
 
 ##SongNameBlasterMaster
-Stage 1 (Blaster Master)[X]
+Distant Roads[X]
 
 ##SongNameE1M1
-At Doom's Gate[X]
+Hailfire Peaks - Ice Side[X]
 
 ##SongNameSplash
-Splash[X]
+Attack (FE4)[X]
 
 ##SongNameTaisen
-Taisen 4[X]
+Defend (FE5)[X]
 
 ##SongNamePathToVictory
-The Certain Path To Victory[X]
+Drumroll, Please[X]
 
 ##SongNameMinibossPM
 Hey You! (Paper Mario)[X]

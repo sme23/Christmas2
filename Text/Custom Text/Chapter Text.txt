@@ -368,134 +368,180 @@ I could aspire to?[A][X]
 
 ##TextTacticsRatingS
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: S[A]
+Serra's Rank: [......]S[A]
 [X]
 
 ##TextTacticsRatingA
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: A[A]
+Serra's Rank: [......]A[A]
 [X]
 
 ##TextTacticsRatingB
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: B[A]
+Serra's Rank: [......]B[A]
 [X]
 
 ##TextTacticsRatingC
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: C[A]
+Serra's Rank: [......]C[A]
 [X]
 
 ##TextTacticsRatingD
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: D[A]
+Serra's Rank: [......]D[A]
 [X]
 
 ##TextTacticsRatingE
 [OpenMidRight][LoadFace][0x64][0x1]
-Tactics Rank: E[A]
+Serra's Rank: [......]E[A]
 [X]
 
 
 ##TextSurvivalRatingS
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: S[A]
+Oswin's Rank: [......]S[A]
 [X]
 
 ##TextSurvivalRatingA
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: A[A]
+Oswin's Rank: [......]A[A]
 [X]
 
 ##TextSurvivalRatingB
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: B[A]
+Oswin's Rank: [......]B[A]
 [X]
 
 ##TextSurvivalRatingC
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: C[A]
+Oswin's Rank: [......]C[A]
 [X]
 
 ##TextSurvivalRatingD
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: D[A]
+Oswin's Rank: [......]D[A]
 [X]
 
 ##TextSurvivalRatingE
 [OpenMidRight][LoadFace][0x64][0x1]
-Survival Rank: E[A]
+Oswin's Rank: [......]E[A]
 [X]
 
 
 ##TextFundsRatingS
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: S[A]
+Matthew's Rank: [......]S[A]
 [X]
 
 ##TextFundsRatingA
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: A[A]
+Matthew's Rank: [......]A[A]
 [X]
 
 ##TextFundsRatingB
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: B[A]
+Matthew's Rank: [......]B[A]
 [X]
 
 ##TextFundsRatingC
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: C[A]
+Matthew's Rank: [......]C[A]
 [X]
 
 ##TextFundsRatingD
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: D[A]
+Matthew's Rank: [......]D[A]
 [X]
 
 ##TextFundsRatingE
 [OpenMidRight][LoadFace][0x64][0x1]
-Funds Rank: E[A]
+Matthew's Rank: [......]E[A]
 [X]
 
 
 ##TextOverallRatingS
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: S[A]
+Final Rank: [.......]S[A]
 [X]
 
 ##TextOverallRatingA
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: A[A]
+Final Rank: [.......]A[A]
 [X]
 
 ##TextOverallRatingB
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: B[A]
+Final Rank: [.......]B[A]
 [X]
 
 ##TextOverallRatingC
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: C[A]
+Final Rank: [.......]C[A]
 [X]
 
 ##TextOverallRatingD
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: D[A]
+Final Rank: [.......]D[A]
 [X]
 
 ##TextOverallRatingE
 [OpenMidRight][LoadFace][0x64][0x1]
-Final Rank: E[A]
+Final Rank: [.......]E[A]
 [X]
 
 
 ##EndingText1
-[OpenMidRight][LoadFace][0x64][0x1]
-Final story wrap-up[A][X]
+[OpenMidLeft][LoadHector][OpenMidRight][LoadRaven]
+Damn you![N]
+Damn you to hell![A][N]
+First you kill my family,[A][N]
+then you kill my Christmases,[A][N]
+and now you kill me!?[A][N]
+Go ahead then, do it![A]
+[OpenMidLeft]
+[ToggleMouthMove]...[ToggleMouthMove]No.[A][N]
+It's Christmas, friend.[N]
+No one is truly an enemy on this day.[A][N]
+Why don't you celebrate with us?[A][N}
+[OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+[ToggleMouthMove]......[ToggleMouthMove][A][2NL]
+[ToggleMouthMove]..........................[ToggleMouthMove][N]
+[ToggleMouthMove]..........................[ToggleMouthMove][A]
+
+
+
+
+
+[X]
 
 ##EndingText2
 [OpenMidRight][LoadFace][0x64][0x1]
-Anna does your rating[A][X]
+Congratulations! You won![A][N]
+I wonder how Hector's friends[N]
+thought that you did.[A][N]
+Serra's impatient.[A][N]
+She'll judge you on how[N]
+fast she got to go home.[A][N]
+Oswin cares for everyone's safety.[A][N]
+He's just happy to see[N]
+everyone return in one piece.[A][N]
+Matthew wanted to stuff his[N]
+coffers while you were out.[A][N]
+He'll judge how much[N]
+wealth you brought in.[A][X]
+
+##VisitVillageText1
+[OpenMidRight][LoadFace][0xFF][0xFF]
+I'll just leave this by the fireplace[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##VisitVillageText2
+[OpenMidRight][LoadFace][0xFF][0xFF]
+I'll just leave this under the tree[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##VisitVillageText3
+[OpenMidRight][LoadFace][0xFF][0xFF]
+I'll just leave this on the table[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
 
 

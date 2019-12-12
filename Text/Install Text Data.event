@@ -33,6 +33,10 @@ __TEXTPROCESS028:
 #incbin ".TextEntries\text_buildfile028.fetxt.dmp"
 setText($28, __TEXTPROCESS028)
 
+__TEXTPROCESS208:
+#incbin ".TextEntries\text_buildfile208.fetxt.dmp"
+setText($208, __TEXTPROCESS208)
+
 __TEXTPROCESS551:
 #incbin ".TextEntries\text_buildfile551.fetxt.dmp"
 setText($551, __TEXTPROCESS551)
@@ -2744,6 +2748,18 @@ setText($B69, __TEXTPROCESSB69)
 __TEXTPROCESSB6A:
 #incbin ".TextEntries\text_buildfileEndingText2.fetxt.dmp"
 setText($B6A, __TEXTPROCESSB6A)
+
+__TEXTPROCESSB6B:
+#incbin ".TextEntries\text_buildfileVisitVillageText1.fetxt.dmp"
+setText($B6B, __TEXTPROCESSB6B)
+
+__TEXTPROCESSB6C:
+#incbin ".TextEntries\text_buildfileVisitVillageText2.fetxt.dmp"
+setText($B6C, __TEXTPROCESSB6C)
+
+__TEXTPROCESSB6D:
+#incbin ".TextEntries\text_buildfileVisitVillageText3.fetxt.dmp"
+setText($B6D, __TEXTPROCESSB6D)
 
 }
 

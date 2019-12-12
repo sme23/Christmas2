@@ -272,6 +272,10 @@ Text(EndingText1)
 
 MUSC 0x7FFF
 
+STAL 10
+
+MUSC 53
+
 Text(EndingText2)
 
 MUSC DrumrollPleaseSong
@@ -306,15 +310,18 @@ ENDA
 
 ALIGN 4
 Village1:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
+CALL EndingScene
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 ALIGN 4
 Village2:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
@@ -322,91 +329,104 @@ ENDA
 
 ALIGN 4
 Village3:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village4:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village5:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village6:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village7:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village8:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village9:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village10:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village11:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village12:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village13:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village14:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA
 
 Village15:
-Text(1,OhNoText)
+SetBackground(1)
+CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
 NoFade
@@ -815,43 +835,53 @@ CalculateScore:
 //let's use counter 1 for this
 
 COUNTER_SET 1 0 //overall ranking
-COUNTER_SET 2 0 //tactics ranking
+COUNTER_SET 5 0 //tactics ranking
 COUNTER_SET 3 0 //survival ranking
 COUNTER_SET 4 0 //funds ranking
 
-CHECK_TURNS
+CHECK_TURNS 
 
-//mem slot C = turn count
-
-SVAL 1 5
-BGT 1 1 0xC
-  COUNTER_INC 1
-  COUNTER_INC 2
-LABEL 1
-
-SVAL 1 7
-BGT 2 1 0xC
-  COUNTER_INC 1
-  COUNTER_INC 2
-LABEL 2
+//0xC = turn count
 
 SVAL 1 8
-BGT 3 1 0xC
+BGT 1 0xC 1
   COUNTER_INC 1
-  COUNTER_INC 2
-LABEL 3
+  COUNTER_INC 5
+LABEL 1
+
+
 
 SVAL 1 9
-BGT 4 1 0xC
+BGT 2 0xC 1
   COUNTER_INC 1
-  COUNTER_INC 2
+  COUNTER_INC 5
+LABEL 2
+
+
+
+SVAL 1 0
+BGT 3 0xC 1
+  COUNTER_INC 1
+  COUNTER_INC 5
+LABEL 3
+
+
+
+SVAL 1 12
+BGT 4 0xC 1
+  COUNTER_INC 1
+  COUNTER_INC 5
 LABEL 4
 
-SVAL 1 10
-BGT 5 1 0xC
+
+
+SVAL 1 14
+BGT 5 0xC 1
   COUNTER_INC 1
-  COUNTER_INC 2
+  COUNTER_INC 5
 LABEL 5
+
+
 
 ASMC EventSurvivalGetter|1
 
@@ -931,7 +961,7 @@ LABEL 15
 
 //tactics ranking
 
-COUNTER_CHECK 2
+COUNTER_CHECK 5
 
 SVAL 1 5
 BNE 22 1 0xC
@@ -1048,37 +1078,41 @@ LABEL 39
 
 //final ranking
 
+COUNTER_INC 1
+COUNTER_INC 1
+COUNTER_INC 1
+
 COUNTER_CHECK 1
 SVAL 1 15
-BNE 16 1 0xC
+BLT 16 0xC 1
     MUSC 61
 	Text(TextOverallRatingS)
 	GOTO 21
 LABEL 16
 
 SVAL 1 11
-BLT 17 1 0xC
+BLT 17 0xC 1
 	MUSC 61
 	Text(TextOverallRatingA)
 	GOTO 21
 LABEL 17
 
 SVAL 1 8
-BLT 18 1 0xC
+BLT 18 0xC 1
 	MUSC 60
 	Text(TextOverallRatingB)
 	GOTO 21
 LABEL 18
 
 SVAL 1 5
-BLT 19 1 0xC
+BLT 19 0xC 1
 	MUSC 60
 	Text(TextOverallRatingC)
 	GOTO 21
 LABEL 19
 
 SVAL 1 2
-BLT 20 1 0xC
+BLT 20 0xC 1
 	MUSC 58
 	Text(TextOverallRatingD)
 	GOTO 21
@@ -1089,6 +1123,26 @@ Text(TextOverallRatingE)
 
 LABEL 21
 
+NoFade
+ENDA
+
+
+RandomVillageTextEvent:
+
+RANDOMNUMBER 2
+
+SVAL 1 2
+BNE 1 1 0xC
+  Text(VisitVillageText1)
+  GOTO 3
+LABEL 1
+SVAL 1 1
+BNE 2 1 0xC
+  Text(VisitVillageText2)
+  GOTO 3
+LABEL 2
+Text(VisitVillageText3)
+LABEL 3
 NoFade
 ENDA
 

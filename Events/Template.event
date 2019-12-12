@@ -137,6 +137,7 @@ ALIGN 4
 
 BeginningScene:
 
+MUSC TrialSong
 
 LOMA 1
 FADU 10

@@ -1,0 +1,509 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	genericchristmasintromusic_grp  voicegroup000
+	#define	genericchristmasintromusic_pri  0
+	#define	genericchristmasintromusic_rev  0
+	#define	genericchristmasintromusic_mvl  90
+	#define	genericchristmasintromusic_key  0
+	#define	genericchristmasintromusic_tbs  1
+	#define	genericchristmasintromusic_exg  0
+	#define	genericchristmasintromusic_cmp  1
+
+	// .rodata
+	//	genericchristmasintromusic
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+genericchristmasintromusic_1:
+	BYTE	KEYSH   genericchristmasintromusic_key+0
+genericchristmasintromusic_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   100*genericchristmasintromusic_tbs/2
+	BYTE		VOICE   1
+	BYTE		PAN     c_v-14
+	BYTE		VOL     100*genericchristmasintromusic_mvl/mxv
+	BYTE		N24     Dn3   v068
+	BYTE	W24
+	BYTE		        Gn3   v084
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		        Gn3   v076
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N24     En3 
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        An3   v088
+	BYTE	W24
+	BYTE		N12     An3   v080
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		        An3   v072
+	BYTE	W12
+	BYTE		        Gn3   v068
+	BYTE	W12
+	BYTE		N24     Fs3   v072
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE		        Fs3   v076
+	BYTE	W24
+	BYTE		        Bn3   v092
+	BYTE	W24
+	BYTE		N12     Bn3   v076
+	BYTE	W12
+	BYTE		        Cn4   v084
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		        Bn3   v076
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N24     Gn3   v072
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE		N12     Dn3 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     En3   v084
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE		        Fs3   v076
+	BYTE	W24
+	BYTE		N48     Gn3   v084
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE		N24     Dn3   v064
+	BYTE	W24
+	BYTE		        Gn3   v088
+	BYTE	W24
+	BYTE		        Gn3   v080
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		        Gn3   v076
+	BYTE	W24
+	BYTE		N48     Fs3   v068
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE		N24     Fs3   v076
+	BYTE	W24
+	BYTE		        Gn3   v084
+	BYTE	W24
+	BYTE		        Fs3   v076
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W24
+	BYTE		N48     Dn3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N24     An3   v088
+	BYTE	W24
+	BYTE		        Bn3   v084
+	BYTE	W24
+	BYTE		N12     An3   v068
+	BYTE	W12
+	BYTE		        An3   v076
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE		        Gn3   v072
+	BYTE	W12
+	BYTE		        Gn3   v080
+	BYTE	W12
+	BYTE		N24     Dn4   v092
+	BYTE	W24
+	BYTE		        Dn3   v056
+	BYTE	W24
+// 014   ----------------------------------------
+	BYTE		N12     Dn3   v076
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     En3   v084
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE		        Fs3   v076
+	BYTE	W24
+	BYTE		N48     Gn3   v080
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	genericchristmasintromusic_1_B1
+genericchristmasintromusic_1_B2:
+// 016   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+genericchristmasintromusic_2:
+	BYTE	KEYSH   genericchristmasintromusic_key+0
+genericchristmasintromusic_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		PAN     c_v+13
+	BYTE		VOL     100*genericchristmasintromusic_mvl/mxv
+	BYTE	W24
+	BYTE		N72     Bn2   v068
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W24
+	BYTE		        En3   v088
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cn3   v072
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cn3   v076
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		        Ds3   v084
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     En3   v076
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE		N24     Bn2   v072
+	BYTE	W24
+	BYTE		N48     Cn3   v080
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE		N24     Dn3 
+	BYTE	W24
+	BYTE		N48     Bn2   v076
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N72     Bn2   v072
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Dn3   v084
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE		N24     Dn3   v072
+	BYTE	W24
+	BYTE		        En3   v080
+	BYTE	W24
+	BYTE		        Dn3   v076
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        Cn3   v072
+	BYTE	W24
+	BYTE		N48     Bn2 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N24     Fs3   v092
+	BYTE	W24
+	BYTE		        Gn3   v084
+	BYTE	W24
+	BYTE		N12     Fs3   v076
+	BYTE	W12
+	BYTE		        Fs3   v080
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE		        En3   v076
+	BYTE	W12
+	BYTE		        En3   v080
+	BYTE	W12
+	BYTE		N72     Fs3   v084
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Cn3   v068
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE		N24     Dn3   v080
+	BYTE	W24
+	BYTE		N48     Bn2   v072
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	genericchristmasintromusic_2_B1
+genericchristmasintromusic_2_B2:
+// 016   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+genericchristmasintromusic_3:
+	BYTE	KEYSH   genericchristmasintromusic_key+0
+genericchristmasintromusic_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		PAN     c_v-10
+	BYTE		VOL     90*genericchristmasintromusic_mvl/mxv
+	BYTE	W24
+	BYTE		N72     Dn2   v072
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W24
+	BYTE		        Gn2   v080
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        En2   v076
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W24
+	BYTE		        An2   v084
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fs2   v076
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     En2   v072
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE		N24     An2   v084
+	BYTE	W24
+	BYTE		N48     Gn2   v076
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N72     Dn2   v072
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Fs2   v080
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE		N24     Fs2   v076
+	BYTE	W24
+	BYTE		N72     Gn2 
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Dn2   v080
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N24     Dn2   v076
+	BYTE	W24
+	BYTE		N72     Gn2   v080
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W24
+	BYTE		        An2 
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     En2   v072
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE		N24     An2   v080
+	BYTE	W24
+	BYTE		N48     Gn2   v072
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	genericchristmasintromusic_3_B1
+genericchristmasintromusic_3_B2:
+// 016   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+genericchristmasintromusic_4:
+	BYTE	KEYSH   genericchristmasintromusic_key+0
+genericchristmasintromusic_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		PAN     c_v+31
+	BYTE		VOL     90*genericchristmasintromusic_mvl/mxv
+	BYTE	W24
+	BYTE		N72     Gn1   v072
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cn2   v088
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        An1   v072
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W24
+	BYTE		        Dn2   v084
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		        Bn1   v076
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     En2   v080
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE		N24     Dn2   v076
+	BYTE	W24
+	BYTE		N48     Cn2 
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE		N24     Dn2   v080
+	BYTE	W24
+	BYTE		N48     Gn1   v068
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N72     Gn1   v072
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Dn2   v084
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N48     Cn2   v080
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE		N24     Cn2   v076
+	BYTE	W24
+	BYTE		N48     Gn1   v072
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		N24     Dn2   v092
+	BYTE	W24
+	BYTE		N72     Gn2   v084
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W24
+	BYTE		        Dn2   v072
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Cn2   v076
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE		N24     Dn2 
+	BYTE	W24
+	BYTE		N48     Gn1   v072
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	genericchristmasintromusic_4_B1
+genericchristmasintromusic_4_B2:
+// 016   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+genericchristmasintromusic_5:
+	BYTE	KEYSH   genericchristmasintromusic_key+0
+genericchristmasintromusic_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     50*genericchristmasintromusic_mvl/mxv
+	BYTE	W24
+	BYTE		N24     Bn4   v104
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 001   ----------------------------------------
+genericchristmasintromusic_5_001:
+	BYTE		N24     Bn4   v104
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 007   ----------------------------------------
+genericchristmasintromusic_5_007:
+	BYTE		N24     Bn4   v104
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W48
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	genericchristmasintromusic_5_007
+	BYTE	GoTo
+	 POIN2	genericchristmasintromusic_5_B1
+genericchristmasintromusic_5_B2:
+// 016   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+genericchristmasintromusic:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	genericchristmasintromusic_pri	// Priority
+	BYTE	genericchristmasintromusic_rev	// Reverb.
+
+	POIN2	genericchristmasintromusic_grp
+
+	POIN2	genericchristmasintromusic_1
+	POIN2	genericchristmasintromusic_2
+	POIN2	genericchristmasintromusic_3
+	POIN2	genericchristmasintromusic_4
+	POIN2	genericchristmasintromusic_5
+
+	

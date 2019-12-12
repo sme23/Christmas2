@@ -21,7 +21,7 @@ attackfe4_1:
 attackfe4_1_B1:
 // 000   ----------------------------------------
 	BYTE	TEMPO   78*attackfe4_tbs/2
-	BYTE		VOICE   48
+	BYTE		VOICE   41
 	BYTE		PAN     c_v+22
 	BYTE		VOL     94*attackfe4_mvl/mxv
 	BYTE	W96
@@ -50,7 +50,7 @@ attackfe4_2:
 	BYTE	KEYSH   attackfe4_key+0
 attackfe4_2_B1:
 // 000   ----------------------------------------
-	BYTE		VOICE   60
+	BYTE		VOICE   49
 	BYTE		PAN     c_v-20
 	BYTE		VOL     93*attackfe4_mvl/mxv
 	BYTE	W96
@@ -79,7 +79,7 @@ attackfe4_3:
 	BYTE	KEYSH   attackfe4_key+0
 attackfe4_3_B1:
 // 000   ----------------------------------------
-	BYTE		VOICE   57
+	BYTE		VOICE   48
 	BYTE		PAN     c_v+7
 	BYTE		VOL     94*attackfe4_mvl/mxv
 	BYTE		N10     An3   v068
@@ -394,122 +394,109 @@ attackfe4_6_B1:
 	BYTE		VOICE   127
 	BYTE		PAN     c_v+0
 	BYTE		VOL     66*attackfe4_mvl/mxv
-	BYTE		N12     Cn1   v104
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12     Bn4   v104
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
 // 001   ----------------------------------------
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
-	BYTE		N12     Cn1 
-	BYTE		N06     Fs1 
-	BYTE	W06
-	BYTE		N06   
-	BYTE	W06
-	BYTE		N12     Dn1 
-	BYTE		N06     As1 
-	BYTE	W06
-	BYTE		        Gs1 
-	BYTE	W06
+attackfe4_6_001:
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12     Bn4   v104
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     66*attackfe4_mvl/mxv
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
 // 002   ----------------------------------------
-	BYTE		N12     Cn1 
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
+	BYTE	PATT
+	 POIN2	attackfe4_6_001
 // 003   ----------------------------------------
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		N12   
-	BYTE	W12
-	BYTE		        Dn1 
-	BYTE		N12     As1 
-	BYTE	W12
+	BYTE	PATT
+	 POIN2	attackfe4_6_001
 	BYTE	GoTo
 	 POIN2	attackfe4_6_B1
 attackfe4_6_B2:

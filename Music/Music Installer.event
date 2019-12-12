@@ -18,6 +18,7 @@
 //#include "My_song.event"
 
 SongTable(TrialSong,trial,MapMusicGroup)
+#include "s Files/genericchristmasintromusic.event"
 #include "Trial/trial.event"
 
 SongTable(E1M1Song,IceSide,MapMusicGroup)

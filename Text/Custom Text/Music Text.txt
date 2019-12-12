@@ -1,5 +1,5 @@
 ##SongNameTrial
-Trial[X]
+Generic Christmas Music[X]
 
 ##SongNameBlasterMaster
 Distant Roads[X]

@@ -20,7 +20,7 @@ attackfe4_1:
 attackfe4_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 78*attackfe4_tbs/2
-	.byte		VOICE , 48
+	.byte		VOICE , 41
 	.byte		PAN   , c_v+22
 	.byte		VOL   , 94*attackfe4_mvl/mxv
 	.byte	W96
@@ -49,7 +49,7 @@ attackfe4_2:
 	.byte	KEYSH , attackfe4_key+0
 attackfe4_2_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 60
+	.byte		VOICE , 49
 	.byte		PAN   , c_v-20
 	.byte		VOL   , 93*attackfe4_mvl/mxv
 	.byte	W96
@@ -78,7 +78,7 @@ attackfe4_3:
 	.byte	KEYSH , attackfe4_key+0
 attackfe4_3_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 57
+	.byte		VOICE , 48
 	.byte		PAN   , c_v+7
 	.byte		VOL   , 94*attackfe4_mvl/mxv
 	.byte		N10   , An3 , v068
@@ -393,122 +393,109 @@ attackfe4_6_B1:
 	.byte		VOICE , 127
 	.byte		PAN   , c_v+0
 	.byte		VOL   , 66*attackfe4_mvl/mxv
-	.byte		N12   , Cn1 , v104
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   , Bn4 , v104
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
 @ 001   ----------------------------------------
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
-	.byte		N12   , Cn1 
-	.byte		N06   , Fs1 
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		N12   , Dn1 
-	.byte		N06   , As1 
-	.byte	W06
-	.byte		        Gs1 
-	.byte	W06
+attackfe4_6_001:
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   , Bn4 , v104
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 66*attackfe4_mvl/mxv
+	.byte		N12   
+	.byte	W12
+	.byte	PEND
 @ 002   ----------------------------------------
-	.byte		N12   , Cn1 
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
+	.byte	PATT
+	 .word	attackfe4_6_001
 @ 003   ----------------------------------------
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		N12   
-	.byte	W12
-	.byte		        Dn1 
-	.byte		N12   , As1 
-	.byte	W12
+	.byte	PATT
+	 .word	attackfe4_6_001
 	.byte	GOTO
 	 .word	attackfe4_6_B1
 attackfe4_6_B2:

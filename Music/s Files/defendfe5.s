@@ -53,17 +53,71 @@ defendfe5_1_B1:
 	.byte	GOTO
 	 .word	defendfe5_1_B1
 defendfe5_1_B2:
+	.byte	W01
 	.byte	FINE
 
-@**************** Track 2 (Midi-Chn.3) ****************@
+@**************** Track 2 (Midi-Chn.2) ****************@
 
 defendfe5_2:
 	.byte	KEYSH , defendfe5_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 57
-	.byte		VOL   , 68*defendfe5_mvl/mxv
+	.byte		VOICE , 127
+	.byte		VOL   , 102*defendfe5_mvl/mxv
+	.byte		PAN   , c_v-16
 	.byte	W03
 defendfe5_2_B1:
+	.byte	W01
+	.byte		N12   , Bn4 , v104
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W08
+@ 001   ----------------------------------------
+	.byte	W04
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W08
+@ 002   ----------------------------------------
+	.byte	W03
+	.byte	GOTO
+	 .word	defendfe5_2_B1
+defendfe5_2_B2:
+	.byte	W01
+	.byte	FINE
+
+@**************** Track 3 (Midi-Chn.3) ****************@
+
+defendfe5_3:
+	.byte	KEYSH , defendfe5_key+0
+@ 000   ----------------------------------------
+	.byte		VOICE , 49
+	.byte		VOL   , 68*defendfe5_mvl/mxv
+	.byte	W03
+defendfe5_3_B1:
 	.byte		PAN   , c_v-25
 	.byte	W01
 	.byte		N05   , An3 , v124
@@ -153,19 +207,20 @@ defendfe5_2_B1:
 @ 002   ----------------------------------------
 	.byte	W03
 	.byte	GOTO
-	 .word	defendfe5_2_B1
-defendfe5_2_B2:
+	 .word	defendfe5_3_B1
+defendfe5_3_B2:
+	.byte	W01
 	.byte	FINE
 
-@**************** Track 3 (Midi-Chn.4) ****************@
+@**************** Track 4 (Midi-Chn.4) ****************@
 
-defendfe5_3:
+defendfe5_4:
 	.byte	KEYSH , defendfe5_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 60
+	.byte		VOICE , 49
 	.byte		VOL   , 106*defendfe5_mvl/mxv
 	.byte	W03
-defendfe5_3_B1:
+defendfe5_4_B1:
 	.byte		PAN   , c_v+34
 	.byte	W24
 	.byte		N05   , En2 , v124
@@ -191,19 +246,20 @@ defendfe5_3_B1:
 @ 002   ----------------------------------------
 	.byte	W03
 	.byte	GOTO
-	 .word	defendfe5_3_B1
-defendfe5_3_B2:
+	 .word	defendfe5_4_B1
+defendfe5_4_B2:
+	.byte	W01
 	.byte	FINE
 
-@**************** Track 4 (Midi-Chn.6) ****************@
+@**************** Track 5 (Midi-Chn.6) ****************@
 
-defendfe5_4:
+defendfe5_5:
 	.byte	KEYSH , defendfe5_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 57
+	.byte		VOICE , 49
 	.byte		PAN   , c_v-16
 	.byte	W03
-defendfe5_4_B1:
+defendfe5_5_B1:
 	.byte		VOL   , 40*defendfe5_mvl/mxv
 	.byte	W01
 	.byte		N05   , An3 , v124
@@ -293,19 +349,20 @@ defendfe5_4_B1:
 @ 002   ----------------------------------------
 	.byte	W03
 	.byte	GOTO
-	 .word	defendfe5_4_B1
-defendfe5_4_B2:
+	 .word	defendfe5_5_B1
+defendfe5_5_B2:
+	.byte	W01
 	.byte	FINE
 
-@**************** Track 5 (Midi-Chn.7) ****************@
+@**************** Track 6 (Midi-Chn.7) ****************@
 
-defendfe5_5:
+defendfe5_6:
 	.byte	KEYSH , defendfe5_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 63
+	.byte		VOICE , 49
 	.byte		VOL   , 56*defendfe5_mvl/mxv
 	.byte	W03
-defendfe5_5_B1:
+defendfe5_6_B1:
 	.byte		PAN   , c_v+25
 	.byte	W03
 	.byte		N01   , En2 , v116
@@ -412,18 +469,19 @@ defendfe5_5_B1:
 	.byte		        As3 , v116
 	.byte	W02
 	.byte	GOTO
-	 .word	defendfe5_5_B1
-defendfe5_5_B2:
+	 .word	defendfe5_6_B1
+defendfe5_6_B2:
+	.byte	W01
 	.byte	FINE
 
-@**************** Track 6 (Midi-Chn.8) ****************@
+@**************** Track 7 (Midi-Chn.8) ****************@
 
-defendfe5_6:
+defendfe5_7:
 	.byte	KEYSH , defendfe5_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 30
+	.byte		VOICE , 49
 	.byte	W03
-defendfe5_6_B1:
+defendfe5_7_B1:
 	.byte		VOL   , 87*defendfe5_mvl/mxv
 	.byte		PAN   , c_v+25
 	.byte		N05   , An1 , v127
@@ -513,15 +571,16 @@ defendfe5_6_B1:
 @ 002   ----------------------------------------
 	.byte	W03
 	.byte	GOTO
-	 .word	defendfe5_6_B1
-defendfe5_6_B2:
+	 .word	defendfe5_7_B1
+defendfe5_7_B2:
+	.byte	W01
 	.byte	FINE
 
 @******************************************************@
 	.align	2
 
 defendfe5:
-	.byte	6	@ NumTrks
+	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
 	.byte	defendfe5_pri	@ Priority
 	.byte	defendfe5_rev	@ Reverb.
@@ -534,5 +593,6 @@ defendfe5:
 	.word	defendfe5_4
 	.word	defendfe5_5
 	.word	defendfe5_6
+	.word	defendfe5_7
 
 	.end

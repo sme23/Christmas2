@@ -54,17 +54,71 @@ defendfe5_1_B1:
 	BYTE	GoTo
 	 POIN2	defendfe5_1_B1
 defendfe5_1_B2:
+	BYTE	W01
 	BYTE	FINE
 
-//**************** Track 2 (Midi-Chn.3) ****************//
+//**************** Track 2 (Midi-Chn.2) ****************//
 
 defendfe5_2:
 	BYTE	KEYSH   defendfe5_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   57
-	BYTE		VOL     68*defendfe5_mvl/mxv
+	BYTE		VOICE   127
+	BYTE		VOL     102*defendfe5_mvl/mxv
+	BYTE		PAN     c_v-16
 	BYTE	W03
 defendfe5_2_B1:
+	BYTE	W01
+	BYTE		N12     Bn4   v104
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W08
+// 001   ----------------------------------------
+	BYTE	W04
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W08
+// 002   ----------------------------------------
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	defendfe5_2_B1
+defendfe5_2_B2:
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+defendfe5_3:
+	BYTE	KEYSH   defendfe5_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		VOL     68*defendfe5_mvl/mxv
+	BYTE	W03
+defendfe5_3_B1:
 	BYTE		PAN     c_v-25
 	BYTE	W01
 	BYTE		N05     An3   v124
@@ -154,19 +208,20 @@ defendfe5_2_B1:
 // 002   ----------------------------------------
 	BYTE	W03
 	BYTE	GoTo
-	 POIN2	defendfe5_2_B1
-defendfe5_2_B2:
+	 POIN2	defendfe5_3_B1
+defendfe5_3_B2:
+	BYTE	W01
 	BYTE	FINE
 
-//**************** Track 3 (Midi-Chn.4) ****************//
+//**************** Track 4 (Midi-Chn.4) ****************//
 
-defendfe5_3:
+defendfe5_4:
 	BYTE	KEYSH   defendfe5_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   60
+	BYTE		VOICE   49
 	BYTE		VOL     106*defendfe5_mvl/mxv
 	BYTE	W03
-defendfe5_3_B1:
+defendfe5_4_B1:
 	BYTE		PAN     c_v+34
 	BYTE	W24
 	BYTE		N05     En2   v124
@@ -192,19 +247,20 @@ defendfe5_3_B1:
 // 002   ----------------------------------------
 	BYTE	W03
 	BYTE	GoTo
-	 POIN2	defendfe5_3_B1
-defendfe5_3_B2:
+	 POIN2	defendfe5_4_B1
+defendfe5_4_B2:
+	BYTE	W01
 	BYTE	FINE
 
-//**************** Track 4 (Midi-Chn.6) ****************//
+//**************** Track 5 (Midi-Chn.6) ****************//
 
-defendfe5_4:
+defendfe5_5:
 	BYTE	KEYSH   defendfe5_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   57
+	BYTE		VOICE   49
 	BYTE		PAN     c_v-16
 	BYTE	W03
-defendfe5_4_B1:
+defendfe5_5_B1:
 	BYTE		VOL     40*defendfe5_mvl/mxv
 	BYTE	W01
 	BYTE		N05     An3   v124
@@ -294,19 +350,20 @@ defendfe5_4_B1:
 // 002   ----------------------------------------
 	BYTE	W03
 	BYTE	GoTo
-	 POIN2	defendfe5_4_B1
-defendfe5_4_B2:
+	 POIN2	defendfe5_5_B1
+defendfe5_5_B2:
+	BYTE	W01
 	BYTE	FINE
 
-//**************** Track 5 (Midi-Chn.7) ****************//
+//**************** Track 6 (Midi-Chn.7) ****************//
 
-defendfe5_5:
+defendfe5_6:
 	BYTE	KEYSH   defendfe5_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   63
+	BYTE		VOICE   49
 	BYTE		VOL     56*defendfe5_mvl/mxv
 	BYTE	W03
-defendfe5_5_B1:
+defendfe5_6_B1:
 	BYTE		PAN     c_v+25
 	BYTE	W03
 	BYTE		N01     En2   v116
@@ -413,18 +470,19 @@ defendfe5_5_B1:
 	BYTE		        As3   v116
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	defendfe5_5_B1
-defendfe5_5_B2:
+	 POIN2	defendfe5_6_B1
+defendfe5_6_B2:
+	BYTE	W01
 	BYTE	FINE
 
-//**************** Track 6 (Midi-Chn.8) ****************//
+//**************** Track 7 (Midi-Chn.8) ****************//
 
-defendfe5_6:
+defendfe5_7:
 	BYTE	KEYSH   defendfe5_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   30
+	BYTE		VOICE   49
 	BYTE	W03
-defendfe5_6_B1:
+defendfe5_7_B1:
 	BYTE		VOL     87*defendfe5_mvl/mxv
 	BYTE		PAN     c_v+25
 	BYTE		N05     An1   v127
@@ -514,15 +572,16 @@ defendfe5_6_B1:
 // 002   ----------------------------------------
 	BYTE	W03
 	BYTE	GoTo
-	 POIN2	defendfe5_6_B1
-defendfe5_6_B2:
+	 POIN2	defendfe5_7_B1
+defendfe5_7_B2:
+	BYTE	W01
 	BYTE	FINE
 
 //******************************************************//
 	ALIGN 4
 
 defendfe5:
-	BYTE	6	// NumTrks
+	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
 	BYTE	defendfe5_pri	// Priority
 	BYTE	defendfe5_rev	// Reverb.
@@ -535,5 +594,6 @@ defendfe5:
 	POIN2	defendfe5_4
 	POIN2	defendfe5_5
 	POIN2	defendfe5_6
+	POIN2	defendfe5_7
 
 	

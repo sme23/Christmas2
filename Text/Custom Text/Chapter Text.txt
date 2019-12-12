@@ -12,7 +12,7 @@ No one quite knows the reason.[A][N]
 It could be, his family[N]
 died when he was small.[A][N]
 It could be, he never[N]
-knew Christmas at all.[A]
+knew Christmas at all.[A][N]
 But I think that the[N]
 most likely reason of all[A][N]
 may have been that his heart[N]
@@ -59,7 +59,7 @@ And Matthew.[A][X]
 ## OpeningText84
 Together these four[N]
 would deliver presents[A][N]
-To all in Ostia,[N]
+To all in Lycia,[N]
 even the peasants.[A][X]
 
 ##OpeningText9
@@ -86,7 +86,7 @@ That should be the last of it, Raymond.[A]
 Good.[A][N]
 Now that we've taken their gifts,[A][N]
 their food,[A][N]
-and their holiday cheer,[A][N] 
+and their holiday cheer,[A][N]
 it's time to burn what's left.[A][X]
 
 ##OpeningText12

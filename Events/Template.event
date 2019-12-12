@@ -331,7 +331,7 @@ TEXTSHOW EndingText9
 TEXTEND
 
 FADI 1
-
+EndConvo
 FADU 10
 
 MUSC 0x7FFF
@@ -377,7 +377,7 @@ Village1:
 SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
-CALL EndingScene
+//CALL EndingScene
 ENUT VillageJustVisitedFlag 
 NoFade
 ENDA

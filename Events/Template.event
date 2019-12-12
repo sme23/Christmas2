@@ -379,6 +379,7 @@ CALL RandomVillageTextEvent
 COUNTER_INC 0
 //CALL EndingScene
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -388,6 +389,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -397,6 +399,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -405,6 +408,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -413,6 +417,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -421,6 +426,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -429,6 +435,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -437,6 +444,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -445,6 +453,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -453,6 +462,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -461,6 +471,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -469,6 +480,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -477,6 +489,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -485,6 +498,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 
@@ -493,6 +507,7 @@ SetBackground(1)
 CALL RandomVillageTextEvent
 COUNTER_INC 0
 ENUT VillageJustVisitedFlag 
+EndConvo
 NoFade
 ENDA
 

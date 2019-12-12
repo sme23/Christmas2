@@ -17,7 +17,7 @@
 //SongTable(99,My_song,MapMusicGroup)
 //#include "My_song.event"
 
-SongTable(TrialSong,trial,MapMusicGroup)
+SongTable(TrialSong,genericchristmasintromusic,MapMusicGroup)
 #include "s Files/genericchristmasintromusic.event"
 #include "Trial/trial.event"
 

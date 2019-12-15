@@ -678,5 +678,8 @@
 #define VisitVillageText1 $B73
 #define VisitVillageText2 $B74
 #define VisitVillageText3 $B75
+#define FogTextEnter $B76
+#define FogTextExit $B77
+#define FindGoldText $B78
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

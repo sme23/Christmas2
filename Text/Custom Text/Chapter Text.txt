@@ -548,7 +548,7 @@ How could it be so?[A][N]
 I stole all their ribbons![N]
 I stole all their tags![A][N]
 I stole all their packages,[N]
-boxes, and bags!"[A][X]
+boxes, and bags![A][X]
 
 ##EndingText4
 And he puzzled three minutes,[N]

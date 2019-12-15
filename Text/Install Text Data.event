@@ -2793,6 +2793,18 @@ __TEXTPROCESSB75:
 #incbin ".TextEntries\text_buildfileVisitVillageText3.fetxt.dmp"
 setText($B75, __TEXTPROCESSB75)
 
+__TEXTPROCESSB76:
+#incbin ".TextEntries\text_buildfileFogTextEnter.fetxt.dmp"
+setText($B76, __TEXTPROCESSB76)
+
+__TEXTPROCESSB77:
+#incbin ".TextEntries\text_buildfileFogTextExit.fetxt.dmp"
+setText($B77, __TEXTPROCESSB77)
+
+__TEXTPROCESSB78:
+#incbin ".TextEntries\text_buildfileFindGoldText.fetxt.dmp"
+setText($B78, __TEXTPROCESSB78)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

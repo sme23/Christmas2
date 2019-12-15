@@ -1,4 +1,4 @@
-#Credits
+Credits
 
 Various aspects of this were created by:
 

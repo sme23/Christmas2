@@ -43,8 +43,8 @@ SongTable(MinibossPMSong,MinibossPM,BattleMusicGroup)
 SongTable(GeneralGuyPMSong,GeneralGuyPM,BattleMusicGroup)
 #include "s Files/GeneralGuyPM.event"
 
-SongTable(TubbaBlubbaPMSong,TubbaBlubbaPM,BattleMusicGroup)
-#include "s Files/TubbaBlubbaPM.event"
+SongTable(TubbaBlubbaPMSong,grinch,BattleMusicGroup)
+#include "s Files/grinch.event"
 
 SongTable(DrumrollPleaseSong,DrumrollPlease,MapMusicGroup)
 #include "s Files/DrumrollPlease.event"

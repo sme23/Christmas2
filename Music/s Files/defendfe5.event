@@ -4,7 +4,7 @@
 	#define	defendfe5_grp  voicegroup000
 	#define	defendfe5_pri  0
 	#define	defendfe5_rev  0
-	#define	defendfe5_mvl  127
+	#define	defendfe5_mvl  95
 	#define	defendfe5_key  0
 	#define	defendfe5_tbs  1
 	#define	defendfe5_exg  0

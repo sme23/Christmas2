@@ -616,5 +616,17 @@ I'll just leave this under the tree[ToggleMouthMove]...[ToggleMouthMove][A][X]
 [OpenMidRight][LoadFace][0xFF][0xFF]
 I'll just leave this on the table[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
+##FogTextEnter
+[OpenMidRight][LoadOswin]
+Looks like there's a fog rolling in[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##FogTextExit
+[OpenMidRight][LoadOswin]
+Looks like the fog's lifting.[A][X]
+
+##FindGoldText
+[OpenMidRight][LoadMatthew]
+Hm? Hey, what's this?[A][X]
+
 
 

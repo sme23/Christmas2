@@ -113,7 +113,7 @@ UNIT PrologueBandit WyvernKnight 0 Level(3,Enemy,True) [23,0] 0x0 0x0 1 REDA23R0
 UNIT
 
 EnemyUnits6: //Priscilla
-UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [23,0] 0x0 0x0 1 REDA19R9 [Divine,Sleep] AttackInRangeAI
+UNIT Priscilla Valkyrie 0 Level(10,Enemy,False) [23,0] 0x0 0x0 1 REDA19R9 [Divine,Entrap] AttackInRangeAI
 UNIT PrologueBandit WyvernLord 0 Level(4,Enemy,True) [24,0] 0x0 0x0 1 REDA24R9 [SilverSword] AttackInRangeAI
 UNIT PrologueBandit Berserker 0 Level(2,Enemy,True) [23,0] 0x0 0x0 1 REDA21R11 [KillerAxe,BlueGem] AttackInRangeAI
 UNIT PrologueBandit WyvernLord_F 0 Level(3,Enemy,True) [24,0] 0x0 0x0 1 REDA17R8 [SteelLance] AttackInRangeAI
@@ -810,28 +810,30 @@ ENDB
 RandomEvent1: //weather picks up (weather swaps from snow to blizzard)
 ENUT RandomEventFlag1
 WEA1 BlizzardWeather
-Text(RandomEvent1Text)
+//Text(RandomEvent1Text)
 NoFade
 ENDB
 
 RandomEvent2: //find some gold
 ENUT RandomEventFlag2
-Text(RandomEvent2Text)
+Text(FindGoldText)
 GiveMoney(10000)
 NoFade
 ENDB
 
 RandomEvent3: //toggle fog (check RandomEventFlag4's status to determine which)
 ENUT RandomEventFlag3
-Text(RandomEvent3Text)
+//Text(RandomEvent3Text)
 //no way to check current fog level, so have to check for the other thing touching fog level
 CHECK_EVENTID RandomEventFlag4
 SVAL 1 1
 BEQ 1 1 0xC
+Text(FogTextEnter)
 VCWF 4 //Enable Fog
 GOTO 2
 
 LABEL 1 //Disable Fog
+Text(FogTextExit)
 VCWF 0
 
 LABEL 2
@@ -840,15 +842,17 @@ ENDB
 
 RandomEvent4: //toggle fog (check RandomEventFlag3's status to determine which)
 ENUT RandomEventFlag4
-Text(RandomEvent4Text)
+//Text(RandomEvent4Text)
 //no way to check current fog level, so have to check for the other thing touching fog level
 CHECK_EVENTID RandomEventFlag3
 SVAL 1 1
 BEQ 1 1 0xC
+Text(FogTextEnter)
 VCWF 4 //Enable Fog
 GOTO 2
 
 LABEL 1 //Disable Fog
+Text(FogTextExit)
 VCWF 0
 
 LABEL 2
@@ -857,7 +861,7 @@ ENDB
 
 RandomEvent5: //fiiine reinforcements
 ENUT RandomEventFlag5
-Text(RandomEvent5Text)
+//Text(RandomEvent5Text)
 CAM1 [0,12]
 LOAD1 0x1 RandomReinforcements1
 ENUN
@@ -866,7 +870,7 @@ ENDB
 
 RandomEvent6: //fiiine reinforcements
 ENUT RandomEventFlag6
-Text(RandomEvent6Text)
+//Text(RandomEvent6Text)
 CAM1 [24,12]
 LOAD1 0x1 RandomReinforcements2
 ENUN

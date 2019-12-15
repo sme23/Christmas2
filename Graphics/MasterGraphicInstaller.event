@@ -11,6 +11,7 @@ EventPointerTable(0xF, NightVillagePalette)
 #include "Palettes/Palette Setup.event"
 #include "Map Sprites/_Master Map Sprite Installer.event"
 #include "Item Icons/_Master Icon Installer.event"
+#include "TitleScreen/titlebackgroundinstaller.event"
 
 #define ChristmasCG 0x32
 

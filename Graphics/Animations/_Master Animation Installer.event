@@ -199,3 +199,27 @@ EndAnim
 	#include "HectorSword Installer.event"
 	#include "HectorArmads Installer.event"
 }
+
+//Lucius
+LuciusAnimation:
+AnimaAnim(LuciusMagicAnim)
+LightAnim(LuciusMagicAnim)
+DarkAnim(LuciusMagicAnim)
+StaffAnim(LuciusStaffAnim)
+UnarmedAnim(LuciusMagicAnim)
+EndAnim
+
+{
+	#include "LuciusMagic Installer.event"
+	#include "LuciusStaff Installer.event"
+}
+
+//Guy
+GuyAnimation:
+SwordAnim(GuySwordAnim)
+UnarmedAnim(GuyUnarmedAnim)
+EndAnim
+{
+	#include "GuySword Installer.event"
+	#include "GuyUnarmed Installer.event"
+}

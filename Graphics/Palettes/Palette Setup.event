@@ -3,3 +3,27 @@
 
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
+
+// OswinPalette
+	setPalette(0x1,OswinPalette)
+	setCBSP(0x1,Oswin, 0x1, General)
+
+// HectorPalette
+	setPalette(0x2,HectorPalette)
+	setCBSP(0x2,Hector, 0x1, GreatLord)
+
+// GuyPalette
+	setPalette(0x3,GuyPalette)
+	setCBSP(0x3,Guy, 0x1, Swordmaster)
+
+// PriscillaPalette
+	setPalette(0x6,PriscillaPalette)
+	setCBSP(0x6,Priscilla, 0x1, Valkyrie)
+
+// LuciusPalette
+	setPalette(0x7,LuciusPalette)
+	setCBSP(0x7,Lucius, 0x1, Bishop_F)
+
+// DorcasPalette
+	setPalette(0x9,DorcasPalette)
+	setCBSP(0x9,Dorcas, 0x1, Warrior)

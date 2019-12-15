@@ -1,0 +1,41 @@
+# char{0x1} "OswinPalette" set{Oswin, 0x1, General} auto{0}
+    5553FF7FBD5FDA3A1109AC08B315A90059676E5AAA41FE263E0638017300A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x2} "HectorPalette" set{Hector, 0x1, GreatLord} auto{0}
+    5553FF7FBE6B1E3B0E15EF7A0772445D9877F36ECB49CE72A9616550F529A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x3} "GuyPalette" set{Guy, 0x1, Swordmaster} auto{0}
+    5553FF7FFF6B1F4B2E19F05EE73D4429567B6F5E683DD67B29732A7AC550A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x6} "PriscillaPalette" set{Priscilla, 0x1, Valkyrie} auto{0}
+    5553FF7FDF57DD3A501DCA41BF11B4002F53024BC3514119FA7F33770641A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x7} "LuciusPalette" set{Lucius, 0x1, Bishop_F} auto{0}
+    5553FF7FFF6B1F472F191F279601BF4BE97EF26B2B6FB77FCC7261764459A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x9} "DorcasPalette" set{Dorcas, 0x1, Warrior} auto{0}
+    5553FF7FFF6BFF465A32D6212E199577987FD1660C528B627D1BD8121402A514
+	auto
+	auto
+	auto
+	auto

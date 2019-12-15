@@ -6,6 +6,12 @@
 #define GreatLordUnarmedAnim GreatLordFSwordAnimation
 #define GreatLordArmadsAnim GreatLordFUnarmedAnimation
 
+#define LuciusMagicAnim EphraimLanceAnim
+#define LuciusStaffAnim EphraimUnarmedAnim
+
+#define GuySwordAnim EirikaSwordAnim
+#define GuyUnarmedAnim EirikaUnarmedAnim
+
 // Huntsman
 #define Huntsman EphraimLord
 #define HuntsmanBowAnim EphraimLanceAnim

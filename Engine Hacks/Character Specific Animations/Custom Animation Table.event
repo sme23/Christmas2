@@ -6,5 +6,15 @@ CustomAnimeTable:
 //BYTE 0x00  //dummy
 //WORD BeardFighterAnimation|IsPointer  //Animation Pointer
 
+BYTE Lucius
+BYTE Bishop_F
+SHORT 0
+POIN LuciusAnimation
+
+BYTE Guy
+BYTE Swordmaster
+SHORT 0
+POIN GuyAnimation
+
 // Terminator
 WORD 0x00 0x00
